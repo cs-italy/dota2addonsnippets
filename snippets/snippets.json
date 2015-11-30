@@ -1,0 +1,5700 @@
+{
+    "MODIFIER_PROPERTY_MIN_HEALTH": {
+        "prefix": "MODIFIER_PROPERTY_MIN_HEALTH",
+        "body": [
+            "MODIFIER_PROPERTY_MIN_HEALTH"
+        ],
+        "description": "(86)  GetMinHealth"
+    },
+    "CToneMapControllerComponent:SetBloomScale": {
+        "prefix": "SetBloomScale",
+        "body": [
+            "SetBloomScale( ${float_1 float} )"
+        ],
+        "description": "Sets bloom scale for this tonemap controller"
+    },
+    "UF_FAIL_ANCIENT": {
+        "prefix": "UF_FAIL_ANCIENT",
+        "body": [
+            "UF_FAIL_ANCIENT"
+        ],
+        "description": "(10) "
+    },
+    "C_DOTA_BaseNPC:GetBaseMagicalResistanceValue": {
+        "prefix": "GetBaseMagicalResistanceValue",
+        "body": [
+            "GetBaseMagicalResistanceValue(  )"
+        ],
+        "description": "Returns base magical armor value."
+    },
+    "C_DOTA_BaseNPC:GetOpposingTeamNumber": {
+        "prefix": "GetOpposingTeamNumber",
+        "body": [
+            "GetOpposingTeamNumber(  )"
+        ],
+        "description": ""
+    },
+    "C_DOTA_Item_Lua:GetCustomCastErrorLocation": {
+        "prefix": "GetCustomCastErrorLocation",
+        "body": [
+            "GetCustomCastErrorLocation( ${vLocation Vector} )"
+        ],
+        "description": "(Vector vLocation) Return the error string of a failed command on a location."
+    },
+    "MODIFIER_PROPERTY_RESPAWNTIME": {
+        "prefix": "MODIFIER_PROPERTY_RESPAWNTIME",
+        "body": [
+            "MODIFIER_PROPERTY_RESPAWNTIME"
+        ],
+        "description": "(63)  GetModifierConstantRespawnTime"
+    },
+    "AppendToLogFile": {
+        "prefix": "AppendToLogFile",
+        "body": [
+            "AppendToLogFile( ${string_1 string}, ${string_2 string} )"
+        ],
+        "description": "Appends a string to a log file on the server"
+    },
+    "MODIFIER_PROPERTY_BASEDAMAGEOUTGOING_PERCENTAGE": {
+        "prefix": "MODIFIER_PROPERTY_BASEDAMAGEOUTGOING_PERCENTAGE",
+        "body": [
+            "MODIFIER_PROPERTY_BASEDAMAGEOUTGOING_PERCENTAGE"
+        ],
+        "description": "(28)  GetModifierBaseDamageOutgoing_Percentage"
+    },
+    "MODIFIER_EVENT_ON_BUILDING_KILLED": {
+        "prefix": "MODIFIER_EVENT_ON_BUILDING_KILLED",
+        "body": [
+            "MODIFIER_EVENT_ON_BUILDING_KILLED"
+        ],
+        "description": "(130)  OnBuildingKilled"
+    },
+    "C_DOTA_BaseNPC:GetModifierStackCount": {
+        "prefix": "GetModifierStackCount",
+        "body": [
+            "GetModifierStackCount( ${pszScriptName string}, ${hCaster handle} )"
+        ],
+        "description": "Gets the stack count of a given modifier."
+    },
+    "C_DOTA_Modifier_Lua:IsAuraActiveOnDeath": {
+        "prefix": "IsAuraActiveOnDeath",
+        "body": [
+            "IsAuraActiveOnDeath(  )"
+        ],
+        "description": "True/false if this aura provides buffs when the parent is dead."
+    },
+    "LoadKeyValuesFromString": {
+        "prefix": "LoadKeyValuesFromString",
+        "body": [
+            "LoadKeyValuesFromString( ${string_1 string} )"
+        ],
+        "description": "Creates a table from the specified keyvalues string"
+    },
+    "CBodyComponent:AddVelocity": {
+        "prefix": "AddVelocity",
+        "body": [
+            "AddVelocity( ${Vector_1 Vector}, ${Vector_2 Vector} )"
+        ],
+        "description": "Add linear and angular velocity to the physics object"
+    },
+    "CEntityInstance:GetIntAttr": {
+        "prefix": "GetIntAttr",
+        "body": [
+            "GetIntAttr( ${string_1 string} )"
+        ],
+        "description": "Get Integer Attribute"
+    },
+    "MODIFIER_PROPERTY_INCOMING_DAMAGE_PERCENTAGE": {
+        "prefix": "MODIFIER_PROPERTY_INCOMING_DAMAGE_PERCENTAGE",
+        "body": [
+            "MODIFIER_PROPERTY_INCOMING_DAMAGE_PERCENTAGE"
+        ],
+        "description": "(30)  GetModifierIncomingDamage_Percentage"
+    },
+    "C_DOTA_BaseNPC:GetAttackRange": {
+        "prefix": "GetAttackRange",
+        "body": [
+            "GetAttackRange(  )"
+        ],
+        "description": "Gets this unit's attack range after all modifiers."
+    },
+    "CToneMapControllerComponent:GetBloomScale": {
+        "prefix": "GetBloomScale",
+        "body": [
+            "GetBloomScale(  )"
+        ],
+        "description": "Gets bloomscale for this tonemap controller"
+    },
+    "DOTA_HEROPICK_STATE_SD_SELECT": {
+        "prefix": "DOTA_HEROPICK_STATE_SD_SELECT",
+        "body": [
+            "DOTA_HEROPICK_STATE_SD_SELECT"
+        ],
+        "description": "(2) "
+    },
+    "DOTA_TEAM_CUSTOM_COUNT": {
+        "prefix": "DOTA_TEAM_CUSTOM_COUNT",
+        "body": [
+            "DOTA_TEAM_CUSTOM_COUNT"
+        ],
+        "description": "(8) "
+    },
+    "MODIFIER_PROPERTY_DISABLE_HEALING": {
+        "prefix": "MODIFIER_PROPERTY_DISABLE_HEALING",
+        "body": [
+            "MODIFIER_PROPERTY_DISABLE_HEALING"
+        ],
+        "description": "(94)  GetDisableHealing"
+    },
+    "C_DOTA_BaseNPC:HasGroundMovementCapability": {
+        "prefix": "HasGroundMovementCapability",
+        "body": [
+            "HasGroundMovementCapability(  )"
+        ],
+        "description": ""
+    },
+    "C_DOTA_BaseNPC:GetLevel": {
+        "prefix": "GetLevel",
+        "body": [
+            "GetLevel(  )"
+        ],
+        "description": "Returns the level of this unit."
+    },
+    "MODIFIER_PROPERTY_MANACOST_PERCENTAGE": {
+        "prefix": "MODIFIER_PROPERTY_MANACOST_PERCENTAGE",
+        "body": [
+            "MODIFIER_PROPERTY_MANACOST_PERCENTAGE"
+        ],
+        "description": "(68)  GetModifierPercentageManacost"
+    },
+    "FireGameEventLocal": {
+        "prefix": "FireGameEventLocal",
+        "body": [
+            "FireGameEventLocal( ${string_1 string}, ${handle_2 handle} )"
+        ],
+        "description": "Fire a game event without broadcasting to the client."
+    },
+    "CDebugOverlayScriptHelper:SolidCone": {
+        "prefix": "SolidCone",
+        "body": [
+            "SolidCone( ${Vector_1 Vector}, ${Vector_2 Vector}, ${float_3 float}, ${float_4 float}, ${int_5 int}, ${int_6 int}, ${int_7 int}, ${int_8 int}, ${bool_9 bool}, ${float_10 float} )"
+        ],
+        "description": "Draws a solid cone. Specify endpoint and direction in world space."
+    },
+    "DOTA_HEROPICK_STATE_CM_BAN6": {
+        "prefix": "DOTA_HEROPICK_STATE_CM_BAN6",
+        "body": [
+            "DOTA_HEROPICK_STATE_CM_BAN6"
+        ],
+        "description": "(12) "
+    },
+    "C_DOTA_BaseNPC:IsCourier": {
+        "prefix": "IsCourier",
+        "body": [
+            "IsCourier(  )"
+        ],
+        "description": "Is this unit a courier?"
+    },
+    "Convars:RegisterConvar": {
+        "prefix": "RegisterConvar",
+        "body": [
+            "RegisterConvar( ${string_1 string}, ${string_2 string}, ${string_3 string}, ${int_4 int} )"
+        ],
+        "description": "RegisterConvar(name, defaultValue, helpString, flags): register a new console variable."
+    },
+    "C_DOTA_BaseNPC:IsDisarmed": {
+        "prefix": "IsDisarmed",
+        "body": [
+            "IsDisarmed(  )"
+        ],
+        "description": ""
+    },
+    "C_DOTA_Modifier_Lua:GetAuraSearchFlags": {
+        "prefix": "GetAuraSearchFlags",
+        "body": [
+            "GetAuraSearchFlags(  )"
+        ],
+        "description": "Return the unit flags this aura respects when placing buffs."
+    },
+    "MODIFIER_ATTRIBUTE_NONE": {
+        "prefix": "MODIFIER_ATTRIBUTE_NONE",
+        "body": [
+            "MODIFIER_ATTRIBUTE_NONE"
+        ],
+        "description": "(0) "
+    },
+    "FireEntityIOInputNameOnly": {
+        "prefix": "FireEntityIOInputNameOnly",
+        "body": [
+            "FireEntityIOInputNameOnly( ${ehandle_1 ehandle}, ${string_2 string} )"
+        ],
+        "description": "Fire Entity's Action Input w/no data"
+    },
+    "PATTACH_WATERWAKE": {
+        "prefix": "PATTACH_WATERWAKE",
+        "body": [
+            "PATTACH_WATERWAKE"
+        ],
+        "description": "(12) "
+    },
+    "UF_FAIL_ENEMY": {
+        "prefix": "UF_FAIL_ENEMY",
+        "body": [
+            "UF_FAIL_ENEMY"
+        ],
+        "description": "(2) "
+    },
+    "C_DOTA_Item_Lua:GetChannelledManaCostPerSecond": {
+        "prefix": "GetChannelledManaCostPerSecond",
+        "body": [
+            "GetChannelledManaCostPerSecond( ${iLevel int} )"
+        ],
+        "description": "Return mana cost at the given level per second while channeling (-1 is current)."
+    },
+    "AngleDiff": {
+        "prefix": "AngleDiff",
+        "body": [
+            "AngleDiff( ${float_1 float}, ${float_2 float} )"
+        ],
+        "description": "Returns the number of degrees difference between two yaw angles"
+    },
+    "CEntityInstance:RemoveSelf": {
+        "prefix": "RemoveSelf",
+        "body": [
+            "RemoveSelf(  )"
+        ],
+        "description": "Delete this entity"
+    },
+    "CDOTA_Buff:GetStackCount": {
+        "prefix": "GetStackCount",
+        "body": [
+            "GetStackCount(  )"
+        ],
+        "description": ""
+    },
+    "C_DOTA_Modifier_Lua:GetAttributes": {
+        "prefix": "GetAttributes",
+        "body": [
+            "GetAttributes(  )"
+        ],
+        "description": "Return the types of attributes applied to this modifier (enum value from DOTAModifierAttribute_t"
+    },
+    "DOTA_ATTRIBUTE_INVALID": {
+        "prefix": "DOTA_ATTRIBUTE_INVALID",
+        "body": [
+            "DOTA_ATTRIBUTE_INVALID"
+        ],
+        "description": "(-1) "
+    },
+    "IsClient": {
+        "prefix": "IsClient",
+        "body": [
+            "IsClient(  )"
+        ],
+        "description": "Returns true if this is lua running from the client.dll."
+    },
+    "MODIFIER_STATE_FROZEN": {
+        "prefix": "MODIFIER_STATE_FROZEN",
+        "body": [
+            "MODIFIER_STATE_FROZEN"
+        ],
+        "description": "(17) "
+    },
+    "CDebugOverlayScriptHelper:YawArrow": {
+        "prefix": "YawArrow",
+        "body": [
+            "YawArrow( ${Vector_1 Vector}, ${float_2 float}, ${float_3 float}, ${float_4 float}, ${int_5 int}, ${int_6 int}, ${int_7 int}, ${int_8 int}, ${bool_9 bool}, ${float_10 float} )"
+        ],
+        "description": "Draws a arrow associated with a specific yaw. Specify endpoints in world space."
+    },
+    "MODIFIER_PROPERTY_PROCATTACK_BONUS_DAMAGE_PURE": {
+        "prefix": "MODIFIER_PROPERTY_PROCATTACK_BONUS_DAMAGE_PURE",
+        "body": [
+            "MODIFIER_PROPERTY_PROCATTACK_BONUS_DAMAGE_PURE"
+        ],
+        "description": "(5)  GetModifierProcAttack_BonusDamage_Pure"
+    },
+    "CNativeOutputs:Init": {
+        "prefix": "Init",
+        "body": [
+            "Init( ${int_1 int} )"
+        ],
+        "description": "Initialize with number of outputs"
+    },
+    "RotateOrientation": {
+        "prefix": "RotateOrientation",
+        "body": [
+            "RotateOrientation( ${QAngle_1 QAngle}, ${QAngle_2 QAngle} )"
+        ],
+        "description": "Rotate a QAngle by another QAngle."
+    },
+    "DOTA_HEROPICK_STATE_CD_BAN5": {
+        "prefix": "DOTA_HEROPICK_STATE_CD_BAN5",
+        "body": [
+            "DOTA_HEROPICK_STATE_CD_BAN5"
+        ],
+        "description": "(37) "
+    },
+    "C_DOTA_BaseNPC:IsConsideredHero": {
+        "prefix": "IsConsideredHero",
+        "body": [
+            "IsConsideredHero(  )"
+        ],
+        "description": "Is this unit a considered a hero for targeting purposes?"
+    },
+    "MODIFIER_PROPERTY_TEMPEST_DOUBLE": {
+        "prefix": "MODIFIER_PROPERTY_TEMPEST_DOUBLE",
+        "body": [
+            "MODIFIER_PROPERTY_TEMPEST_DOUBLE"
+        ],
+        "description": "(147)  GetModifierTempestDouble"
+    },
+    "Convars:GetBool": {
+        "prefix": "GetBool",
+        "body": [
+            "GetBool( ${string_1 string} )"
+        ],
+        "description": "GetBool(name) : returns the convar as a boolean flag."
+    },
+    "MODIFIER_EVENT_ON_ATTACK_START": {
+        "prefix": "MODIFIER_EVENT_ON_ATTACK_START",
+        "body": [
+            "MODIFIER_EVENT_ON_ATTACK_START"
+        ],
+        "description": "(100)  OnAttackStart"
+    },
+    "C_DOTA_BaseNPC:GetUnitLabel": {
+        "prefix": "GetUnitLabel",
+        "body": [
+            "GetUnitLabel(  )"
+        ],
+        "description": ""
+    },
+    "C_DOTA_Modifier_Lua:OnCreated": {
+        "prefix": "OnCreated",
+        "body": [
+            "OnCreated( ${table handle} )"
+        ],
+        "description": "Runs when the modifier is created."
+    },
+    "CDebugOverlayScriptHelper:Box": {
+        "prefix": "Box",
+        "body": [
+            "Box( ${Vector_1 Vector}, ${Vector_2 Vector}, ${int_3 int}, ${int_4 int}, ${int_5 int}, ${int_6 int}, ${bool_7 bool}, ${float_8 float} )"
+        ],
+        "description": "Draws a world-space axis-aligned box. Specify bounds in world space."
+    },
+    "DOTA_ABILITY_BEHAVIOR_DIRECTIONAL": {
+        "prefix": "DOTA_ABILITY_BEHAVIOR_DIRECTIONAL",
+        "body": [
+            "DOTA_ABILITY_BEHAVIOR_DIRECTIONAL"
+        ],
+        "description": "(1024) "
+    },
+    "DOTA_MOTION_CONTROLLER_PRIORITY_LOWEST": {
+        "prefix": "DOTA_MOTION_CONTROLLER_PRIORITY_LOWEST",
+        "body": [
+            "DOTA_MOTION_CONTROLLER_PRIORITY_LOWEST"
+        ],
+        "description": "(0) "
+    },
+    "DebugDrawSphere": {
+        "prefix": "DebugDrawSphere",
+        "body": [
+            "DebugDrawSphere( ${Vector_1 Vector}, ${Vector_2 Vector}, ${float_3 float}, ${float_4 float}, ${bool_5 bool}, ${float_6 float} )"
+        ],
+        "description": "Draw a debug sphere (center, vRgb, a, rad, ztest, duration)"
+    },
+    "CEntityInstance:GetOrCreatePublicScriptScope": {
+        "prefix": "GetOrCreatePublicScriptScope",
+        "body": [
+            "GetOrCreatePublicScriptScope(  )"
+        ],
+        "description": "Retrieve, creating if necessary, the public script-side data associated with an entity"
+    },
+    "UF_FAIL_SUMMONED": {
+        "prefix": "UF_FAIL_SUMMONED",
+        "body": [
+            "UF_FAIL_SUMMONED"
+        ],
+        "description": "(12) "
+    },
+    "PrecacheEntityListFromTable": {
+        "prefix": "PrecacheEntityListFromTable",
+        "body": [
+            "PrecacheEntityListFromTable( ${handle_1 handle}, ${handle_2 handle} )"
+        ],
+        "description": "Precache a list of entity KeyValues tables"
+    },
+    "C_DOTA_BaseNPC:IsIllusion": {
+        "prefix": "IsIllusion",
+        "body": [
+            "IsIllusion(  )"
+        ],
+        "description": ""
+    },
+    "DOTA_UNIT_TARGET_FLAG_NOT_DOMINATED": {
+        "prefix": "DOTA_UNIT_TARGET_FLAG_NOT_DOMINATED",
+        "body": [
+            "DOTA_UNIT_TARGET_FLAG_NOT_DOMINATED"
+        ],
+        "description": "(2048) "
+    },
+    "C_DOTA_BaseNPC:NoTeamMoveTo": {
+        "prefix": "NoTeamMoveTo",
+        "body": [
+            "NoTeamMoveTo(  )"
+        ],
+        "description": ""
+    },
+    "C_DOTA_BaseNPC:GetMana": {
+        "prefix": "GetMana",
+        "body": [
+            "GetMana(  )"
+        ],
+        "description": "Get the mana on this unit."
+    },
+    "CDebugOverlayScriptHelper:Sphere": {
+        "prefix": "Sphere",
+        "body": [
+            "Sphere( ${Vector_1 Vector}, ${float_2 float}, ${int_3 int}, ${int_4 int}, ${int_5 int}, ${int_6 int}, ${bool_7 bool}, ${float_8 float} )"
+        ],
+        "description": "Draws a wireframe sphere. Specify center in world space."
+    },
+    "CDebugOverlayScriptHelper:Capsule": {
+        "prefix": "Capsule",
+        "body": [
+            "Capsule( ${Vector_1 Vector}, ${Quaternion_2 Quaternion}, ${float_3 float}, ${float_4 float}, ${int_5 int}, ${int_6 int}, ${int_7 int}, ${int_8 int}, ${bool_9 bool}, ${float_10 float} )"
+        ],
+        "description": "Draws a capsule. Specify base in world space."
+    },
+    "CDOTA_Modifier_Lua_Motion_Both:OnHorizontalMotionInterrupted": {
+        "prefix": "OnHorizontalMotionInterrupted",
+        "body": [
+            "OnHorizontalMotionInterrupted(  )"
+        ],
+        "description": "Called when the motion gets interrupted."
+    },
+    "C_DOTA_BaseNPC:GetAttacksPerSecond": {
+        "prefix": "GetAttacksPerSecond",
+        "body": [
+            "GetAttacksPerSecond(  )"
+        ],
+        "description": ""
+    },
+    "MODIFIER_EVENT_ON_ATTACK_LANDED": {
+        "prefix": "MODIFIER_EVENT_ON_ATTACK_LANDED",
+        "body": [
+            "MODIFIER_EVENT_ON_ATTACK_LANDED"
+        ],
+        "description": "(102)  OnAttackLanded"
+    },
+    "DebugDrawLine_vCol": {
+        "prefix": "DebugDrawLine_vCol",
+        "body": [
+            "DebugDrawLine_vCol( ${Vector_1 Vector}, ${Vector_2 Vector}, ${Vector_3 Vector}, ${bool_4 bool}, ${float_5 float} )"
+        ],
+        "description": "Draw a debug line using color vec (start, end, vRgb, a, ztest, duration)"
+    },
+    "CBodyComponent:DetachFromParent": {
+        "prefix": "DetachFromParent",
+        "body": [
+            "DetachFromParent(  )"
+        ],
+        "description": "Detach from its parent"
+    },
+    "SpawnEntityListFromTableAsynchronous": {
+        "prefix": "SpawnEntityListFromTableAsynchronous",
+        "body": [
+            "SpawnEntityListFromTableAsynchronous( ${handle_1 handle}, ${handle_2 handle} )"
+        ],
+        "description": "Asynchronously spawn an entity group from a list of spawn tables. A callback will be triggered when the spawning is complete"
+    },
+    "DOTA_HEROPICK_STATE_CM_SELECT5": {
+        "prefix": "DOTA_HEROPICK_STATE_CM_SELECT5",
+        "body": [
+            "DOTA_HEROPICK_STATE_CM_SELECT5"
+        ],
+        "description": "(21) "
+    },
+    "CDOTA_Modifier_Lua_Motion_Both:UpdateVerticalMotion": {
+        "prefix": "UpdateVerticalMotion",
+        "body": [
+            "UpdateVerticalMotion( ${me handle}, ${dt float} )"
+        ],
+        "description": "Perform any motion from the given interval on the NPC."
+    },
+    "CDebugOverlayScriptHelper:Cone": {
+        "prefix": "Cone",
+        "body": [
+            "Cone( ${Vector_1 Vector}, ${Vector_2 Vector}, ${float_3 float}, ${float_4 float}, ${int_5 int}, ${int_6 int}, ${int_7 int}, ${int_8 int}, ${bool_9 bool}, ${float_10 float} )"
+        ],
+        "description": "Draws a wireframe cone. Specify endpoint and direction in world space."
+    },
+    "DOTA_UNIT_TARGET_ALL": {
+        "prefix": "DOTA_UNIT_TARGET_ALL",
+        "body": [
+            "DOTA_UNIT_TARGET_ALL"
+        ],
+        "description": "(63) "
+    },
+    "MODIFIER_PROPERTY_MOVESPEED_MAX": {
+        "prefix": "MODIFIER_PROPERTY_MOVESPEED_MAX",
+        "body": [
+            "MODIFIER_PROPERTY_MOVESPEED_MAX"
+        ],
+        "description": "(18)  GetModifierMoveSpeed_Max"
+    },
+    "DebugDrawClear": {
+        "prefix": "DebugDrawClear",
+        "body": [
+            "DebugDrawClear(  )"
+        ],
+        "description": "Try to clear all the debug overlay info"
+    },
+    "RegisterSpawnGroupFilterProxy": {
+        "prefix": "RegisterSpawnGroupFilterProxy",
+        "body": [
+            "RegisterSpawnGroupFilterProxy( ${string_1 string} )"
+        ],
+        "description": "Create a C proxy for a script-based spawn group filter"
+    },
+    "C_DOTA_BaseNPC:IsCreature": {
+        "prefix": "IsCreature",
+        "body": [
+            "IsCreature(  )"
+        ],
+        "description": "Is this a Creature type NPC?"
+    },
+    "CDOTA_Buff:IncrementStackCount": {
+        "prefix": "IncrementStackCount",
+        "body": [
+            "IncrementStackCount(  )"
+        ],
+        "description": "Increase this modifier's stack count by 1."
+    },
+    "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT_UNIQUE": {
+        "prefix": "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT_UNIQUE",
+        "body": [
+            "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT_UNIQUE"
+        ],
+        "description": "(46)  GetModifierConstantManaRegenUnique"
+    },
+    "C_DOTA_BaseNPC:NoUnitCollision": {
+        "prefix": "NoUnitCollision",
+        "body": [
+            "NoUnitCollision(  )"
+        ],
+        "description": ""
+    },
+    "C_DOTA_BaseNPC:IsInvisible": {
+        "prefix": "IsInvisible",
+        "body": [
+            "IsInvisible(  )"
+        ],
+        "description": ""
+    },
+    "CEntityInstance:SetIntAttr": {
+        "prefix": "SetIntAttr",
+        "body": [
+            "SetIntAttr( ${string_1 string}, ${int_2 int} )"
+        ],
+        "description": "Set Integer Attribute"
+    },
+    "CDebugOverlayScriptHelper:EntityBounds": {
+        "prefix": "EntityBounds",
+        "body": [
+            "EntityBounds( ${ehandle_1 ehandle}, ${int_2 int}, ${int_3 int}, ${int_4 int}, ${int_5 int}, ${bool_6 bool}, ${float_7 float} )"
+        ],
+        "description": "Draws bounds of an entity"
+    },
+    "DOTA_HEROPICK_STATE_CD_SELECT7": {
+        "prefix": "DOTA_HEROPICK_STATE_CD_SELECT7",
+        "body": [
+            "DOTA_HEROPICK_STATE_CD_SELECT7"
+        ],
+        "description": "(45) "
+    },
+    "MODIFIER_STATE_BLIND": {
+        "prefix": "MODIFIER_STATE_BLIND",
+        "body": [
+            "MODIFIER_STATE_BLIND"
+        ],
+        "description": "(29) "
+    },
+    "CDebugOverlayScriptHelper:Cross3DOriented": {
+        "prefix": "Cross3DOriented",
+        "body": [
+            "Cross3DOriented( ${Vector_1 Vector}, ${Quaternion_2 Quaternion}, ${float_3 float}, ${int_4 int}, ${int_5 int}, ${int_6 int}, ${int_7 int}, ${bool_8 bool}, ${float_9 float} )"
+        ],
+        "description": "Draws an oriented cross. Specify origin in world space."
+    },
+    "DOTA_RUNE_REGENERATION": {
+        "prefix": "DOTA_RUNE_REGENERATION",
+        "body": [
+            "DOTA_RUNE_REGENERATION"
+        ],
+        "description": "(4) "
+    },
+    "MODIFIER_PROPERTY_EVASION_CONSTANT": {
+        "prefix": "MODIFIER_PROPERTY_EVASION_CONSTANT",
+        "body": [
+            "MODIFIER_PROPERTY_EVASION_CONSTANT"
+        ],
+        "description": "(33)  GetModifierEvasion_Constant"
+    },
+    "GetListenServerHost": {
+        "prefix": "GetListenServerHost",
+        "body": [
+            "GetListenServerHost(  )"
+        ],
+        "description": "Get the local player on a listen server."
+    },
+    "Convars:GetFloat": {
+        "prefix": "GetFloat",
+        "body": [
+            "GetFloat( ${string_1 string} )"
+        ],
+        "description": "GetFloat(name) : returns the convar as a float. May return null if no such convar."
+    },
+    "UF_FAIL_MECHANICAL": {
+        "prefix": "UF_FAIL_MECHANICAL",
+        "body": [
+            "UF_FAIL_MECHANICAL"
+        ],
+        "description": "(7) "
+    },
+    "ABILITY_NOT_LEARNABLE": {
+        "prefix": "ABILITY_NOT_LEARNABLE",
+        "body": [
+            "ABILITY_NOT_LEARNABLE"
+        ],
+        "description": "(4) "
+    },
+    "C_DOTA_Modifier_Lua:IsDebuff": {
+        "prefix": "IsDebuff",
+        "body": [
+            "IsDebuff(  )"
+        ],
+        "description": "True/false if this modifier should be displayed as a debuff."
+    },
+    "DOTA_ABILITY_BEHAVIOR_ROOT_DISABLES": {
+        "prefix": "DOTA_ABILITY_BEHAVIOR_ROOT_DISABLES",
+        "body": [
+            "DOTA_ABILITY_BEHAVIOR_ROOT_DISABLES"
+        ],
+        "description": "(524288) "
+    },
+    "MODIFIER_STATE_NO_TEAM_SELECT": {
+        "prefix": "MODIFIER_STATE_NO_TEAM_SELECT",
+        "body": [
+            "MODIFIER_STATE_NO_TEAM_SELECT"
+        ],
+        "description": "(26) "
+    },
+    "C_DOTA_BaseNPC:HasScepter": {
+        "prefix": "HasScepter",
+        "body": [
+            "HasScepter(  )"
+        ],
+        "description": ""
+    },
+    "MODIFIER_STATE_NIGHTMARED": {
+        "prefix": "MODIFIER_STATE_NIGHTMARED",
+        "body": [
+            "MODIFIER_STATE_NIGHTMARED"
+        ],
+        "description": "(11) "
+    },
+    "MODIFIER_PROPERTY_CASTTIME_PERCENTAGE": {
+        "prefix": "MODIFIER_PROPERTY_CASTTIME_PERCENTAGE",
+        "body": [
+            "MODIFIER_PROPERTY_CASTTIME_PERCENTAGE"
+        ],
+        "description": "(67)  GetModifierPercentageCasttime"
+    },
+    "MODIFIER_EVENT_ON_TAKEDAMAGE_KILLCREDIT": {
+        "prefix": "MODIFIER_EVENT_ON_TAKEDAMAGE_KILLCREDIT",
+        "body": [
+            "MODIFIER_EVENT_ON_TAKEDAMAGE_KILLCREDIT"
+        ],
+        "description": "(127)  OnTakeDamageKillCredit"
+    },
+    "C_DOTA_Modifier_Lua:IsAura": {
+        "prefix": "IsAura",
+        "body": [
+            "IsAura(  )"
+        ],
+        "description": "True/false if this modifier is an aura."
+    },
+    "DOTA_HEROPICK_STATE_CD_BAN4": {
+        "prefix": "DOTA_HEROPICK_STATE_CD_BAN4",
+        "body": [
+            "DOTA_HEROPICK_STATE_CD_BAN4"
+        ],
+        "description": "(36) "
+    },
+    "MODIFIER_PROPERTY_EXTRA_STRENGTH_BONUS": {
+        "prefix": "MODIFIER_PROPERTY_EXTRA_STRENGTH_BONUS",
+        "body": [
+            "MODIFIER_PROPERTY_EXTRA_STRENGTH_BONUS"
+        ],
+        "description": "(53)  GetModifierExtraStrengthBonus"
+    },
+    "MODIFIER_PROPERTY_ABILITY_LAYOUT": {
+        "prefix": "MODIFIER_PROPERTY_ABILITY_LAYOUT",
+        "body": [
+            "MODIFIER_PROPERTY_ABILITY_LAYOUT"
+        ],
+        "description": "(145)  GetModifierAbilityLayout"
+    },
+    "DOTA_MOTION_CONTROLLER_PRIORITY_LOW": {
+        "prefix": "DOTA_MOTION_CONTROLLER_PRIORITY_LOW",
+        "body": [
+            "DOTA_MOTION_CONTROLLER_PRIORITY_LOW"
+        ],
+        "description": "(1) "
+    },
+    "C_DOTA_BaseNPC:IsMagicImmune": {
+        "prefix": "IsMagicImmune",
+        "body": [
+            "IsMagicImmune(  )"
+        ],
+        "description": ""
+    },
+    "C_DOTA_Ability_Lua:GetCustomCastError": {
+        "prefix": "GetCustomCastError",
+        "body": [
+            "GetCustomCastError(  )"
+        ],
+        "description": "Return the error string of a failed command with no target."
+    },
+    "TraceLine": {
+        "prefix": "TraceLine",
+        "body": [
+            "TraceLine( ${handle_1 handle} )"
+        ],
+        "description": "Pass table - Inputs: startpos, endpos, mask, ignore  -- outputs: pos, fraction, hit, enthit, startsolid"
+    },
+    "SplineQuaternions": {
+        "prefix": "SplineQuaternions",
+        "body": [
+            "SplineQuaternions( ${Quaternion_1 Quaternion}, ${Quaternion_2 Quaternion}, ${float_3 float} )"
+        ],
+        "description": "(quaternion,quaternion,float) very basic interpolation of v0 to v1 over t on [0,1]"
+    },
+    "DOTA_ABILITY_BEHAVIOR_ITEM": {
+        "prefix": "DOTA_ABILITY_BEHAVIOR_ITEM",
+        "body": [
+            "DOTA_ABILITY_BEHAVIOR_ITEM"
+        ],
+        "description": "(256) "
+    },
+    "CEntityInstance:DisconnectRedirectedOutput": {
+        "prefix": "DisconnectRedirectedOutput",
+        "body": [
+            "DisconnectRedirectedOutput( ${string_1 string}, ${string_2 string}, ${handle_3 handle} )"
+        ],
+        "description": "Removes a connected script function from an I/O event on the passed entity."
+    },
+    "PrintLinkedConsoleMessage": {
+        "prefix": "PrintLinkedConsoleMessage",
+        "body": [
+            "PrintLinkedConsoleMessage( ${string_1 string}, ${string_2 string} )"
+        ],
+        "description": "Print a console message with a linked console command"
+    },
+    "PATTACH_POINT_FOLLOW": {
+        "prefix": "PATTACH_POINT_FOLLOW",
+        "body": [
+            "PATTACH_POINT_FOLLOW"
+        ],
+        "description": "(5) "
+    },
+    "LUA_MODIFIER_INVALID": {
+        "prefix": "LUA_MODIFIER_INVALID",
+        "body": [
+            "LUA_MODIFIER_INVALID"
+        ],
+        "description": "(4) "
+    },
+    "DOTA_UNIT_TARGET_COURIER": {
+        "prefix": "DOTA_UNIT_TARGET_COURIER",
+        "body": [
+            "DOTA_UNIT_TARGET_COURIER"
+        ],
+        "description": "(16) "
+    },
+    "C_DOTA_Modifier_Lua:StatusEffectPriority": {
+        "prefix": "StatusEffectPriority",
+        "body": [
+            "StatusEffectPriority(  )"
+        ],
+        "description": "Relationship of this status effect with those from other buffs (higher is more likely to be shown)."
+    },
+    "CEntityInstance:FireOutput": {
+        "prefix": "FireOutput",
+        "body": [
+            "FireOutput( ${string_1 string}, ${handle_2 handle}, ${handle_3 handle}, ${table_4 table}, ${float_5 float} )"
+        ],
+        "description": "Fire an entity output"
+    },
+    "DOTA_RUNE_HASTE": {
+        "prefix": "DOTA_RUNE_HASTE",
+        "body": [
+            "DOTA_RUNE_HASTE"
+        ],
+        "description": "(1) "
+    },
+    "C_DOTA_Modifier_Lua:AllowIllusionDuplicate": {
+        "prefix": "AllowIllusionDuplicate",
+        "body": [
+            "AllowIllusionDuplicate(  )"
+        ],
+        "description": "True/false if this modifier is active on illusions."
+    },
+    "MODIFIER_ATTRIBUTE_MULTIPLE": {
+        "prefix": "MODIFIER_ATTRIBUTE_MULTIPLE",
+        "body": [
+            "MODIFIER_ATTRIBUTE_MULTIPLE"
+        ],
+        "description": "(2) "
+    },
+    "C_DOTA_BaseNPC:IsDeniable": {
+        "prefix": "IsDeniable",
+        "body": [
+            "IsDeniable(  )"
+        ],
+        "description": ""
+    },
+    "DOTA_SPEECH_SPECTATOR": {
+        "prefix": "DOTA_SPEECH_SPECTATOR",
+        "body": [
+            "DOTA_SPEECH_SPECTATOR"
+        ],
+        "description": "(8) "
+    },
+    "DOTA_UNIT_TARGET_FLAG_RANGED_ONLY": {
+        "prefix": "DOTA_UNIT_TARGET_FLAG_RANGED_ONLY",
+        "body": [
+            "DOTA_UNIT_TARGET_FLAG_RANGED_ONLY"
+        ],
+        "description": "(2) "
+    },
+    "DOTA_ABILITY_BEHAVIOR_IGNORE_PSEUDO_QUEUE": {
+        "prefix": "DOTA_ABILITY_BEHAVIOR_IGNORE_PSEUDO_QUEUE",
+        "body": [
+            "DOTA_ABILITY_BEHAVIOR_IGNORE_PSEUDO_QUEUE"
+        ],
+        "description": "(2097152) "
+    },
+    "CDebugOverlayScriptHelper:Text": {
+        "prefix": "Text",
+        "body": [
+            "Text( ${Vector_1 Vector}, ${int_2 int}, ${string_3 string}, ${float_4 float}, ${int_5 int}, ${int_6 int}, ${int_7 int}, ${int_8 int}, ${float_9 float} )"
+        ],
+        "description": "Draws 2D text. Specify origin in world space."
+    },
+    "CDOTA_Buff:GetElapsedTime": {
+        "prefix": "GetElapsedTime",
+        "body": [
+            "GetElapsedTime(  )"
+        ],
+        "description": ""
+    },
+    "MODIFIER_PROPERTY_UNIT_STATS_NEEDS_REFRESH": {
+        "prefix": "MODIFIER_PROPERTY_UNIT_STATS_NEEDS_REFRESH",
+        "body": [
+            "MODIFIER_PROPERTY_UNIT_STATS_NEEDS_REFRESH"
+        ],
+        "description": "(96)  GetModifierUnitStatsNeedsRefresh"
+    },
+    "StopListeningToAllGameEvents": {
+        "prefix": "StopListeningToAllGameEvents",
+        "body": [
+            "StopListeningToAllGameEvents( ${handle_1 handle} )"
+        ],
+        "description": "Stop listening to all game events within a specific context."
+    },
+    "MODIFIER_PROPERTY_PRESERVE_PARTICLES_ON_MODEL_CHANGE": {
+        "prefix": "MODIFIER_PROPERTY_PRESERVE_PARTICLES_ON_MODEL_CHANGE",
+        "body": [
+            "MODIFIER_PROPERTY_PRESERVE_PARTICLES_ON_MODEL_CHANGE"
+        ],
+        "description": "(148)  PreserveParticlesOnModelChanged"
+    },
+    "DOTA_TEAM_CUSTOM_6": {
+        "prefix": "DOTA_TEAM_CUSTOM_6",
+        "body": [
+            "DOTA_TEAM_CUSTOM_6"
+        ],
+        "description": "(11) "
+    },
+    "CDebugOverlayScriptHelper:EntityAxis": {
+        "prefix": "EntityAxis",
+        "body": [
+            "EntityAxis( ${ehandle_1 ehandle}, ${float_2 float}, ${bool_3 bool}, ${float_4 float} )"
+        ],
+        "description": "Draws the axis of the entity origin"
+    },
+    "C_DOTA_BaseNPC:GetIdealSpeed": {
+        "prefix": "GetIdealSpeed",
+        "body": [
+            "GetIdealSpeed(  )"
+        ],
+        "description": "Returns speed after all modifiers."
+    },
+    "MODIFIER_EVENT_ON_PROJECTILE_DODGE": {
+        "prefix": "MODIFIER_EVENT_ON_PROJECTILE_DODGE",
+        "body": [
+            "MODIFIER_EVENT_ON_PROJECTILE_DODGE"
+        ],
+        "description": "(105)  OnProjectileDodge"
+    },
+    "C_DOTA_Item:IsMuted": {
+        "prefix": "IsMuted",
+        "body": [
+            "IsMuted(  )"
+        ],
+        "description": ""
+    },
+    "DOTA_UNIT_TARGET_TEAM_NONE": {
+        "prefix": "DOTA_UNIT_TARGET_TEAM_NONE",
+        "body": [
+            "DOTA_UNIT_TARGET_TEAM_NONE"
+        ],
+        "description": "(0) "
+    },
+    "SetRenderingEnabled": {
+        "prefix": "SetRenderingEnabled",
+        "body": [
+            "SetRenderingEnabled( ${ehandle_1 ehandle}, ${bool_2 bool} )"
+        ],
+        "description": "Set rendering on/off for an ehandle"
+    },
+    "MODIFIER_PROPERTY_RESPAWNTIME_PERCENTAGE": {
+        "prefix": "MODIFIER_PROPERTY_RESPAWNTIME_PERCENTAGE",
+        "body": [
+            "MODIFIER_PROPERTY_RESPAWNTIME_PERCENTAGE"
+        ],
+        "description": "(64)  GetModifierPercentageRespawnTime"
+    },
+    "C_DOTA_BaseNPC:IsFrozen": {
+        "prefix": "IsFrozen",
+        "body": [
+            "IsFrozen(  )"
+        ],
+        "description": ""
+    },
+    "CEntityInstance:GetName": {
+        "prefix": "GetName",
+        "body": [
+            "GetName(  )"
+        ],
+        "description": ""
+    },
+    "MODIFIER_STATE_INVISIBLE": {
+        "prefix": "MODIFIER_STATE_INVISIBLE",
+        "body": [
+            "MODIFIER_STATE_INVISIBLE"
+        ],
+        "description": "(7) "
+    },
+    "MODIFIER_PROPERTY_EXTRA_HEALTH_BONUS": {
+        "prefix": "MODIFIER_PROPERTY_EXTRA_HEALTH_BONUS",
+        "body": [
+            "MODIFIER_PROPERTY_EXTRA_HEALTH_BONUS"
+        ],
+        "description": "(54)  GetModifierExtraHealthBonus"
+    },
+    "C_DOTA_BaseNPC:IsBuilding": {
+        "prefix": "IsBuilding",
+        "body": [
+            "IsBuilding(  )"
+        ],
+        "description": "Is this unit a building?"
+    },
+    "MODIFIER_EVENT_ON_MODEL_CHANGED": {
+        "prefix": "MODIFIER_EVENT_ON_MODEL_CHANGED",
+        "body": [
+            "MODIFIER_EVENT_ON_MODEL_CHANGED"
+        ],
+        "description": "(131)  OnModelChanged"
+    },
+    "MODIFIER_STATE_LOW_ATTACK_PRIORITY": {
+        "prefix": "MODIFIER_STATE_LOW_ATTACK_PRIORITY",
+        "body": [
+            "MODIFIER_STATE_LOW_ATTACK_PRIORITY"
+        ],
+        "description": "(21) "
+    },
+    "rr_AddDecisionRule": {
+        "prefix": "rr_AddDecisionRule",
+        "body": [
+            "rr_AddDecisionRule( ${handle_1 handle} )"
+        ],
+        "description": "Add a rule to the decision database."
+    },
+    "CDOTA_Modifier_Lua_Horizontal_Motion:OnHorizontalMotionInterrupted": {
+        "prefix": "OnHorizontalMotionInterrupted",
+        "body": [
+            "OnHorizontalMotionInterrupted(  )"
+        ],
+        "description": "Called when the motion gets interrupted."
+    },
+    "StopSoundEvent": {
+        "prefix": "StopSoundEvent",
+        "body": [
+            "StopSoundEvent( ${string_1 string}, ${handle_2 handle} )"
+        ],
+        "description": "Stops a sound event with optional delivery"
+    },
+    "MODIFIER_PROPERTY_ATTACK_POINT_CONSTANT": {
+        "prefix": "MODIFIER_PROPERTY_ATTACK_POINT_CONSTANT",
+        "body": [
+            "MODIFIER_PROPERTY_ATTACK_POINT_CONSTANT"
+        ],
+        "description": "(24)  GetModifierAttackPointConstant"
+    },
+    "MODIFIER_EVENT_ON_MANA_GAINED": {
+        "prefix": "MODIFIER_EVENT_ON_MANA_GAINED",
+        "body": [
+            "MODIFIER_EVENT_ON_MANA_GAINED"
+        ],
+        "description": "(126)  OnManaGained"
+    },
+    "CEntityInstance:GetDebugName": {
+        "prefix": "GetDebugName",
+        "body": [
+            "GetDebugName(  )"
+        ],
+        "description": "Get the entity name w/help if not defined (i.e. classname/etc)"
+    },
+    "CScriptPrecacheContext:GetValue": {
+        "prefix": "GetValue",
+        "body": [
+            "GetValue( ${string_1 string} )"
+        ],
+        "description": "Reads a spawn key"
+    },
+    "EmitSoundOnClient": {
+        "prefix": "EmitSoundOnClient",
+        "body": [
+            "EmitSoundOnClient( ${string_1 string}, ${handle_2 handle} )"
+        ],
+        "description": "Play named sound only on the client for the passed in player"
+    },
+    "MODIFIER_STATE_NO_UNIT_COLLISION": {
+        "prefix": "MODIFIER_STATE_NO_UNIT_COLLISION",
+        "body": [
+            "MODIFIER_STATE_NO_UNIT_COLLISION"
+        ],
+        "description": "(24) "
+    },
+    "MODIFIER_PROPERTY_BASE_MANA_REGEN": {
+        "prefix": "MODIFIER_PROPERTY_BASE_MANA_REGEN",
+        "body": [
+            "MODIFIER_PROPERTY_BASE_MANA_REGEN"
+        ],
+        "description": "(44)  GetModifierBaseRegen"
+    },
+    "CDOTA_Buff:StartIntervalThink": {
+        "prefix": "StartIntervalThink",
+        "body": [
+            "StartIntervalThink( ${flInterval float} )"
+        ],
+        "description": "Start this modifier's think function (OnIntervalThink) with the given interval (float).  To stop, call with -1."
+    },
+    "MODIFIER_STATE_DISARMED": {
+        "prefix": "MODIFIER_STATE_DISARMED",
+        "body": [
+            "MODIFIER_STATE_DISARMED"
+        ],
+        "description": "(1) "
+    },
+    "C_DOTA_Item_Lua:CastFilterResult": {
+        "prefix": "CastFilterResult",
+        "body": [
+            "CastFilterResult(  )"
+        ],
+        "description": "Determine whether an issued command with no target is valid."
+    },
+    "Convars:GetCommandClient": {
+        "prefix": "GetCommandClient",
+        "body": [
+            "GetCommandClient(  )"
+        ],
+        "description": "GetCommandClient() : returns the player who issued this console command."
+    },
+    "DOTA_UNIT_TARGET_NONE": {
+        "prefix": "DOTA_UNIT_TARGET_NONE",
+        "body": [
+            "DOTA_UNIT_TARGET_NONE"
+        ],
+        "description": "(0) "
+    },
+    "MODIFIER_PROPERTY_FIXED_DAY_VISION": {
+        "prefix": "MODIFIER_PROPERTY_FIXED_DAY_VISION",
+        "body": [
+            "MODIFIER_PROPERTY_FIXED_DAY_VISION"
+        ],
+        "description": "(84)  GetFixedDayVision"
+    },
+    "DOTA_HEROPICK_STATE_CD_SELECT8": {
+        "prefix": "DOTA_HEROPICK_STATE_CD_SELECT8",
+        "body": [
+            "DOTA_HEROPICK_STATE_CD_SELECT8"
+        ],
+        "description": "(46) "
+    },
+    "DOTA_HEROPICK_STATE_CD_SELECT6": {
+        "prefix": "DOTA_HEROPICK_STATE_CD_SELECT6",
+        "body": [
+            "DOTA_HEROPICK_STATE_CD_SELECT6"
+        ],
+        "description": "(44) "
+    },
+    "DOTA_UNIT_TARGET_FLAG_PLAYER_CONTROLLED": {
+        "prefix": "DOTA_UNIT_TARGET_FLAG_PLAYER_CONTROLLED",
+        "body": [
+            "DOTA_UNIT_TARGET_FLAG_PLAYER_CONTROLLED"
+        ],
+        "description": "(1024) "
+    },
+    "MODIFIER_PROPERTY_OVERRIDE_ANIMATION": {
+        "prefix": "MODIFIER_PROPERTY_OVERRIDE_ANIMATION",
+        "body": [
+            "MODIFIER_PROPERTY_OVERRIDE_ANIMATION"
+        ],
+        "description": "(74)  GetOverrideAnimation"
+    },
+    "CDebugOverlayScriptHelper:DrawTickMarkedLine": {
+        "prefix": "DrawTickMarkedLine",
+        "body": [
+            "DrawTickMarkedLine( ${Vector_1 Vector}, ${Vector_2 Vector}, ${float_3 float}, ${int_4 int}, ${int_5 int}, ${int_6 int}, ${int_7 int}, ${int_8 int}, ${bool_9 bool}, ${float_10 float} )"
+        ],
+        "description": "Draws a dashed line. Specify endpoints in world space."
+    },
+    "DOTA_RUNE_BOUNTY": {
+        "prefix": "DOTA_RUNE_BOUNTY",
+        "body": [
+            "DOTA_RUNE_BOUNTY"
+        ],
+        "description": "(5) "
+    },
+    "MODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE_UNIQUE": {
+        "prefix": "MODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE_UNIQUE",
+        "body": [
+            "MODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE_UNIQUE"
+        ],
+        "description": "(13)  GetModifierMoveSpeedBonus_Percentage_Unique"
+    },
+    "MODIFIER_STATE_EVADE_DISABLED": {
+        "prefix": "MODIFIER_STATE_EVADE_DISABLED",
+        "body": [
+            "MODIFIER_STATE_EVADE_DISABLED"
+        ],
+        "description": "(13) "
+    },
+    "CBodyComponent:GetSequence": {
+        "prefix": "GetSequence",
+        "body": [
+            "GetSequence(  )"
+        ],
+        "description": "Returns the active seque"
+    },
+    "IsServer": {
+        "prefix": "IsServer",
+        "body": [
+            "IsServer(  )"
+        ],
+        "description": "Returns true if this is lua running from the server.dll."
+    },
+    "C_DOTA_BaseNPC:IsMechanical": {
+        "prefix": "IsMechanical",
+        "body": [
+            "IsMechanical(  )"
+        ],
+        "description": "Is the unit mechanical?"
+    },
+    "C_DOTA_Item:IsSellable": {
+        "prefix": "IsSellable",
+        "body": [
+            "IsSellable(  )"
+        ],
+        "description": ""
+    },
+    "CDOTA_Buff:GetAuraDuration": {
+        "prefix": "GetAuraDuration",
+        "body": [
+            "GetAuraDuration(  )"
+        ],
+        "description": "Returns aura stickiness (default 0.5)"
+    },
+    "ABILITY_CANNOT_BE_UPGRADED_REQUIRES_LEVEL": {
+        "prefix": "ABILITY_CANNOT_BE_UPGRADED_REQUIRES_LEVEL",
+        "body": [
+            "ABILITY_CANNOT_BE_UPGRADED_REQUIRES_LEVEL"
+        ],
+        "description": "(3) "
+    },
+    "DOTA_ABILITY_BEHAVIOR_IMMEDIATE": {
+        "prefix": "DOTA_ABILITY_BEHAVIOR_IMMEDIATE",
+        "body": [
+            "DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+        ],
+        "description": "(2048) "
+    },
+    "C_DOTA_BaseNPC:GetAbilityCount": {
+        "prefix": "GetAbilityCount",
+        "body": [
+            "GetAbilityCount(  )"
+        ],
+        "description": ""
+    },
+    "MODIFIER_PROPERTY_MANA_BONUS": {
+        "prefix": "MODIFIER_PROPERTY_MANA_BONUS",
+        "body": [
+            "MODIFIER_PROPERTY_MANA_BONUS"
+        ],
+        "description": "(52)  GetModifierManaBonus"
+    },
+    "MODIFIER_EVENT_ON_PROCESS_UPGRADE": {
+        "prefix": "MODIFIER_EVENT_ON_PROCESS_UPGRADE",
+        "body": [
+            "MODIFIER_EVENT_ON_PROCESS_UPGRADE"
+        ],
+        "description": "(113) "
+    },
+    "CBodyComponent:LookupSequence": {
+        "prefix": "LookupSequence",
+        "body": [
+            "LookupSequence(  )"
+        ],
+        "description": "Returns a sequence id given a n"
+    },
+    "MODIFIER_PROPERTY_OVERRIDE_ANIMATION_RATE": {
+        "prefix": "MODIFIER_PROPERTY_OVERRIDE_ANIMATION_RATE",
+        "body": [
+            "MODIFIER_PROPERTY_OVERRIDE_ANIMATION_RATE"
+        ],
+        "description": "(76)  GetOverrideAnimationRate"
+    },
+    "C_DOTA_BaseNPC:GetUnitName": {
+        "prefix": "GetUnitName",
+        "body": [
+            "GetUnitName(  )"
+        ],
+        "description": "Get the name of this unit."
+    },
+    "DebugDrawText": {
+        "prefix": "DebugDrawText",
+        "body": [
+            "DebugDrawText( ${Vector_1 Vector}, ${string_2 string}, ${bool_3 bool}, ${float_4 float} )"
+        ],
+        "description": "Draw text in 3d (origin, text, bViewCheck, duration)"
+    },
+    "TraceCollideable": {
+        "prefix": "TraceCollideable",
+        "body": [
+            "TraceCollideable( ${handle_1 handle} )"
+        ],
+        "description": "Pass table - Inputs: start, end, ent, (optional mins, maxs) -- outputs: pos, fraction, hit, startsolid, normal"
+    },
+    "MODIFIER_EVENT_ON_DOMINATED": {
+        "prefix": "MODIFIER_EVENT_ON_DOMINATED",
+        "body": [
+            "MODIFIER_EVENT_ON_DOMINATED"
+        ],
+        "description": "(146)  OnDominated"
+    },
+    "C_DOTA_BaseNPC:IsCommandRestricted": {
+        "prefix": "IsCommandRestricted",
+        "body": [
+            "IsCommandRestricted(  )"
+        ],
+        "description": ""
+    },
+    "MODIFIER_PROPERTY_STATS_INTELLECT_BONUS": {
+        "prefix": "MODIFIER_PROPERTY_STATS_INTELLECT_BONUS",
+        "body": [
+            "MODIFIER_PROPERTY_STATS_INTELLECT_BONUS"
+        ],
+        "description": "(59)  GetModifierBonusStats_Intellect"
+    },
+    "MODIFIER_STATE_NO_HEALTH_BAR": {
+        "prefix": "MODIFIER_STATE_NO_HEALTH_BAR",
+        "body": [
+            "MODIFIER_STATE_NO_HEALTH_BAR"
+        ],
+        "description": "(22) "
+    },
+    "C_DOTA_BaseNPC:GetPlayerOwnerID": {
+        "prefix": "GetPlayerOwnerID",
+        "body": [
+            "GetPlayerOwnerID(  )"
+        ],
+        "description": "Get the owner player ID for this unit."
+    },
+    "IsMarkedForDeletion": {
+        "prefix": "IsMarkedForDeletion",
+        "body": [
+            "IsMarkedForDeletion( ${handle_1 handle} )"
+        ],
+        "description": "Returns true if the entity is valid and marked for deletion."
+    },
+    "PATTACH_WORLDORIGIN": {
+        "prefix": "PATTACH_WORLDORIGIN",
+        "body": [
+            "PATTACH_WORLDORIGIN"
+        ],
+        "description": "(8) "
+    },
+    "DOTA_MAX_TEAM": {
+        "prefix": "DOTA_MAX_TEAM",
+        "body": [
+            "DOTA_MAX_TEAM"
+        ],
+        "description": "(24)  Max number of players per team."
+    },
+    "CEntities:First": {
+        "prefix": "First",
+        "body": [
+            "First(  )"
+        ],
+        "description": "Begin an iteration over the list of entities"
+    },
+    "CancelEntityIOEvents": {
+        "prefix": "CancelEntityIOEvents",
+        "body": [
+            "CancelEntityIOEvents( ${ehandle_1 ehandle} )"
+        ],
+        "description": "Create all I/O events for a particular entity"
+    },
+    "MODIFIER_PROPERTY_PERSISTENT_INVISIBILITY": {
+        "prefix": "MODIFIER_PROPERTY_PERSISTENT_INVISIBILITY",
+        "body": [
+            "MODIFIER_PROPERTY_PERSISTENT_INVISIBILITY"
+        ],
+        "description": "(9)  GetModifierPersistentInvisibility"
+    },
+    "C_DOTA_Ability_Lua:GetCustomCastErrorTarget": {
+        "prefix": "GetCustomCastErrorTarget",
+        "body": [
+            "GetCustomCastErrorTarget( ${hTarget handle} )"
+        ],
+        "description": "(HSCRIPT hTarget) Return the error string of a failed command on a target."
+    },
+    "MODIFIER_EVENT_ON_ATTACK_RECORD": {
+        "prefix": "MODIFIER_EVENT_ON_ATTACK_RECORD",
+        "body": [
+            "MODIFIER_EVENT_ON_ATTACK_RECORD"
+        ],
+        "description": "(99)  OnAttackRecord"
+    },
+    "MODIFIER_EVENT_ON_ATTACK_FAIL": {
+        "prefix": "MODIFIER_EVENT_ON_ATTACK_FAIL",
+        "body": [
+            "MODIFIER_EVENT_ON_ATTACK_FAIL"
+        ],
+        "description": "(103)  OnAttackFail"
+    },
+    "DOTA_HEROPICK_STATE_CD_CAPTAINPICK": {
+        "prefix": "DOTA_HEROPICK_STATE_CD_CAPTAINPICK",
+        "body": [
+            "DOTA_HEROPICK_STATE_CD_CAPTAINPICK"
+        ],
+        "description": "(32) "
+    },
+    "DOTA_RUNE_INVISIBILITY": {
+        "prefix": "DOTA_RUNE_INVISIBILITY",
+        "body": [
+            "DOTA_RUNE_INVISIBILITY"
+        ],
+        "description": "(3) "
+    },
+    "C_DOTABaseAbility:GetCaster": {
+        "prefix": "GetCaster",
+        "body": [
+            "GetCaster(  )"
+        ],
+        "description": ""
+    },
+    "DebugBreak": {
+        "prefix": "DebugBreak",
+        "body": [
+            "DebugBreak(  )"
+        ],
+        "description": "Breaks in the debugger"
+    },
+    "MODIFIER_PROPERTY_PROVIDES_FOW_POSITION": {
+        "prefix": "MODIFIER_PROPERTY_PROVIDES_FOW_POSITION",
+        "body": [
+            "MODIFIER_PROPERTY_PROVIDES_FOW_POSITION"
+        ],
+        "description": "(139)  GetModifierProvidesFOWVision"
+    },
+    "PATTACH_ABSORIGIN": {
+        "prefix": "PATTACH_ABSORIGIN",
+        "body": [
+            "PATTACH_ABSORIGIN"
+        ],
+        "description": "(0) "
+    },
+    "MODIFIER_PROPERTY_ABSOLUTE_NO_DAMAGE_PURE": {
+        "prefix": "MODIFIER_PROPERTY_ABSOLUTE_NO_DAMAGE_PURE",
+        "body": [
+            "MODIFIER_PROPERTY_ABSOLUTE_NO_DAMAGE_PURE"
+        ],
+        "description": "(89)  GetAbsoluteNoDamagePure"
+    },
+    "Convars:SetFloat": {
+        "prefix": "SetFloat",
+        "body": [
+            "SetFloat( ${string_1 string}, ${float_2 float} )"
+        ],
+        "description": "SetFloat(name, val) : sets the value of the convar to the float."
+    },
+    "DOTA_SPEECH_BAD_TEAM": {
+        "prefix": "DOTA_SPEECH_BAD_TEAM",
+        "body": [
+            "DOTA_SPEECH_BAD_TEAM"
+        ],
+        "description": "(7) "
+    },
+    "MODIFIER_PROPERTY_MAGICAL_RESISTANCE_BONUS": {
+        "prefix": "MODIFIER_PROPERTY_MAGICAL_RESISTANCE_BONUS",
+        "body": [
+            "MODIFIER_PROPERTY_MAGICAL_RESISTANCE_BONUS"
+        ],
+        "description": "(41)  GetModifierMagicalResistanceBonus"
+    },
+    "UTIL_Remove": {
+        "prefix": "UTIL_Remove",
+        "body": [
+            "UTIL_Remove( ${handle_1 handle} )"
+        ],
+        "description": "Removes the specified entity"
+    },
+    "CEntityInstance:RedirectOutput": {
+        "prefix": "RedirectOutput",
+        "body": [
+            "RedirectOutput( ${string_1 string}, ${string_2 string}, ${handle_3 handle} )"
+        ],
+        "description": "Adds an I/O connection that will call the named function on the passed entity when the specified output fires."
+    },
+    "MODIFIER_EVENT_ON_DEATH": {
+        "prefix": "MODIFIER_EVENT_ON_DEATH",
+        "body": [
+            "MODIFIER_EVENT_ON_DEATH"
+        ],
+        "description": "(119)  OnDeath"
+    },
+    "CDebugOverlayScriptHelper:VertArrow": {
+        "prefix": "VertArrow",
+        "body": [
+            "VertArrow( ${Vector_1 Vector}, ${Vector_2 Vector}, ${float_3 float}, ${int_4 int}, ${int_5 int}, ${int_6 int}, ${int_7 int}, ${bool_8 bool}, ${float_9 float} )"
+        ],
+        "description": "Draws a vertical arrow. Specify endpoints in world space."
+    },
+    "DOTA_HEROPICK_STATE_CD_BAN1": {
+        "prefix": "DOTA_HEROPICK_STATE_CD_BAN1",
+        "body": [
+            "DOTA_HEROPICK_STATE_CD_BAN1"
+        ],
+        "description": "(33) "
+    },
+    "RemoveSpawnGroupFilterProxy": {
+        "prefix": "RemoveSpawnGroupFilterProxy",
+        "body": [
+            "RemoveSpawnGroupFilterProxy( ${string_1 string} )"
+        ],
+        "description": "Remove the C proxy for a script-based spawn group filter"
+    },
+    "MODIFIER_EVENT_ON_ABILITY_END_CHANNEL": {
+        "prefix": "MODIFIER_EVENT_ON_ABILITY_END_CHANNEL",
+        "body": [
+            "MODIFIER_EVENT_ON_ABILITY_END_CHANNEL"
+        ],
+        "description": "(112)  OnAbilityEndChannel"
+    },
+    "C_DOTA_Modifier_Lua:GetAuraSearchTeam": {
+        "prefix": "GetAuraSearchTeam",
+        "body": [
+            "GetAuraSearchTeam(  )"
+        ],
+        "description": "Return the teams this aura applies its buff to."
+    },
+    "MODIFIER_EVENT_ON_RESPAWN": {
+        "prefix": "MODIFIER_EVENT_ON_RESPAWN",
+        "body": [
+            "MODIFIER_EVENT_ON_RESPAWN"
+        ],
+        "description": "(120)  OnRespawn"
+    },
+    "DOTA_UNIT_TARGET_FLAG_CHECK_DISABLE_HELP": {
+        "prefix": "DOTA_UNIT_TARGET_FLAG_CHECK_DISABLE_HELP",
+        "body": [
+            "DOTA_UNIT_TARGET_FLAG_CHECK_DISABLE_HELP"
+        ],
+        "description": "(65536) "
+    },
+    "ListenToGameEvent": {
+        "prefix": "ListenToGameEvent",
+        "body": [
+            "ListenToGameEvent( ${string_1 string}, ${handle_2 handle}, ${handle_3 handle} )"
+        ],
+        "description": "Register as a listener for a game event from script."
+    },
+    "MODIFIER_EVENT_ON_TELEPORTING": {
+        "prefix": "MODIFIER_EVENT_ON_TELEPORTING",
+        "body": [
+            "MODIFIER_EVENT_ON_TELEPORTING"
+        ],
+        "description": "(122)  OnTeleporting"
+    },
+    "MODIFIER_PROPERTY_BASE_ATTACK_TIME_CONSTANT": {
+        "prefix": "MODIFIER_PROPERTY_BASE_ATTACK_TIME_CONSTANT",
+        "body": [
+            "MODIFIER_PROPERTY_BASE_ATTACK_TIME_CONSTANT"
+        ],
+        "description": "(23)  GetModifierBaseAttackTimeConstant"
+    },
+    "ABILITY_CANNOT_BE_UPGRADED_AT_MAX": {
+        "prefix": "ABILITY_CANNOT_BE_UPGRADED_AT_MAX",
+        "body": [
+            "ABILITY_CANNOT_BE_UPGRADED_AT_MAX"
+        ],
+        "description": "(2) "
+    },
+    "UF_FAIL_COURIER": {
+        "prefix": "UF_FAIL_COURIER",
+        "body": [
+            "UF_FAIL_COURIER"
+        ],
+        "description": "(8) "
+    },
+    "UF_FAIL_DISABLE_HELP": {
+        "prefix": "UF_FAIL_DISABLE_HELP",
+        "body": [
+            "UF_FAIL_DISABLE_HELP"
+        ],
+        "description": "(26) "
+    },
+    "LUA_MODIFIER_MOTION_BOTH": {
+        "prefix": "LUA_MODIFIER_MOTION_BOTH",
+        "body": [
+            "LUA_MODIFIER_MOTION_BOTH"
+        ],
+        "description": "(3) "
+    },
+    "C_DOTA_Item_Lua:GetManaCost": {
+        "prefix": "GetManaCost",
+        "body": [
+            "GetManaCost( ${iLevel int} )"
+        ],
+        "description": "Return mana cost at the given level (-1 is current)."
+    },
+    "DOTA_UNIT_TARGET_FLAG_FOW_VISIBLE": {
+        "prefix": "DOTA_UNIT_TARGET_FLAG_FOW_VISIBLE",
+        "body": [
+            "DOTA_UNIT_TARGET_FLAG_FOW_VISIBLE"
+        ],
+        "description": "(128) "
+    },
+    "DOTA_HEROPICK_STATE_CD_BAN2": {
+        "prefix": "DOTA_HEROPICK_STATE_CD_BAN2",
+        "body": [
+            "DOTA_HEROPICK_STATE_CD_BAN2"
+        ],
+        "description": "(34) "
+    },
+    "DOTA_ABILITY_BEHAVIOR_DONT_RESUME_MOVEMENT": {
+        "prefix": "DOTA_ABILITY_BEHAVIOR_DONT_RESUME_MOVEMENT",
+        "body": [
+            "DOTA_ABILITY_BEHAVIOR_DONT_RESUME_MOVEMENT"
+        ],
+        "description": "(262144) "
+    },
+    "MODIFIER_PROPERTY_ABSOLUTE_NO_DAMAGE_PHYSICAL": {
+        "prefix": "MODIFIER_PROPERTY_ABSOLUTE_NO_DAMAGE_PHYSICAL",
+        "body": [
+            "MODIFIER_PROPERTY_ABSOLUTE_NO_DAMAGE_PHYSICAL"
+        ],
+        "description": "(87)  GetAbsoluteNoDamagePhysical"
+    },
+    "C_DOTA_Item:IsItem": {
+        "prefix": "IsItem",
+        "body": [
+            "IsItem(  )"
+        ],
+        "description": ""
+    },
+    "rr_QueryBestResponse": {
+        "prefix": "rr_QueryBestResponse",
+        "body": [
+            "rr_QueryBestResponse( ${handle_1 handle}, ${handle_2 handle}, ${handle_3 handle} )"
+        ],
+        "description": "Params: (entity, query) : tests 'query' against entity's response system and returns the best response found (or null if none found)."
+    },
+    "C_DOTA_BaseNPC:IsAncient": {
+        "prefix": "IsAncient",
+        "body": [
+            "IsAncient(  )"
+        ],
+        "description": "Is this unit an Ancient?"
+    },
+    "InitLogFile": {
+        "prefix": "InitLogFile",
+        "body": [
+            "InitLogFile( ${string_1 string}, ${string_2 string} )"
+        ],
+        "description": "If the given file doesn't exist, creates it with the given contents; does nothing if it exists"
+    },
+    "CDOTA_Modifier_Lua_Vertical_Motion:UpdateVerticalMotion": {
+        "prefix": "UpdateVerticalMotion",
+        "body": [
+            "UpdateVerticalMotion( ${me handle}, ${dt float} )"
+        ],
+        "description": "Perform any motion from the given interval on the NPC."
+    },
+    "PATTACH_RENDERORIGIN_FOLLOW": {
+        "prefix": "PATTACH_RENDERORIGIN_FOLLOW",
+        "body": [
+            "PATTACH_RENDERORIGIN_FOLLOW"
+        ],
+        "description": "(10) "
+    },
+    "UF_FAIL_DEAD": {
+        "prefix": "UF_FAIL_DEAD",
+        "body": [
+            "UF_FAIL_DEAD"
+        ],
+        "description": "(16) "
+    },
+    "DOTA_HERO_PICK_STATE_CUSTOMGAME_SELECT": {
+        "prefix": "DOTA_HERO_PICK_STATE_CUSTOMGAME_SELECT",
+        "body": [
+            "DOTA_HERO_PICK_STATE_CUSTOMGAME_SELECT"
+        ],
+        "description": "(54) "
+    },
+    "TraceHull": {
+        "prefix": "TraceHull",
+        "body": [
+            "TraceHull( ${handle_1 handle} )"
+        ],
+        "description": "Pass table - Inputs: start, end, min, max, mask, ignore  -- outputs: pos, fraction, hit, enthit, startsolid"
+    },
+    "DOTA_MAX_PLAYERS": {
+        "prefix": "DOTA_MAX_PLAYERS",
+        "body": [
+            "DOTA_MAX_PLAYERS"
+        ],
+        "description": "(64)  Max number of players connected to the server including spectators."
+    },
+    "DOTA_UNIT_TARGET_TEAM_FRIENDLY": {
+        "prefix": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
+        "body": [
+            "DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+        ],
+        "description": "(1) "
+    },
+    "CDOTA_Modifier_Lua_Vertical_Motion:OnVerticalMotionInterrupted": {
+        "prefix": "OnVerticalMotionInterrupted",
+        "body": [
+            "OnVerticalMotionInterrupted(  )"
+        ],
+        "description": "Called when the motion gets interrupted."
+    },
+    "MODIFIER_EVENT_ON_BREAK_INVISIBILITY": {
+        "prefix": "MODIFIER_EVENT_ON_BREAK_INVISIBILITY",
+        "body": [
+            "MODIFIER_EVENT_ON_BREAK_INVISIBILITY"
+        ],
+        "description": "(111)  OnBreakInvisibility"
+    },
+    "FireEntityIOInputString": {
+        "prefix": "FireEntityIOInputString",
+        "body": [
+            "FireEntityIOInputString( ${ehandle_1 ehandle}, ${string_2 string}, ${string_3 string} )"
+        ],
+        "description": "Fire Entity's Action Input with passed String - you own the memory"
+    },
+    "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS_UNIQUE": {
+        "prefix": "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS_UNIQUE",
+        "body": [
+            "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS_UNIQUE"
+        ],
+        "description": "(39)  GetModifierPhysicalArmorBonusUnique"
+    },
+    "CDebugOverlayScriptHelper:Line": {
+        "prefix": "Line",
+        "body": [
+            "Line( ${Vector_1 Vector}, ${Vector_2 Vector}, ${int_3 int}, ${int_4 int}, ${int_5 int}, ${int_6 int}, ${bool_7 bool}, ${float_8 float} )"
+        ],
+        "description": "Draws a line between two points"
+    },
+    "MODIFIER_PROPERTY_MODEL_CHANGE": {
+        "prefix": "MODIFIER_PROPERTY_MODEL_CHANGE",
+        "body": [
+            "MODIFIER_PROPERTY_MODEL_CHANGE"
+        ],
+        "description": "(133)  GetModifierModelChange"
+    },
+    "C_DOTA_BaseNPC:IsRooted": {
+        "prefix": "IsRooted",
+        "body": [
+            "IsRooted(  )"
+        ],
+        "description": ""
+    },
+    "MODIFIER_STATE_NO_TEAM_MOVE_TO": {
+        "prefix": "MODIFIER_STATE_NO_TEAM_MOVE_TO",
+        "body": [
+            "MODIFIER_STATE_NO_TEAM_MOVE_TO"
+        ],
+        "description": "(25) "
+    },
+    "UF_FAIL_FRIENDLY": {
+        "prefix": "UF_FAIL_FRIENDLY",
+        "body": [
+            "UF_FAIL_FRIENDLY"
+        ],
+        "description": "(1) "
+    },
+    "MAX_PATTACH_TYPES": {
+        "prefix": "MAX_PATTACH_TYPES",
+        "body": [
+            "MAX_PATTACH_TYPES"
+        ],
+        "description": "(13) "
+    },
+    "DOTA_HEROPICK_STATE_CM_SELECT3": {
+        "prefix": "DOTA_HEROPICK_STATE_CM_SELECT3",
+        "body": [
+            "DOTA_HEROPICK_STATE_CM_SELECT3"
+        ],
+        "description": "(19) "
+    },
+    "DOTA_SPEECH_RECIPIENT_TYPE_MAX": {
+        "prefix": "DOTA_SPEECH_RECIPIENT_TYPE_MAX",
+        "body": [
+            "DOTA_SPEECH_RECIPIENT_TYPE_MAX"
+        ],
+        "description": "(9) "
+    },
+    "C_DOTA_BaseNPC:ProvidesVision": {
+        "prefix": "ProvidesVision",
+        "body": [
+            "ProvidesVision(  )"
+        ],
+        "description": ""
+    },
+    "CEntityInstance:entindex": {
+        "prefix": "entindex",
+        "body": [
+            "entindex(  )"
+        ],
+        "description": ""
+    },
+    "MODIFIER_PROPERTY_MANA_REGEN_TOTAL_PERCENTAGE": {
+        "prefix": "MODIFIER_PROPERTY_MANA_REGEN_TOTAL_PERCENTAGE",
+        "body": [
+            "MODIFIER_PROPERTY_MANA_REGEN_TOTAL_PERCENTAGE"
+        ],
+        "description": "(48)  GetModifierTotalPercentageManaRegen"
+    },
+    "C_DOTA_BaseNPC:PassivesDisabled": {
+        "prefix": "PassivesDisabled",
+        "body": [
+            "PassivesDisabled(  )"
+        ],
+        "description": ""
+    },
+    "C_BaseEntity:GetTeamNumber": {
+        "prefix": "GetTeamNumber",
+        "body": [
+            "GetTeamNumber(  )"
+        ],
+        "description": ""
+    },
+    "C_DOTA_Modifier_Lua:GetHeroEffectName": {
+        "prefix": "GetHeroEffectName",
+        "body": [
+            "GetHeroEffectName(  )"
+        ],
+        "description": "Return the name of the hero effect particle system that is created while this modifier is active."
+    },
+    "MODIFIER_STATE_BLOCK_DISABLED": {
+        "prefix": "MODIFIER_STATE_BLOCK_DISABLED",
+        "body": [
+            "MODIFIER_STATE_BLOCK_DISABLED"
+        ],
+        "description": "(12) "
+    },
+    "DOTA_HERO_PICK_STATE_ARDM_SELECT": {
+        "prefix": "DOTA_HERO_PICK_STATE_ARDM_SELECT",
+        "body": [
+            "DOTA_HERO_PICK_STATE_ARDM_SELECT"
+        ],
+        "description": "(52) "
+    },
+    "DOTA_TEAM_CUSTOM_1": {
+        "prefix": "DOTA_TEAM_CUSTOM_1",
+        "body": [
+            "DOTA_TEAM_CUSTOM_1"
+        ],
+        "description": "(6) "
+    },
+    "C_DOTA_Modifier_Lua:IsStunDebuff": {
+        "prefix": "IsStunDebuff",
+        "body": [
+            "IsStunDebuff(  )"
+        ],
+        "description": "True/false if this modifier is considered a stun for purge reasons."
+    },
+    "DOTA_TEAM_CUSTOM_7": {
+        "prefix": "DOTA_TEAM_CUSTOM_7",
+        "body": [
+            "DOTA_TEAM_CUSTOM_7"
+        ],
+        "description": "(12) "
+    },
+    "DOTA_ABILITY_BEHAVIOR_UNRESTRICTED": {
+        "prefix": "DOTA_ABILITY_BEHAVIOR_UNRESTRICTED",
+        "body": [
+            "DOTA_ABILITY_BEHAVIOR_UNRESTRICTED"
+        ],
+        "description": "(1048576) "
+    },
+    "PATTACH_POINT": {
+        "prefix": "PATTACH_POINT",
+        "body": [
+            "PATTACH_POINT"
+        ],
+        "description": "(4) "
+    },
+    "MODIFIER_PROPERTY_FORCE_DRAW_MINIMAP": {
+        "prefix": "MODIFIER_PROPERTY_FORCE_DRAW_MINIMAP",
+        "body": [
+            "MODIFIER_PROPERTY_FORCE_DRAW_MINIMAP"
+        ],
+        "description": "(141)  GetForceDrawOnMinimap"
+    },
+    "DOTA_HEROPICK_STATE_CM_CAPTAINPICK": {
+        "prefix": "DOTA_HEROPICK_STATE_CM_CAPTAINPICK",
+        "body": [
+            "DOTA_HEROPICK_STATE_CM_CAPTAINPICK"
+        ],
+        "description": "(6) "
+    },
+    "MODIFIER_STATE_ATTACK_IMMUNE": {
+        "prefix": "MODIFIER_STATE_ATTACK_IMMUNE",
+        "body": [
+            "MODIFIER_STATE_ATTACK_IMMUNE"
+        ],
+        "description": "(2) "
+    },
+    "C_DOTA_BaseNPC:GetCollisionPadding": {
+        "prefix": "GetCollisionPadding",
+        "body": [
+            "GetCollisionPadding(  )"
+        ],
+        "description": "Returns the size of the collision padding around the hull."
+    },
+    "Time": {
+        "prefix": "Time",
+        "body": [
+            "Time(  )"
+        ],
+        "description": "Get the current server time"
+    },
+    "PATTACH_EYES_FOLLOW": {
+        "prefix": "PATTACH_EYES_FOLLOW",
+        "body": [
+            "PATTACH_EYES_FOLLOW"
+        ],
+        "description": "(6) "
+    },
+    "DOTA_UNIT_TARGET_FLAG_NOT_MAGIC_IMMUNE_ALLIES": {
+        "prefix": "DOTA_UNIT_TARGET_FLAG_NOT_MAGIC_IMMUNE_ALLIES",
+        "body": [
+            "DOTA_UNIT_TARGET_FLAG_NOT_MAGIC_IMMUNE_ALLIES"
+        ],
+        "description": "(32) "
+    },
+    "ReloadMOTD": {
+        "prefix": "ReloadMOTD",
+        "body": [
+            "ReloadMOTD(  )"
+        ],
+        "description": "Reloads the MotD file"
+    },
+    "UF_FAIL_CUSTOM": {
+        "prefix": "UF_FAIL_CUSTOM",
+        "body": [
+            "UF_FAIL_CUSTOM"
+        ],
+        "description": "(24) "
+    },
+    "ABILITY_CAN_BE_UPGRADED": {
+        "prefix": "ABILITY_CAN_BE_UPGRADED",
+        "body": [
+            "ABILITY_CAN_BE_UPGRADED"
+        ],
+        "description": "(0) "
+    },
+    "PATTACH_OVERHEAD_FOLLOW": {
+        "prefix": "PATTACH_OVERHEAD_FOLLOW",
+        "body": [
+            "PATTACH_OVERHEAD_FOLLOW"
+        ],
+        "description": "(7) "
+    },
+    "MODIFIER_PROPERTY_TURN_RATE_PERCENTAGE": {
+        "prefix": "MODIFIER_PROPERTY_TURN_RATE_PERCENTAGE",
+        "body": [
+            "MODIFIER_PROPERTY_TURN_RATE_PERCENTAGE"
+        ],
+        "description": "(93)  GetModifierTurnRate_Percentage"
+    },
+    "DOTA_HEROPICK_STATE_CM_BAN5": {
+        "prefix": "DOTA_HEROPICK_STATE_CM_BAN5",
+        "body": [
+            "DOTA_HEROPICK_STATE_CM_BAN5"
+        ],
+        "description": "(11) "
+    },
+    "DOTA_UNIT_TARGET_MECHANICAL": {
+        "prefix": "DOTA_UNIT_TARGET_MECHANICAL",
+        "body": [
+            "DOTA_UNIT_TARGET_MECHANICAL"
+        ],
+        "description": "(8) "
+    },
+    "C_DOTA_Item_Lua:GetCastRange": {
+        "prefix": "GetCastRange",
+        "body": [
+            "GetCastRange( ${vLocation Vector}, ${hTarget handle} )"
+        ],
+        "description": "Return cast range of this ability."
+    },
+    "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT": {
+        "prefix": "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT",
+        "body": [
+            "MODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT"
+        ],
+        "description": "(49)  GetModifierConstantHealthRegen"
+    },
+    "MODIFIER_PROPERTY_OVERRIDE_ATTACK_MAGICAL": {
+        "prefix": "MODIFIER_PROPERTY_OVERRIDE_ATTACK_MAGICAL",
+        "body": [
+            "MODIFIER_PROPERTY_OVERRIDE_ATTACK_MAGICAL"
+        ],
+        "description": "(95)  GetOverrideAttackMagical"
+    },
+    "MODIFIER_PROPERTY_PRE_ATTACK": {
+        "prefix": "MODIFIER_PROPERTY_PRE_ATTACK",
+        "body": [
+            "MODIFIER_PROPERTY_PRE_ATTACK"
+        ],
+        "description": "(7)  GetModifierPreAttack"
+    },
+    "CEntityInstance:ConnectOutput": {
+        "prefix": "ConnectOutput",
+        "body": [
+            "ConnectOutput( ${string_1 string}, ${string_2 string} )"
+        ],
+        "description": "Adds an I/O connection that will call the named function on this entity when the specified output fires."
+    },
+    "CToneMapControllerComponent:GetMinExposure": {
+        "prefix": "GetMinExposure",
+        "body": [
+            "GetMinExposure(  )"
+        ],
+        "description": "Gets min exposure for this tonemap controller"
+    },
+    "C_DOTA_BaseNPC:NoHealthBar": {
+        "prefix": "NoHealthBar",
+        "body": [
+            "NoHealthBar(  )"
+        ],
+        "description": ""
+    },
+    "PATTACH_ROOTBONE_FOLLOW": {
+        "prefix": "PATTACH_ROOTBONE_FOLLOW",
+        "body": [
+            "PATTACH_ROOTBONE_FOLLOW"
+        ],
+        "description": "(9) "
+    },
+    "C_DOTA_Modifier_Lua:GetAuraRadius": {
+        "prefix": "GetAuraRadius",
+        "body": [
+            "GetAuraRadius(  )"
+        ],
+        "description": "Return the range around the parent this aura tries to apply its buff."
+    },
+    "DOTA_MOTION_CONTROLLER_PRIORITY_MEDIUM": {
+        "prefix": "DOTA_MOTION_CONTROLLER_PRIORITY_MEDIUM",
+        "body": [
+            "DOTA_MOTION_CONTROLLER_PRIORITY_MEDIUM"
+        ],
+        "description": "(2) "
+    },
+    "DOTA_ABILITY_BEHAVIOR_TOGGLE": {
+        "prefix": "DOTA_ABILITY_BEHAVIOR_TOGGLE",
+        "body": [
+            "DOTA_ABILITY_BEHAVIOR_TOGGLE"
+        ],
+        "description": "(512) "
+    },
+    "C_DOTA_BaseNPC:NotOnMinimapForEnemies": {
+        "prefix": "NotOnMinimapForEnemies",
+        "body": [
+            "NotOnMinimapForEnemies(  )"
+        ],
+        "description": ""
+    },
+    "DOTA_UNIT_TARGET_FLAG_NOT_ATTACK_IMMUNE": {
+        "prefix": "DOTA_UNIT_TARGET_FLAG_NOT_ATTACK_IMMUNE",
+        "body": [
+            "DOTA_UNIT_TARGET_FLAG_NOT_ATTACK_IMMUNE"
+        ],
+        "description": "(16384) "
+    },
+    "MODIFIER_STATE_ROOTED": {
+        "prefix": "MODIFIER_STATE_ROOTED",
+        "body": [
+            "MODIFIER_STATE_ROOTED"
+        ],
+        "description": "(0) "
+    },
+    "DOTA_MAX_PLAYER_TEAMS": {
+        "prefix": "DOTA_MAX_PLAYER_TEAMS",
+        "body": [
+            "DOTA_MAX_PLAYER_TEAMS"
+        ],
+        "description": "(10)  Max number of player teams supported."
+    },
+    "C_DOTA_BaseNPC:GetHealthPercent": {
+        "prefix": "GetHealthPercent",
+        "body": [
+            "GetHealthPercent(  )"
+        ],
+        "description": "Get the current health percent of the unit."
+    },
+    "C_DOTA_Item_Lua:GetBehavior": {
+        "prefix": "GetBehavior",
+        "body": [
+            "GetBehavior(  )"
+        ],
+        "description": "Return cast behavior type of this ability."
+    },
+    "UF_FAIL_ATTACK_IMMUNE": {
+        "prefix": "UF_FAIL_ATTACK_IMMUNE",
+        "body": [
+            "UF_FAIL_ATTACK_IMMUNE"
+        ],
+        "description": "(23) "
+    },
+    "MODIFIER_PROPERTY_ATTACK_RANGE_BONUS": {
+        "prefix": "MODIFIER_PROPERTY_ATTACK_RANGE_BONUS",
+        "body": [
+            "MODIFIER_PROPERTY_ATTACK_RANGE_BONUS"
+        ],
+        "description": "(60)  GetModifierAttackRangeBonus"
+    },
+    "DOTA_HEROPICK_STATE_CD_SELECT1": {
+        "prefix": "DOTA_HEROPICK_STATE_CD_SELECT1",
+        "body": [
+            "DOTA_HEROPICK_STATE_CD_SELECT1"
+        ],
+        "description": "(39) "
+    },
+    "DOTA_ABILITY_BEHAVIOR_NONE": {
+        "prefix": "DOTA_ABILITY_BEHAVIOR_NONE",
+        "body": [
+            "DOTA_ABILITY_BEHAVIOR_NONE"
+        ],
+        "description": "(0) "
+    },
+    "CDebugOverlayScriptHelper:Texture": {
+        "prefix": "Texture",
+        "body": [
+            "Texture( ${string_1 string}, ${Vector2D_2 Vector2D}, ${Vector2D_3 Vector2D}, ${int_4 int}, ${int_5 int}, ${int_6 int}, ${int_7 int}, ${Vector2D_8 Vector2D}, ${Vector2D_9 Vector2D}, ${float_10 float} )"
+        ],
+        "description": "Draws a screen-space texture. Coordinates are in pixels."
+    },
+    "C_DOTA_BaseNPC:GetPaddedCollisionRadius": {
+        "prefix": "GetPaddedCollisionRadius",
+        "body": [
+            "GetPaddedCollisionRadius(  )"
+        ],
+        "description": "Get the collision hull radius (including padding) of this NPC."
+    },
+    "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT": {
+        "prefix": "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT",
+        "body": [
+            "MODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT"
+        ],
+        "description": "(10)  GetModifierMoveSpeedBonus_Constant"
+    },
+    "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS": {
+        "prefix": "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS",
+        "body": [
+            "MODIFIER_PROPERTY_STATS_STRENGTH_BONUS"
+        ],
+        "description": "(57)  GetModifierBonusStats_Strength"
+    },
+    "MODIFIER_EVENT_ON_ATTACK": {
+        "prefix": "MODIFIER_EVENT_ON_ATTACK",
+        "body": [
+            "MODIFIER_EVENT_ON_ATTACK"
+        ],
+        "description": "(101)  OnAttack"
+    },
+    "MODIFIER_EVENT_ON_ABILITY_START": {
+        "prefix": "MODIFIER_EVENT_ON_ABILITY_START",
+        "body": [
+            "MODIFIER_EVENT_ON_ABILITY_START"
+        ],
+        "description": "(108)  OnAbilityStart"
+    },
+    "C_DOTA_Modifier_Lua:GetStatusEffectName": {
+        "prefix": "GetStatusEffectName",
+        "body": [
+            "GetStatusEffectName(  )"
+        ],
+        "description": "Return the name of the status effect particle system that is created while this modifier is active."
+    },
+    "C_DOTA_BaseNPC:IsOwnedByAnyPlayer": {
+        "prefix": "IsOwnedByAnyPlayer",
+        "body": [
+            "IsOwnedByAnyPlayer(  )"
+        ],
+        "description": "Is this unit owned by any non-bot player?"
+    },
+    "MODIFIER_PROPERTY_PHYSICAL_CONSTANT_BLOCK": {
+        "prefix": "MODIFIER_PROPERTY_PHYSICAL_CONSTANT_BLOCK",
+        "body": [
+            "MODIFIER_PROPERTY_PHYSICAL_CONSTANT_BLOCK"
+        ],
+        "description": "(71)  GetModifierPhysical_ConstantBlock"
+    },
+    "MODIFIER_PROPERTY_MOVESPEED_ABSOLUTE": {
+        "prefix": "MODIFIER_PROPERTY_MOVESPEED_ABSOLUTE",
+        "body": [
+            "MODIFIER_PROPERTY_MOVESPEED_ABSOLUTE"
+        ],
+        "description": "(15)  GetModifierMoveSpeed_Absolute"
+    },
+    "DebugDrawLine": {
+        "prefix": "DebugDrawLine",
+        "body": [
+            "DebugDrawLine( ${Vector_1 Vector}, ${Vector_2 Vector}, ${int_3 int}, ${int_4 int}, ${int_5 int}, ${bool_6 bool}, ${float_7 float} )"
+        ],
+        "description": "Draw a debug overlay line (origin, target, r, g, b, ztest, duration)"
+    },
+    "Convars:GetDOTACommandClient": {
+        "prefix": "GetDOTACommandClient",
+        "body": [
+            "GetDOTACommandClient(  )"
+        ],
+        "description": "GetDOTACommandClient() : returns the DOTA player who issued this console command."
+    },
+    "C_DOTA_Modifier_Lua:IsHidden": {
+        "prefix": "IsHidden",
+        "body": [
+            "IsHidden(  )"
+        ],
+        "description": "True/false if this modifier should be displayed on the buff bar."
+    },
+    "DOTA_UNIT_TARGET_FLAG_NOT_CREEP_HERO": {
+        "prefix": "DOTA_UNIT_TARGET_FLAG_NOT_CREEP_HERO",
+        "body": [
+            "DOTA_UNIT_TARGET_FLAG_NOT_CREEP_HERO"
+        ],
+        "description": "(131072) "
+    },
+    "MODIFIER_EVENT_ON_ABILITY_EXECUTED": {
+        "prefix": "MODIFIER_EVENT_ON_ABILITY_EXECUTED",
+        "body": [
+            "MODIFIER_EVENT_ON_ABILITY_EXECUTED"
+        ],
+        "description": "(109)  OnAbilityExecuted"
+    },
+    "DOTA_MOTION_CONTROLLER_PRIORITY_HIGH": {
+        "prefix": "DOTA_MOTION_CONTROLLER_PRIORITY_HIGH",
+        "body": [
+            "DOTA_MOTION_CONTROLLER_PRIORITY_HIGH"
+        ],
+        "description": "(3) "
+    },
+    "ExponentialDecay": {
+        "prefix": "ExponentialDecay",
+        "body": [
+            "ExponentialDecay( ${float_1 float}, ${float_2 float}, ${float_3 float} )"
+        ],
+        "description": "Smooth curve decreasing slower as it approaches zero"
+    },
+    "DOTA_UNIT_TARGET_BUILDING": {
+        "prefix": "DOTA_UNIT_TARGET_BUILDING",
+        "body": [
+            "DOTA_UNIT_TARGET_BUILDING"
+        ],
+        "description": "(4) "
+    },
+    "C_DOTA_Ability_Lua:GetChannelTime": {
+        "prefix": "GetChannelTime",
+        "body": [
+            "GetChannelTime(  )"
+        ],
+        "description": "Return the channel time of this ability."
+    },
+    "DOTA_TEAM_NOTEAM": {
+        "prefix": "DOTA_TEAM_NOTEAM",
+        "body": [
+            "DOTA_TEAM_NOTEAM"
+        ],
+        "description": "(5) "
+    },
+    "MODIFIER_PROPERTY_COOLDOWN_PERCENTAGE": {
+        "prefix": "MODIFIER_PROPERTY_COOLDOWN_PERCENTAGE",
+        "body": [
+            "MODIFIER_PROPERTY_COOLDOWN_PERCENTAGE"
+        ],
+        "description": "(66)  GetModifierPercentageCooldown"
+    },
+    "DOTA_HEROPICK_STATE_CM_SELECT2": {
+        "prefix": "DOTA_HEROPICK_STATE_CM_SELECT2",
+        "body": [
+            "DOTA_HEROPICK_STATE_CM_SELECT2"
+        ],
+        "description": "(18) "
+    },
+    "CDebugOverlayScriptHelper:BoxAngles": {
+        "prefix": "BoxAngles",
+        "body": [
+            "BoxAngles( ${Vector_1 Vector}, ${Vector_2 Vector}, ${Vector_3 Vector}, ${Quaternion_4 Quaternion}, ${int_5 int}, ${int_6 int}, ${int_7 int}, ${int_8 int}, ${bool_9 bool}, ${float_10 float} )"
+        ],
+        "description": "Draws an oriented box at the origin. Specify bounds in local space."
+    },
+    "DOTA_ABILITY_SPEAK_START_ACTION_PHASE": {
+        "prefix": "DOTA_ABILITY_SPEAK_START_ACTION_PHASE",
+        "body": [
+            "DOTA_ABILITY_SPEAK_START_ACTION_PHASE"
+        ],
+        "description": "(0) "
+    },
+    "MODIFIER_ATTRIBUTE_IGNORE_INVULNERABLE": {
+        "prefix": "MODIFIER_ATTRIBUTE_IGNORE_INVULNERABLE",
+        "body": [
+            "MODIFIER_ATTRIBUTE_IGNORE_INVULNERABLE"
+        ],
+        "description": "(4) "
+    },
+    "DOTA_HEROPICK_STATE_CD_BAN6": {
+        "prefix": "DOTA_HEROPICK_STATE_CD_BAN6",
+        "body": [
+            "DOTA_HEROPICK_STATE_CD_BAN6"
+        ],
+        "description": "(38) "
+    },
+    "DOTA_HEROPICK_STATE_CM_SELECT10": {
+        "prefix": "DOTA_HEROPICK_STATE_CM_SELECT10",
+        "body": [
+            "DOTA_HEROPICK_STATE_CM_SELECT10"
+        ],
+        "description": "(26) "
+    },
+    "C_DOTA_BaseNPC:GetAttackSpeed": {
+        "prefix": "GetAttackSpeed",
+        "body": [
+            "GetAttackSpeed(  )"
+        ],
+        "description": ""
+    },
+    "MODIFIER_STATE_PROVIDES_VISION": {
+        "prefix": "MODIFIER_STATE_PROVIDES_VISION",
+        "body": [
+            "MODIFIER_STATE_PROVIDES_VISION"
+        ],
+        "description": "(10) "
+    },
+    "CDebugOverlayScriptHelper:Cross": {
+        "prefix": "Cross",
+        "body": [
+            "Cross( ${Vector_1 Vector}, ${float_2 float}, ${int_3 int}, ${int_4 int}, ${int_5 int}, ${int_6 int}, ${bool_7 bool}, ${float_8 float} )"
+        ],
+        "description": "Draws a screen-aligned cross. Specify origin in world space."
+    },
+    "C_DOTA_Item:IsPurchasable": {
+        "prefix": "IsPurchasable",
+        "body": [
+            "IsPurchasable(  )"
+        ],
+        "description": ""
+    },
+    "MODIFIER_PROPERTY_PROCATTACK_BONUS_DAMAGE_MAGICAL": {
+        "prefix": "MODIFIER_PROPERTY_PROCATTACK_BONUS_DAMAGE_MAGICAL",
+        "body": [
+            "MODIFIER_PROPERTY_PROCATTACK_BONUS_DAMAGE_MAGICAL"
+        ],
+        "description": "(4)  GetModifierProcAttack_BonusDamage_Magical"
+    },
+    "MODIFIER_PROPERTY_MOVESPEED_LIMIT": {
+        "prefix": "MODIFIER_PROPERTY_MOVESPEED_LIMIT",
+        "body": [
+            "MODIFIER_PROPERTY_MOVESPEED_LIMIT"
+        ],
+        "description": "(17)  GetModifierMoveSpeed_Limit"
+    },
+    "DOTA_TEAM_CUSTOM_MIN": {
+        "prefix": "DOTA_TEAM_CUSTOM_MIN",
+        "body": [
+            "DOTA_TEAM_CUSTOM_MIN"
+        ],
+        "description": "(6) "
+    },
+    "MODIFIER_PROPERTY_STATS_AGILITY_BONUS": {
+        "prefix": "MODIFIER_PROPERTY_STATS_AGILITY_BONUS",
+        "body": [
+            "MODIFIER_PROPERTY_STATS_AGILITY_BONUS"
+        ],
+        "description": "(58)  GetModifierBonusStats_Agility"
+    },
+    "C_DOTA_BaseNPC:IsOther": {
+        "prefix": "IsOther",
+        "body": [
+            "IsOther(  )"
+        ],
+        "description": "Is this unit a ward-type unit?"
+    },
+    "MODIFIER_PROPERTY_MOVESPEED_ABSOLUTE_MIN": {
+        "prefix": "MODIFIER_PROPERTY_MOVESPEED_ABSOLUTE_MIN",
+        "body": [
+            "MODIFIER_PROPERTY_MOVESPEED_ABSOLUTE_MIN"
+        ],
+        "description": "(16)  GetModifierMoveSpeed_AbsoluteMin"
+    },
+    "MODIFIER_STATE_MAGIC_IMMUNE": {
+        "prefix": "MODIFIER_STATE_MAGIC_IMMUNE",
+        "body": [
+            "MODIFIER_STATE_MAGIC_IMMUNE"
+        ],
+        "description": "(9) "
+    },
+    "DOTA_UNIT_TARGET_FLAG_MELEE_ONLY": {
+        "prefix": "DOTA_UNIT_TARGET_FLAG_MELEE_ONLY",
+        "body": [
+            "DOTA_UNIT_TARGET_FLAG_MELEE_ONLY"
+        ],
+        "description": "(4) "
+    },
+    "DOTA_MAX_SPECTATOR_TEAM_SIZE": {
+        "prefix": "DOTA_MAX_SPECTATOR_TEAM_SIZE",
+        "body": [
+            "DOTA_MAX_SPECTATOR_TEAM_SIZE"
+        ],
+        "description": "(40)  How many spectators can watch."
+    },
+    "CDebugOverlayScriptHelper:Circle": {
+        "prefix": "Circle",
+        "body": [
+            "Circle( ${Vector_1 Vector}, ${Quaternion_2 Quaternion}, ${float_3 float}, ${int_4 int}, ${int_5 int}, ${int_6 int}, ${int_7 int}, ${bool_8 bool}, ${float_9 float} )"
+        ],
+        "description": "Draws a circle. Specify center in world space."
+    },
+    "CBodyComponent:SetMaterialGroup": {
+        "prefix": "SetMaterialGroup",
+        "body": [
+            "SetMaterialGroup( ${utlstringtoken_1 utlstringtoken} )"
+        ],
+        "description": ""
+    },
+    "UnloadSpawnGroup": {
+        "prefix": "UnloadSpawnGroup",
+        "body": [
+            "UnloadSpawnGroup( ${string_1 string} )"
+        ],
+        "description": "Unload a spawn group by name"
+    },
+    "DOTA_HEROPICK_STATE_FH_SELECT": {
+        "prefix": "DOTA_HEROPICK_STATE_FH_SELECT",
+        "body": [
+            "DOTA_HEROPICK_STATE_FH_SELECT"
+        ],
+        "description": "(30) "
+    },
+    "DOTA_ABILITY_BEHAVIOR_AOE": {
+        "prefix": "DOTA_ABILITY_BEHAVIOR_AOE",
+        "body": [
+            "DOTA_ABILITY_BEHAVIOR_AOE"
+        ],
+        "description": "(32) "
+    },
+    "CDebugOverlayScriptHelper:EntityText": {
+        "prefix": "EntityText",
+        "body": [
+            "EntityText( ${ehandle_1 ehandle}, ${int_2 int}, ${string_3 string}, ${int_4 int}, ${int_5 int}, ${int_6 int}, ${int_7 int}, ${float_8 float} )"
+        ],
+        "description": "Draws text on an entity"
+    },
+    "DoScriptAssert": {
+        "prefix": "DoScriptAssert",
+        "body": [
+            "DoScriptAssert( ${bool_1 bool}, ${string_2 string} )"
+        ],
+        "description": "#ScriptAssert:Asserts the passed in value. Prints out a message and brings up the assert dialog."
+    },
+    "MODIFIER_PROPERTY_BONUS_VISION_PERCENTAGE": {
+        "prefix": "MODIFIER_PROPERTY_BONUS_VISION_PERCENTAGE",
+        "body": [
+            "MODIFIER_PROPERTY_BONUS_VISION_PERCENTAGE"
+        ],
+        "description": "(83)  GetBonusVisionPercentage"
+    },
+    "CDOTA_Buff:AddParticle": {
+        "prefix": "AddParticle",
+        "body": [
+            "AddParticle( ${i int}, ${bDestroyImmediately bool}, ${bStatusEffect bool}, ${iPriority int}, ${bHeroEffect bool}, ${bOverheadEffect bool} )"
+        ],
+        "description": "(index, bDestroyImmediately, bStatusEffect, priority, bHeroEffect, bOverheadEffect"
+    },
+    "C_DOTA_BaseNPC:IsFort": {
+        "prefix": "IsFort",
+        "body": [
+            "IsFort(  )"
+        ],
+        "description": "Is this unit an Ancient?"
+    },
+    "MODIFIER_PROPERTY_HEALTH_REGEN_PERCENTAGE": {
+        "prefix": "MODIFIER_PROPERTY_HEALTH_REGEN_PERCENTAGE",
+        "body": [
+            "MODIFIER_PROPERTY_HEALTH_REGEN_PERCENTAGE"
+        ],
+        "description": "(50)  GetModifierHealthRegenPercentage"
+    },
+    "DOTA_ABILITY_BEHAVIOR_OPTIONAL_NO_TARGET": {
+        "prefix": "DOTA_ABILITY_BEHAVIOR_OPTIONAL_NO_TARGET",
+        "body": [
+            "DOTA_ABILITY_BEHAVIOR_OPTIONAL_NO_TARGET"
+        ],
+        "description": "(32768) "
+    },
+    "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET": {
+        "prefix": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+        "body": [
+            "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+        ],
+        "description": "(8) "
+    },
+    "C_DOTA_Ability_Lua:CastFilterResultLocation": {
+        "prefix": "CastFilterResultLocation",
+        "body": [
+            "CastFilterResultLocation( ${vLocation Vector} )"
+        ],
+        "description": "(Vector vLocation) Determine whether an issued command on a location is valid."
+    },
+    "CDebugOverlayScriptHelper:HorzArrow": {
+        "prefix": "HorzArrow",
+        "body": [
+            "HorzArrow( ${Vector_1 Vector}, ${Vector_2 Vector}, ${float_3 float}, ${int_4 int}, ${int_5 int}, ${int_6 int}, ${int_7 int}, ${bool_8 bool}, ${float_9 float} )"
+        ],
+        "description": "Draws a horizontal arrow. Specify endpoints in world space."
+    },
+    "UF_SUCCESS": {
+        "prefix": "UF_SUCCESS",
+        "body": [
+            "UF_SUCCESS"
+        ],
+        "description": "(0) "
+    },
+    "MODIFIER_PROPERTY_ABSORB_SPELL": {
+        "prefix": "MODIFIER_PROPERTY_ABSORB_SPELL",
+        "body": [
+            "MODIFIER_PROPERTY_ABSORB_SPELL"
+        ],
+        "description": "(77)  GetAbsorbSpell"
+    },
+    "RotateQuaternionByAxisAngle": {
+        "prefix": "RotateQuaternionByAxisAngle",
+        "body": [
+            "RotateQuaternionByAxisAngle( ${Quaternion_1 Quaternion}, ${Vector_2 Vector}, ${float_3 float} )"
+        ],
+        "description": "(quaternion,vector,float) rotates a quaternion by the specified angle around the specified vector axis"
+    },
+    "C_DOTA_Ability_Lua:GetAOERadius": {
+        "prefix": "GetAOERadius",
+        "body": [
+            "GetAOERadius(  )"
+        ],
+        "description": "Controls the size of the AOE casting cursor."
+    },
+    "DOTA_HEROPICK_STATE_AR_SELECT": {
+        "prefix": "DOTA_HEROPICK_STATE_AR_SELECT",
+        "body": [
+            "DOTA_HEROPICK_STATE_AR_SELECT"
+        ],
+        "description": "(28) "
+    },
+    "MODIFIER_EVENT_ON_HERO_KILLED": {
+        "prefix": "MODIFIER_EVENT_ON_HERO_KILLED",
+        "body": [
+            "MODIFIER_EVENT_ON_HERO_KILLED"
+        ],
+        "description": "(128)  OnHeroKilled"
+    },
+    "C_DOTA_Modifier_Lua:GetAuraDuration": {
+        "prefix": "GetAuraDuration",
+        "body": [
+            "GetAuraDuration(  )"
+        ],
+        "description": "Returns aura stickiness"
+    },
+    "DOTA_HEROPICK_STATE_CM_BAN9": {
+        "prefix": "DOTA_HEROPICK_STATE_CM_BAN9",
+        "body": [
+            "DOTA_HEROPICK_STATE_CM_BAN9"
+        ],
+        "description": "(15) "
+    },
+    "C_DOTA_Modifier_Lua:IsPurgeException": {
+        "prefix": "IsPurgeException",
+        "body": [
+            "IsPurgeException(  )"
+        ],
+        "description": "True/false if this modifier can be purged by strong dispels."
+    },
+    "MODIFIER_EVENT_ON_REFRESH": {
+        "prefix": "MODIFIER_EVENT_ON_REFRESH",
+        "body": [
+            "MODIFIER_EVENT_ON_REFRESH"
+        ],
+        "description": "(114) "
+    },
+    "C_DOTA_BaseNPC:GetPhysicalArmorBaseValue": {
+        "prefix": "GetPhysicalArmorBaseValue",
+        "body": [
+            "GetPhysicalArmorBaseValue(  )"
+        ],
+        "description": "Returns base physical armor value."
+    },
+    "CDOTA_Buff:GetDuration": {
+        "prefix": "GetDuration",
+        "body": [
+            "GetDuration(  )"
+        ],
+        "description": ""
+    },
+    "UnloadSpawnGroupByHandle": {
+        "prefix": "UnloadSpawnGroupByHandle",
+        "body": [
+            "UnloadSpawnGroupByHandle( ${int_1 int} )"
+        ],
+        "description": "Unload a spawn group by handle"
+    },
+    "EmitSoundOn": {
+        "prefix": "EmitSoundOn",
+        "body": [
+            "EmitSoundOn( ${string_1 string}, ${handle_2 handle} )"
+        ],
+        "description": "Play named sound on Entity"
+    },
+    "CDOTA_Modifier_Lua_Horizontal_Motion:UpdateHorizontalMotion": {
+        "prefix": "UpdateHorizontalMotion",
+        "body": [
+            "UpdateHorizontalMotion( ${me handle}, ${dt float} )"
+        ],
+        "description": "Perform any motion from the given interval on the NPC."
+    },
+    "MODIFIER_PROPERTY_DISABLE_AUTOATTACK": {
+        "prefix": "MODIFIER_PROPERTY_DISABLE_AUTOATTACK",
+        "body": [
+            "MODIFIER_PROPERTY_DISABLE_AUTOATTACK"
+        ],
+        "description": "(79)  GetDisableAutoAttack"
+    },
+    "DOTA_TEAM_CUSTOM_4": {
+        "prefix": "DOTA_TEAM_CUSTOM_4",
+        "body": [
+            "DOTA_TEAM_CUSTOM_4"
+        ],
+        "description": "(9) "
+    },
+    "C_DOTA_Modifier_Lua:GetEffectName": {
+        "prefix": "GetEffectName",
+        "body": [
+            "GetEffectName(  )"
+        ],
+        "description": "Return the name of the particle system that is created while this modifier is active."
+    },
+    "cvar_setf": {
+        "prefix": "cvar_setf",
+        "body": [
+            "cvar_setf( ${string_1 string}, ${float_2 float} )"
+        ],
+        "description": "Sets the value of the given cvar, as a float."
+    },
+    "C_DOTA_BaseNPC:HasMovementCapability": {
+        "prefix": "HasMovementCapability",
+        "body": [
+            "HasMovementCapability(  )"
+        ],
+        "description": ""
+    },
+    "CEntityInstance:GetOrCreatePrivateScriptScope": {
+        "prefix": "GetOrCreatePrivateScriptScope",
+        "body": [
+            "GetOrCreatePrivateScriptScope(  )"
+        ],
+        "description": "Retrieve, creating if necessary, the private per-instance script-side data associated with an entity"
+    },
+    "StopEffect": {
+        "prefix": "StopEffect",
+        "body": [
+            "StopEffect( ${handle_1 handle}, ${string_2 string} )"
+        ],
+        "description": "Pass entity and effect name"
+    },
+    "CDebugOverlayScriptHelper:Triangle": {
+        "prefix": "Triangle",
+        "body": [
+            "Triangle( ${Vector_1 Vector}, ${Vector_2 Vector}, ${Vector_3 Vector}, ${int_4 int}, ${int_5 int}, ${int_6 int}, ${int_7 int}, ${bool_8 bool}, ${float_9 float} )"
+        ],
+        "description": "Draws a filled triangle. Specify vertices in world space."
+    },
+    "DOTA_DEFAULT_MAX_TEAM": {
+        "prefix": "DOTA_DEFAULT_MAX_TEAM",
+        "body": [
+            "DOTA_DEFAULT_MAX_TEAM"
+        ],
+        "description": "(5)  Default number of players per team."
+    },
+    "StartSoundEventFromPosition": {
+        "prefix": "StartSoundEventFromPosition",
+        "body": [
+            "StartSoundEventFromPosition( ${string_1 string}, ${Vector_2 Vector} )"
+        ],
+        "description": "Start a sound event from position"
+    },
+    "C_DOTA_BaseNPC:GetBaseMoveSpeed": {
+        "prefix": "GetBaseMoveSpeed",
+        "body": [
+            "GetBaseMoveSpeed(  )"
+        ],
+        "description": ""
+    },
+    "MODIFIER_PROPERTY_EXTRA_HEALTH_PERCENTAGE": {
+        "prefix": "MODIFIER_PROPERTY_EXTRA_HEALTH_PERCENTAGE",
+        "body": [
+            "MODIFIER_PROPERTY_EXTRA_HEALTH_PERCENTAGE"
+        ],
+        "description": "(56)  GetModifierExtraHealthPercentage"
+    },
+    "C_DOTA_BaseNPC:IsSilenced": {
+        "prefix": "IsSilenced",
+        "body": [
+            "IsSilenced(  )"
+        ],
+        "description": ""
+    },
+    "CEntityInstance:GetPrivateScriptScope": {
+        "prefix": "GetPrivateScriptScope",
+        "body": [
+            "GetPrivateScriptScope(  )"
+        ],
+        "description": "Retrieve the private per-instance script-side data associated with an entity"
+    },
+    "DOTA_RUNE_INVALID": {
+        "prefix": "DOTA_RUNE_INVALID",
+        "body": [
+            "DOTA_RUNE_INVALID"
+        ],
+        "description": "(-1) "
+    },
+    "CBodyComponent:SetVelocity": {
+        "prefix": "SetVelocity",
+        "body": [
+            "SetVelocity( ${Vector_1 Vector} )"
+        ],
+        "description": ""
+    },
+    "DOTA_UNIT_TARGET_FLAG_NONE": {
+        "prefix": "DOTA_UNIT_TARGET_FLAG_NONE",
+        "body": [
+            "DOTA_UNIT_TARGET_FLAG_NONE"
+        ],
+        "description": "(0) "
+    },
+    "Convars:GetInt": {
+        "prefix": "GetInt",
+        "body": [
+            "GetInt( ${string_1 string} )"
+        ],
+        "description": "GetInt(name) : returns the convar as an int. May return null if no such convar."
+    },
+    "CDebugOverlayScriptHelper:EntitySkeleton": {
+        "prefix": "EntitySkeleton",
+        "body": [
+            "EntitySkeleton( ${ehandle_1 ehandle}, ${float_2 float} )"
+        ],
+        "description": "Draws the skeleton of the entity"
+    },
+    "C_DOTABaseAbility:GetLevel": {
+        "prefix": "GetLevel",
+        "body": [
+            "GetLevel(  )"
+        ],
+        "description": "Return the level of the ability"
+    },
+    "C_DOTA_BaseNPC:GetMoveSpeedModifier": {
+        "prefix": "GetMoveSpeedModifier",
+        "body": [
+            "GetMoveSpeedModifier( ${flBaseSpeed float} )"
+        ],
+        "description": ""
+    },
+    "GetMapName": {
+        "prefix": "GetMapName",
+        "body": [
+            "GetMapName(  )"
+        ],
+        "description": "Get the name of the map."
+    },
+    "MODIFIER_EVENT_ON_TELEPORTED": {
+        "prefix": "MODIFIER_EVENT_ON_TELEPORTED",
+        "body": [
+            "MODIFIER_EVENT_ON_TELEPORTED"
+        ],
+        "description": "(123)  OnTeleported"
+    },
+    "C_DOTA_BaseNPC:IsRangedAttacker": {
+        "prefix": "IsRangedAttacker",
+        "body": [
+            "IsRangedAttacker(  )"
+        ],
+        "description": "Is this unit a ranged attacker?"
+    },
+    "C_DOTA_Modifier_Lua:GetAuraSearchType": {
+        "prefix": "GetAuraSearchType",
+        "body": [
+            "GetAuraSearchType(  )"
+        ],
+        "description": "Return the unit classifications this aura applies its buff to."
+    },
+    "MODIFIER_PROPERTY_PREATTACK_CRITICALSTRIKE": {
+        "prefix": "MODIFIER_PROPERTY_PREATTACK_CRITICALSTRIKE",
+        "body": [
+            "MODIFIER_PROPERTY_PREATTACK_CRITICALSTRIKE"
+        ],
+        "description": "(70)  GetModifierPreAttack_CriticalStrike"
+    },
+    "C_DOTA_BaseNPC:GetMaxMana": {
+        "prefix": "GetMaxMana",
+        "body": [
+            "GetMaxMana(  )"
+        ],
+        "description": "Get the maximum mana of this unit."
+    },
+    "CDOTA_Buff:GetCaster": {
+        "prefix": "GetCaster",
+        "body": [
+            "GetCaster(  )"
+        ],
+        "description": "Get the owner of the ability responsible for the modifier."
+    },
+    "LUA_MODIFIER_MOTION_NONE": {
+        "prefix": "LUA_MODIFIER_MOTION_NONE",
+        "body": [
+            "LUA_MODIFIER_MOTION_NONE"
+        ],
+        "description": "(0) "
+    },
+    "DOTA_SPEECH_USER_NEARBY": {
+        "prefix": "DOTA_SPEECH_USER_NEARBY",
+        "body": [
+            "DOTA_SPEECH_USER_NEARBY"
+        ],
+        "description": "(4) "
+    },
+    "DOTA_ABILITY_BEHAVIOR_OPTIONAL_UNIT_TARGET": {
+        "prefix": "DOTA_ABILITY_BEHAVIOR_OPTIONAL_UNIT_TARGET",
+        "body": [
+            "DOTA_ABILITY_BEHAVIOR_OPTIONAL_UNIT_TARGET"
+        ],
+        "description": "(8192) "
+    },
+    "DOTA_HEROPICK_STATE_MO_SELECT": {
+        "prefix": "DOTA_HEROPICK_STATE_MO_SELECT",
+        "body": [
+            "DOTA_HEROPICK_STATE_MO_SELECT"
+        ],
+        "description": "(29) "
+    },
+    "DOTA_HEROPICK_STATE_CM_SELECT7": {
+        "prefix": "DOTA_HEROPICK_STATE_CM_SELECT7",
+        "body": [
+            "DOTA_HEROPICK_STATE_CM_SELECT7"
+        ],
+        "description": "(23) "
+    },
+    "UF_FAIL_OTHER": {
+        "prefix": "UF_FAIL_OTHER",
+        "body": [
+            "UF_FAIL_OTHER"
+        ],
+        "description": "(9) "
+    },
+    "C_DOTA_BaseNPC:IsSummoned": {
+        "prefix": "IsSummoned",
+        "body": [
+            "IsSummoned(  )"
+        ],
+        "description": "Is this unit summoned?"
+    },
+    "DOTA_HEROPICK_STATE_CD_SELECT3": {
+        "prefix": "DOTA_HEROPICK_STATE_CD_SELECT3",
+        "body": [
+            "DOTA_HEROPICK_STATE_CD_SELECT3"
+        ],
+        "description": "(41) "
+    },
+    "FrameTime": {
+        "prefix": "FrameTime",
+        "body": [
+            "FrameTime(  )"
+        ],
+        "description": "Get the time spent on the server in the last frame"
+    },
+    "DOTA_ABILITY_BEHAVIOR_AUTOCAST": {
+        "prefix": "DOTA_ABILITY_BEHAVIOR_AUTOCAST",
+        "body": [
+            "DOTA_ABILITY_BEHAVIOR_AUTOCAST"
+        ],
+        "description": "(4096) "
+    },
+    "CEntityInstance:Destroy": {
+        "prefix": "Destroy",
+        "body": [
+            "Destroy(  )"
+        ],
+        "description": ""
+    },
+    "MODIFIER_FUNCTION_LAST": {
+        "prefix": "MODIFIER_FUNCTION_LAST",
+        "body": [
+            "MODIFIER_FUNCTION_LAST"
+        ],
+        "description": "(149) "
+    },
+    "C_DOTA_BaseNPC:IsBlind": {
+        "prefix": "IsBlind",
+        "body": [
+            "IsBlind(  )"
+        ],
+        "description": ""
+    },
+    "C_DOTA_Modifier_Lua:GetTexture": {
+        "prefix": "GetTexture",
+        "body": [
+            "GetTexture(  )"
+        ],
+        "description": "Return the name of the buff icon to be shown for this modifier."
+    },
+    "GetPhysVelocity": {
+        "prefix": "GetPhysVelocity",
+        "body": [
+            "GetPhysVelocity( ${handle_1 handle} )"
+        ],
+        "description": "Get Velocity for VPHYS or normal object"
+    },
+    "C_DOTA_BaseNPC:HasItemInInventory": {
+        "prefix": "HasItemInInventory",
+        "body": [
+            "HasItemInInventory( ${pItemName string} )"
+        ],
+        "description": "See whether this unit has an item by name."
+    },
+    "C_DOTA_Item:IsRecipe": {
+        "prefix": "IsRecipe",
+        "body": [
+            "IsRecipe(  )"
+        ],
+        "description": ""
+    },
+    "C_DOTA_Modifier_Lua:GetEffectAttachType": {
+        "prefix": "GetEffectAttachType",
+        "body": [
+            "GetEffectAttachType(  )"
+        ],
+        "description": "Return the attach type of the particle system from GetEffectName."
+    },
+    "MODIFIER_PROPERTY_MODEL_SCALE": {
+        "prefix": "MODIFIER_PROPERTY_MODEL_SCALE",
+        "body": [
+            "MODIFIER_PROPERTY_MODEL_SCALE"
+        ],
+        "description": "(134)  GetModifierModelScale"
+    },
+    "C_DOTA_BaseNPC:IsInventoryEnabled": {
+        "prefix": "IsInventoryEnabled",
+        "body": [
+            "IsInventoryEnabled(  )"
+        ],
+        "description": "Does this unit have an inventory."
+    },
+    "DOTA_UNIT_TARGET_TEAM_ENEMY": {
+        "prefix": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+        "body": [
+            "DOTA_UNIT_TARGET_TEAM_ENEMY"
+        ],
+        "description": "(2) "
+    },
+    "MODIFIER_PROPERTY_MANA_REGEN_PERCENTAGE": {
+        "prefix": "MODIFIER_PROPERTY_MANA_REGEN_PERCENTAGE",
+        "body": [
+            "MODIFIER_PROPERTY_MANA_REGEN_PERCENTAGE"
+        ],
+        "description": "(47)  GetModifierPercentageManaRegen"
+    },
+    "CEntityInstance:GetEntityIndex": {
+        "prefix": "GetEntityIndex",
+        "body": [
+            "GetEntityIndex(  )"
+        ],
+        "description": ""
+    },
+    "CDebugOverlayScriptHelper:PushDebugOverlayScope": {
+        "prefix": "PushDebugOverlayScope",
+        "body": [
+            "PushDebugOverlayScope( ${utlstringtoken_1 utlstringtoken} )"
+        ],
+        "description": "Pushes an identifier used to group overlays. Overlays marked with this identifier can be deleted in a big batch."
+    },
+    "UF_FAIL_MAGIC_IMMUNE_ALLY": {
+        "prefix": "UF_FAIL_MAGIC_IMMUNE_ALLY",
+        "body": [
+            "UF_FAIL_MAGIC_IMMUNE_ALLY"
+        ],
+        "description": "(17) "
+    },
+    "MODIFIER_PROPERTY_DISABLE_TURNING": {
+        "prefix": "MODIFIER_PROPERTY_DISABLE_TURNING",
+        "body": [
+            "MODIFIER_PROPERTY_DISABLE_TURNING"
+        ],
+        "description": "(142)  GetModifierDisableTurning"
+    },
+    "C_DOTA_Item_Lua:CastFilterResultLocation": {
+        "prefix": "CastFilterResultLocation",
+        "body": [
+            "CastFilterResultLocation( ${vLocation Vector} )"
+        ],
+        "description": "(Vector vLocation) Determine whether an issued command on a location is valid."
+    },
+    "DOTA_HEROPICK_STATE_CM_BAN4": {
+        "prefix": "DOTA_HEROPICK_STATE_CM_BAN4",
+        "body": [
+            "DOTA_HEROPICK_STATE_CM_BAN4"
+        ],
+        "description": "(10) "
+    },
+    "DOTA_ABILITY_BEHAVIOR_RUNE_TARGET": {
+        "prefix": "DOTA_ABILITY_BEHAVIOR_RUNE_TARGET",
+        "body": [
+            "DOTA_ABILITY_BEHAVIOR_RUNE_TARGET"
+        ],
+        "description": "(268435456) "
+    },
+    "C_DOTA_Item_Lua:CastFilterResultTarget": {
+        "prefix": "CastFilterResultTarget",
+        "body": [
+            "CastFilterResultTarget( ${hTarget handle} )"
+        ],
+        "description": "(HSCRIPT hTarget) Determine whether an issued command on a target is valid."
+    },
+    "MODIFIER_PROPERTY_ILLUSION_LABEL": {
+        "prefix": "MODIFIER_PROPERTY_ILLUSION_LABEL",
+        "body": [
+            "MODIFIER_PROPERTY_ILLUSION_LABEL"
+        ],
+        "description": "(91)  GetModifierIllusionLabel"
+    },
+    "UF_FAIL_DOMINATED": {
+        "prefix": "UF_FAIL_DOMINATED",
+        "body": [
+            "UF_FAIL_DOMINATED"
+        ],
+        "description": "(13) "
+    },
+    "DOTA_ABILITY_BEHAVIOR_CHANNELLED": {
+        "prefix": "DOTA_ABILITY_BEHAVIOR_CHANNELLED",
+        "body": [
+            "DOTA_ABILITY_BEHAVIOR_CHANNELLED"
+        ],
+        "description": "(128) "
+    },
+    "AxisAngleToQuaternion": {
+        "prefix": "AxisAngleToQuaternion",
+        "body": [
+            "AxisAngleToQuaternion( ${Vector_1 Vector}, ${float_2 float} )"
+        ],
+        "description": "(vector,float) constructs a quaternion representing a rotation by angle around the specified vector axis"
+    },
+    "DOTA_HEROPICK_STATE_CM_BAN10": {
+        "prefix": "DOTA_HEROPICK_STATE_CM_BAN10",
+        "body": [
+            "DOTA_HEROPICK_STATE_CM_BAN10"
+        ],
+        "description": "(16) "
+    },
+    "DOTA_ABILITY_BEHAVIOR_DONT_ALERT_TARGET": {
+        "prefix": "DOTA_ABILITY_BEHAVIOR_DONT_ALERT_TARGET",
+        "body": [
+            "DOTA_ABILITY_BEHAVIOR_DONT_ALERT_TARGET"
+        ],
+        "description": "(16777216) "
+    },
+    "C_DOTA_BaseNPC:IsHero": {
+        "prefix": "IsHero",
+        "body": [
+            "IsHero(  )"
+        ],
+        "description": "Is this a hero or hero illusion?"
+    },
+    "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE": {
+        "prefix": "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE",
+        "body": [
+            "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE"
+        ],
+        "description": "(0)  GetModifierPreAttack_BonusDamage"
+    },
+    "MODIFIER_FUNCTION_INVALID": {
+        "prefix": "MODIFIER_FUNCTION_INVALID",
+        "body": [
+            "MODIFIER_FUNCTION_INVALID"
+        ],
+        "description": "(255) "
+    },
+    "DOTA_HEROPICK_STATE_CM_SELECT1": {
+        "prefix": "DOTA_HEROPICK_STATE_CM_SELECT1",
+        "body": [
+            "DOTA_HEROPICK_STATE_CM_SELECT1"
+        ],
+        "description": "(17) "
+    },
+    "C_DOTA_Modifier_Lua:OnDestroy": {
+        "prefix": "OnDestroy",
+        "body": [
+            "OnDestroy(  )"
+        ],
+        "description": "Runs when the modifier is destroyed."
+    },
+    "CDOTA_Buff:GetRemainingTime": {
+        "prefix": "GetRemainingTime",
+        "body": [
+            "GetRemainingTime(  )"
+        ],
+        "description": ""
+    },
+    "MODIFIER_PROPERTY_IGNORE_CAST_ANGLE": {
+        "prefix": "MODIFIER_PROPERTY_IGNORE_CAST_ANGLE",
+        "body": [
+            "MODIFIER_PROPERTY_IGNORE_CAST_ANGLE"
+        ],
+        "description": "(143)  GetModifierIgnoreCastAngle"
+    },
+    "Convars:SetStr": {
+        "prefix": "SetStr",
+        "body": [
+            "SetStr( ${string_1 string}, ${string_2 string} )"
+        ],
+        "description": "SetStr(name, val) : sets the value of the convar to the string."
+    },
+    "Msg": {
+        "prefix": "Msg",
+        "body": [
+            "Msg( ${string_1 string} )"
+        ],
+        "description": "Print a message"
+    },
+    "C_DOTA_BaseNPC:IsRealHero": {
+        "prefix": "IsRealHero",
+        "body": [
+            "IsRealHero(  )"
+        ],
+        "description": "Is this unit a boss?"
+    },
+    "SplineVectors": {
+        "prefix": "SplineVectors",
+        "body": [
+            "SplineVectors( ${Vector_1 Vector}, ${Vector_2 Vector}, ${float_3 float} )"
+        ],
+        "description": "(vector,vector,float) very basic interpolation of v0 to v1 over t on [0,1]"
+    },
+    "MODIFIER_STATE_HEXED": {
+        "prefix": "MODIFIER_STATE_HEXED",
+        "body": [
+            "MODIFIER_STATE_HEXED"
+        ],
+        "description": "(6) "
+    },
+    "MODIFIER_PROPERTY_TOOLTIP": {
+        "prefix": "MODIFIER_PROPERTY_TOOLTIP",
+        "body": [
+            "MODIFIER_PROPERTY_TOOLTIP"
+        ],
+        "description": "(132)  OnTooltip"
+    },
+    "FireEntityIOInputVec": {
+        "prefix": "FireEntityIOInputVec",
+        "body": [
+            "FireEntityIOInputVec( ${ehandle_1 ehandle}, ${string_2 string}, ${Vector_3 Vector} )"
+        ],
+        "description": "Fire Entity's Action Input with passed Vector - you own the memory"
+    },
+    "C_DOTA_BaseNPC:GetNightTimeVisionRange": {
+        "prefix": "GetNightTimeVisionRange",
+        "body": [
+            "GetNightTimeVisionRange(  )"
+        ],
+        "description": "Returns the vision range after modifiers."
+    },
+    "PATTACH_CUSTOMORIGIN": {
+        "prefix": "PATTACH_CUSTOMORIGIN",
+        "body": [
+            "PATTACH_CUSTOMORIGIN"
+        ],
+        "description": "(2) "
+    },
+    "MODIFIER_PROPERTY_HEALTH_BONUS": {
+        "prefix": "MODIFIER_PROPERTY_HEALTH_BONUS",
+        "body": [
+            "MODIFIER_PROPERTY_HEALTH_BONUS"
+        ],
+        "description": "(51)  GetModifierHealthBonus"
+    },
+    "RotatePosition": {
+        "prefix": "RotatePosition",
+        "body": [
+            "RotatePosition( ${Vector_1 Vector}, ${QAngle_2 QAngle}, ${Vector_3 Vector} )"
+        ],
+        "description": "Rotate a Vector around a point."
+    },
+    "CDOTA_Buff:Destroy": {
+        "prefix": "Destroy",
+        "body": [
+            "Destroy(  )"
+        ],
+        "description": "Run all associated destroy functions, then remove the modifier."
+    },
+    "DoUniqueString": {
+        "prefix": "DoUniqueString",
+        "body": [
+            "DoUniqueString( ${string_1 string} )"
+        ],
+        "description": "#UniqueString:Generate a string guaranteed to be unique across the life of the script VM, with an optional root string. Useful for adding data to tables when not sure what keys are already in use in that table."
+    },
+    "CPhysicsComponent:ExpensiveInstantRayCast": {
+        "prefix": "ExpensiveInstantRayCast",
+        "body": [
+            "ExpensiveInstantRayCast( ${Vector_1 Vector}, ${Vector_2 Vector}, ${handle_3 handle} )"
+        ],
+        "description": "Do an instant (i.e. blocking) Ray Cast. Will do a handle/queue version later. Dont plan to use this for real!"
+    },
+    "DOTA_HEROPICK_STATE_CM_INTRO": {
+        "prefix": "DOTA_HEROPICK_STATE_CM_INTRO",
+        "body": [
+            "DOTA_HEROPICK_STATE_CM_INTRO"
+        ],
+        "description": "(5) "
+    },
+    "StopListeningToGameEvent": {
+        "prefix": "StopListeningToGameEvent",
+        "body": [
+            "StopListeningToGameEvent( ${int_1 int} )"
+        ],
+        "description": "Stop listening to a particular game event."
+    },
+    "MODIFIER_PROPERTY_TOTAL_CONSTANT_BLOCK": {
+        "prefix": "MODIFIER_PROPERTY_TOTAL_CONSTANT_BLOCK",
+        "body": [
+            "MODIFIER_PROPERTY_TOTAL_CONSTANT_BLOCK"
+        ],
+        "description": "(73)  GetModifierTotal_ConstantBlock"
+    },
+    "CBodyComponent:IsAttachedToParent": {
+        "prefix": "IsAttachedToParent",
+        "body": [
+            "IsAttachedToParent(  )"
+        ],
+        "description": "Is attached to parent"
+    },
+    "UnitFilter": {
+        "prefix": "UnitFilter",
+        "body": [
+            "UnitFilter( ${handle_1 handle}, ${int_2 int}, ${int_3 int}, ${int_4 int}, ${int_5 int} )"
+        ],
+        "description": "Check if a unit passes a set of filters. (hNPC, nTargetTeam, nTargetType, nTargetFlags, nTeam"
+    },
+    "PrecacheEntityFromTable": {
+        "prefix": "PrecacheEntityFromTable",
+        "body": [
+            "PrecacheEntityFromTable( ${string_1 string}, ${handle_2 handle}, ${handle_3 handle} )"
+        ],
+        "description": "Precache an entity from KeyValues in table"
+    },
+    "C_DOTA_BaseNPC:IsOutOfGame": {
+        "prefix": "IsOutOfGame",
+        "body": [
+            "IsOutOfGame(  )"
+        ],
+        "description": ""
+    },
+    "RotationDelta": {
+        "prefix": "RotationDelta",
+        "body": [
+            "RotationDelta( ${QAngle_1 QAngle}, ${QAngle_2 QAngle} )"
+        ],
+        "description": "Find the delta between two QAngles."
+    },
+    "DOTA_HEROPICK_STATE_CM_SELECT4": {
+        "prefix": "DOTA_HEROPICK_STATE_CM_SELECT4",
+        "body": [
+            "DOTA_HEROPICK_STATE_CM_SELECT4"
+        ],
+        "description": "(20) "
+    },
+    "MODIFIER_PROPERTY_DAMAGEOUTGOING_PERCENTAGE": {
+        "prefix": "MODIFIER_PROPERTY_DAMAGEOUTGOING_PERCENTAGE",
+        "body": [
+            "MODIFIER_PROPERTY_DAMAGEOUTGOING_PERCENTAGE"
+        ],
+        "description": "(25)  GetModifierDamageOutgoing_Percentage"
+    },
+    "UF_FAIL_ILLUSION": {
+        "prefix": "UF_FAIL_ILLUSION",
+        "body": [
+            "UF_FAIL_ILLUSION"
+        ],
+        "description": "(11) "
+    },
+    "RandomInt": {
+        "prefix": "RandomInt",
+        "body": [
+            "RandomInt( ${int_1 int}, ${int_2 int} )"
+        ],
+        "description": "Get a random int within a range"
+    },
+    "DOTA_ABILITY_BEHAVIOR_DONT_CANCEL_CHANNEL": {
+        "prefix": "DOTA_ABILITY_BEHAVIOR_DONT_CANCEL_CHANNEL",
+        "body": [
+            "DOTA_ABILITY_BEHAVIOR_DONT_CANCEL_CHANNEL"
+        ],
+        "description": "(536870912) "
+    },
+    "DOTA_ABILITY_BEHAVIOR_DONT_CANCEL_MOVEMENT": {
+        "prefix": "DOTA_ABILITY_BEHAVIOR_DONT_CANCEL_MOVEMENT",
+        "body": [
+            "DOTA_ABILITY_BEHAVIOR_DONT_CANCEL_MOVEMENT"
+        ],
+        "description": "(8388608) "
+    },
+    "LinkLuaModifier": {
+        "prefix": "LinkLuaModifier",
+        "body": [
+            "LinkLuaModifier( ${string_1 string}, ${string_2 string}, ${int_3 int} )"
+        ],
+        "description": "Link a lua-defined modifier with the associated class ( className, fileName, LuaModifierType)."
+    },
+    "MODIFIER_STATE_FLYING_FOR_PATHING_PURPOSES_ONLY": {
+        "prefix": "MODIFIER_STATE_FLYING_FOR_PATHING_PURPOSES_ONLY",
+        "body": [
+            "MODIFIER_STATE_FLYING_FOR_PATHING_PURPOSES_ONLY"
+        ],
+        "description": "(32) "
+    },
+    "C_DOTA_BaseNPC:HasAttackCapability": {
+        "prefix": "HasAttackCapability",
+        "body": [
+            "HasAttackCapability(  )"
+        ],
+        "description": ""
+    },
+    "VectorToAngles": {
+        "prefix": "VectorToAngles",
+        "body": [
+            "VectorToAngles( ${Vector_1 Vector} )"
+        ],
+        "description": "Get Qangles (with no roll) for a Vector."
+    },
+    "C_DOTA_BaseNPC:HasFlyMovementCapability": {
+        "prefix": "HasFlyMovementCapability",
+        "body": [
+            "HasFlyMovementCapability(  )"
+        ],
+        "description": ""
+    },
+    "C_DOTA_Item_Lua:GetChannelTime": {
+        "prefix": "GetChannelTime",
+        "body": [
+            "GetChannelTime(  )"
+        ],
+        "description": "Return the channel time of this ability."
+    },
+    "rr_CommitAIResponse": {
+        "prefix": "rr_CommitAIResponse",
+        "body": [
+            "rr_CommitAIResponse( ${handle_1 handle}, ${handle_2 handle} )"
+        ],
+        "description": "Commit the result of QueryBestResponse back to the given entity to play. Call with params (entity, airesponse)"
+    },
+    "C_DOTA_Item:IsKillable": {
+        "prefix": "IsKillable",
+        "body": [
+            "IsKillable(  )"
+        ],
+        "description": ""
+    },
+    "C_DOTA_Item_Lua:GetCustomCastErrorTarget": {
+        "prefix": "GetCustomCastErrorTarget",
+        "body": [
+            "GetCustomCastErrorTarget( ${hTarget handle} )"
+        ],
+        "description": "(HSCRIPT hTarget) Return the error string of a failed command on a target."
+    },
+    "MODIFIER_PROPERTY_BONUS_NIGHT_VISION_UNIQUE": {
+        "prefix": "MODIFIER_PROPERTY_BONUS_NIGHT_VISION_UNIQUE",
+        "body": [
+            "MODIFIER_PROPERTY_BONUS_NIGHT_VISION_UNIQUE"
+        ],
+        "description": "(82)  GetBonusNightVisionUnique"
+    },
+    "MODIFIER_STATE_STUNNED": {
+        "prefix": "MODIFIER_STATE_STUNNED",
+        "body": [
+            "MODIFIER_STATE_STUNNED"
+        ],
+        "description": "(5) "
+    },
+    "MODIFIER_PROPERTY_INCOMING_PHYSICAL_DAMAGE_PERCENTAGE": {
+        "prefix": "MODIFIER_PROPERTY_INCOMING_PHYSICAL_DAMAGE_PERCENTAGE",
+        "body": [
+            "MODIFIER_PROPERTY_INCOMING_PHYSICAL_DAMAGE_PERCENTAGE"
+        ],
+        "description": "(31)  GetModifierIncomingPhysicalDamage_Percentage"
+    },
+    "MODIFIER_EVENT_ON_SET_LOCATION": {
+        "prefix": "MODIFIER_EVENT_ON_SET_LOCATION",
+        "body": [
+            "MODIFIER_EVENT_ON_SET_LOCATION"
+        ],
+        "description": "(124)  OnSetLocation"
+    },
+    "DOTA_ABILITY_BEHAVIOR_OPTIONAL_POINT": {
+        "prefix": "DOTA_ABILITY_BEHAVIOR_OPTIONAL_POINT",
+        "body": [
+            "DOTA_ABILITY_BEHAVIOR_OPTIONAL_POINT"
+        ],
+        "description": "(16384) "
+    },
+    "DOTA_DEFAULT_MAX_TEAM_PLAYERS": {
+        "prefix": "DOTA_DEFAULT_MAX_TEAM_PLAYERS",
+        "body": [
+            "DOTA_DEFAULT_MAX_TEAM_PLAYERS"
+        ],
+        "description": "(10)  Default number of non-spectator players supported."
+    },
+    "StartSoundEventFromPositionUnreliable": {
+        "prefix": "StartSoundEventFromPositionUnreliable",
+        "body": [
+            "StartSoundEventFromPositionUnreliable( ${string_1 string}, ${Vector_2 Vector} )"
+        ],
+        "description": "Start a sound event from position with optional delivery"
+    },
+    "MODIFIER_EVENT_ON_SPENT_MANA": {
+        "prefix": "MODIFIER_EVENT_ON_SPENT_MANA",
+        "body": [
+            "MODIFIER_EVENT_ON_SPENT_MANA"
+        ],
+        "description": "(121)  OnSpentMana"
+    },
+    "C_DOTA_Modifier_Lua:DestroyOnExpire": {
+        "prefix": "DestroyOnExpire",
+        "body": [
+            "DestroyOnExpire(  )"
+        ],
+        "description": "True/false if this buff is removed when the duration expires."
+    },
+    "DOTA_TEAM_CUSTOM_2": {
+        "prefix": "DOTA_TEAM_CUSTOM_2",
+        "body": [
+            "DOTA_TEAM_CUSTOM_2"
+        ],
+        "description": "(7) "
+    },
+    "MODIFIER_PROPERTY_PROCATTACK_BONUS_DAMAGE_PHYSICAL": {
+        "prefix": "MODIFIER_PROPERTY_PROCATTACK_BONUS_DAMAGE_PHYSICAL",
+        "body": [
+            "MODIFIER_PROPERTY_PROCATTACK_BONUS_DAMAGE_PHYSICAL"
+        ],
+        "description": "(3)  GetModifierProcAttack_BonusDamage_Physical"
+    },
+    "DOTA_HEROPICK_STATE_AP_SELECT": {
+        "prefix": "DOTA_HEROPICK_STATE_AP_SELECT",
+        "body": [
+            "DOTA_HEROPICK_STATE_AP_SELECT"
+        ],
+        "description": "(1) "
+    },
+    "MODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE": {
+        "prefix": "MODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE",
+        "body": [
+            "MODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE"
+        ],
+        "description": "(12)  GetModifierMoveSpeedBonus_Percentage"
+    },
+    "C_DOTA_BaseNPC:IsLowAttackPriority": {
+        "prefix": "IsLowAttackPriority",
+        "body": [
+            "IsLowAttackPriority(  )"
+        ],
+        "description": ""
+    },
+    "DebugDrawBox": {
+        "prefix": "DebugDrawBox",
+        "body": [
+            "DebugDrawBox( ${Vector_1 Vector}, ${Vector_2 Vector}, ${Vector_3 Vector}, ${int_4 int}, ${int_5 int}, ${int_6 int}, ${int_7 int}, ${float_8 float} )"
+        ],
+        "description": "Draw a debug overlay box (origin, mins, maxs, forward, r, g, b, a, duration )"
+    },
+    "UF_FAIL_HERO": {
+        "prefix": "UF_FAIL_HERO",
+        "body": [
+            "UF_FAIL_HERO"
+        ],
+        "description": "(3) "
+    },
+    "C_DOTA_BaseNPC:GetTotalPurchasedUpgradeGoldCost": {
+        "prefix": "GetTotalPurchasedUpgradeGoldCost",
+        "body": [
+            "GetTotalPurchasedUpgradeGoldCost(  )"
+        ],
+        "description": "Get how much gold has been spent on ability upgrades."
+    },
+    "C_DOTA_Item:IsDisassemblable": {
+        "prefix": "IsDisassemblable",
+        "body": [
+            "IsDisassemblable(  )"
+        ],
+        "description": ""
+    },
+    "MODIFIER_PROPERTY_BONUS_DAY_VISION": {
+        "prefix": "MODIFIER_PROPERTY_BONUS_DAY_VISION",
+        "body": [
+            "MODIFIER_PROPERTY_BONUS_DAY_VISION"
+        ],
+        "description": "(80)  GetBonusDayVision"
+    },
+    "C_DOTA_BaseNPC:IsNeutralUnitType": {
+        "prefix": "IsNeutralUnitType",
+        "body": [
+            "IsNeutralUnitType(  )"
+        ],
+        "description": "Is this a neutral?"
+    },
+    "DebugScreenTextPretty": {
+        "prefix": "DebugScreenTextPretty",
+        "body": [
+            "DebugScreenTextPretty( ${float_1 float}, ${float_2 float}, ${int_3 int}, ${string_4 string}, ${int_5 int}, ${int_6 int}, ${int_7 int}, ${int_8 int}, ${float_9 float}, ${string_10 string}, ${int_11 int}, ${bool_12 bool} )"
+        ],
+        "description": "Draw pretty debug text (x, y, lineOffset, text, r, g, b, a, duration, font, size, bBold)"
+    },
+    "CBodyComponent:SetBodyGroup": {
+        "prefix": "SetBodyGroup",
+        "body": [
+            "SetBodyGroup( ${string_1 string} )"
+        ],
+        "description": ""
+    },
+    "DOTA_UNIT_TARGET_FLAG_DEAD": {
+        "prefix": "DOTA_UNIT_TARGET_FLAG_DEAD",
+        "body": [
+            "DOTA_UNIT_TARGET_FLAG_DEAD"
+        ],
+        "description": "(8) "
+    },
+    "C_DOTA_Ability_Lua:CastFilterResultTarget": {
+        "prefix": "CastFilterResultTarget",
+        "body": [
+            "CastFilterResultTarget( ${hTarget handle} )"
+        ],
+        "description": "(HSCRIPT hTarget) Determine whether an issued command on a target is valid."
+    },
+    "DoIncludeScript": {
+        "prefix": "DoIncludeScript",
+        "body": [
+            "DoIncludeScript( ${string_1 string}, ${handle_2 handle} )"
+        ],
+        "description": "Execute a script (internal)"
+    },
+    "UF_FAIL_NOT_PLAYER_CONTROLLED": {
+        "prefix": "UF_FAIL_NOT_PLAYER_CONTROLLED",
+        "body": [
+            "UF_FAIL_NOT_PLAYER_CONTROLLED"
+        ],
+        "description": "(22) "
+    },
+    "DOTA_ABILITY_BEHAVIOR_PASSIVE": {
+        "prefix": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+        "body": [
+            "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        ],
+        "description": "(2) "
+    },
+    "DOTA_TEAM_FIRST": {
+        "prefix": "DOTA_TEAM_FIRST",
+        "body": [
+            "DOTA_TEAM_FIRST"
+        ],
+        "description": "(2) "
+    },
+    "IsDedicatedServer": {
+        "prefix": "IsDedicatedServer",
+        "body": [
+            "IsDedicatedServer(  )"
+        ],
+        "description": "Returns true if this server is a dedicated server."
+    },
+    "C_DOTA_Modifier_Lua:HeroEffectPriority": {
+        "prefix": "HeroEffectPriority",
+        "body": [
+            "HeroEffectPriority(  )"
+        ],
+        "description": "Relationship of this hero effect with those from other buffs (higher is more likely to be shown)."
+    },
+    "MODIFIER_PROPERTY_IS_ILLUSION": {
+        "prefix": "MODIFIER_PROPERTY_IS_ILLUSION",
+        "body": [
+            "MODIFIER_PROPERTY_IS_ILLUSION"
+        ],
+        "description": "(90)  GetIsIllusion"
+    },
+    "LUA_MODIFIER_MOTION_VERTICAL": {
+        "prefix": "LUA_MODIFIER_MOTION_VERTICAL",
+        "body": [
+            "LUA_MODIFIER_MOTION_VERTICAL"
+        ],
+        "description": "(2) "
+    },
+    "PlayerInstanceFromIndex": {
+        "prefix": "PlayerInstanceFromIndex",
+        "body": [
+            "PlayerInstanceFromIndex( ${int_1 int} )"
+        ],
+        "description": "Get a script instance of a player by index."
+    },
+    "CDebugOverlayScriptHelper:PushAndClearDebugOverlayScope": {
+        "prefix": "PushAndClearDebugOverlayScope",
+        "body": [
+            "PushAndClearDebugOverlayScope( ${utlstringtoken_1 utlstringtoken} )"
+        ],
+        "description": "Pushes an identifier used to group overlays. Deletes all existing overlays using this overlay id."
+    },
+    "DOTA_HEROPICK_STATE_CM_SELECT9": {
+        "prefix": "DOTA_HEROPICK_STATE_CM_SELECT9",
+        "body": [
+            "DOTA_HEROPICK_STATE_CM_SELECT9"
+        ],
+        "description": "(25) "
+    },
+    "MODIFIER_PROPERTY_SPELLS_REQUIRE_HP": {
+        "prefix": "MODIFIER_PROPERTY_SPELLS_REQUIRE_HP",
+        "body": [
+            "MODIFIER_PROPERTY_SPELLS_REQUIRE_HP"
+        ],
+        "description": "(140)  GetModifierSpellsRequireHP"
+    },
+    "DOTA_ABILITY_BEHAVIOR_POINT": {
+        "prefix": "DOTA_ABILITY_BEHAVIOR_POINT",
+        "body": [
+            "DOTA_ABILITY_BEHAVIOR_POINT"
+        ],
+        "description": "(16) "
+    },
+    "C_DOTA_Item_Lua:GetCooldown": {
+        "prefix": "GetCooldown",
+        "body": [
+            "GetCooldown( ${iLevel int} )"
+        ],
+        "description": "Return cooldown of this ability."
+    },
+    "C_DOTABaseAbility:GetSpecialValueFor": {
+        "prefix": "GetSpecialValueFor",
+        "body": [
+            "GetSpecialValueFor( ${szName string} )"
+        ],
+        "description": "Gets a value from this ability's special value block for its current level."
+    },
+    "DOTA_HEROPICK_STATE_CM_BAN2": {
+        "prefix": "DOTA_HEROPICK_STATE_CM_BAN2",
+        "body": [
+            "DOTA_HEROPICK_STATE_CM_BAN2"
+        ],
+        "description": "(8) "
+    },
+    "UF_FAIL_CONSIDERED_HERO": {
+        "prefix": "UF_FAIL_CONSIDERED_HERO",
+        "body": [
+            "UF_FAIL_CONSIDERED_HERO"
+        ],
+        "description": "(4) "
+    },
+    "C_DOTA_BaseNPC:IsNightmared": {
+        "prefix": "IsNightmared",
+        "body": [
+            "IsNightmared(  )"
+        ],
+        "description": ""
+    },
+    "Convars:RegisterCommand": {
+        "prefix": "RegisterCommand",
+        "body": [
+            "RegisterCommand( ${string_1 string}, ${handle_2 handle}, ${string_3 string}, ${int_4 int} )"
+        ],
+        "description": "RegisterCommand(name, fn, helpString, flags) : register a console command."
+    },
+    "MODIFIER_STATE_NOT_ON_MINIMAP": {
+        "prefix": "MODIFIER_STATE_NOT_ON_MINIMAP",
+        "body": [
+            "MODIFIER_STATE_NOT_ON_MINIMAP"
+        ],
+        "description": "(19) "
+    },
+    "CalcDistanceBetweenEntityOBB": {
+        "prefix": "CalcDistanceBetweenEntityOBB",
+        "body": [
+            "CalcDistanceBetweenEntityOBB( ${handle_1 handle}, ${handle_2 handle} )"
+        ],
+        "description": "Compute the distance between two entity OBB. A negative return value indicates an input error. A return value of zero indicates that the OBBs are overlapping."
+    },
+    "SetOpvarFloatPlayer": {
+        "prefix": "SetOpvarFloatPlayer",
+        "body": [
+            "SetOpvarFloatPlayer( ${string_1 string}, ${string_2 string}, ${string_3 string}, ${float_4 float}, ${handle_5 handle} )"
+        ],
+        "description": "Sets an opvar value for a single player"
+    },
+    "DOTA_HEROPICK_STATE_CD_SELECT5": {
+        "prefix": "DOTA_HEROPICK_STATE_CD_SELECT5",
+        "body": [
+            "DOTA_HEROPICK_STATE_CD_SELECT5"
+        ],
+        "description": "(43) "
+    },
+    "C_DOTA_BaseNPC:GetDayTimeVisionRange": {
+        "prefix": "GetDayTimeVisionRange",
+        "body": [
+            "GetDayTimeVisionRange(  )"
+        ],
+        "description": "Returns the vision range after modifiers."
+    },
+    "CToneMapControllerComponent:SetMaxExposure": {
+        "prefix": "SetMaxExposure",
+        "body": [
+            "SetMaxExposure( ${float_1 float} )"
+        ],
+        "description": "Sets max exposure for this tonemap controller"
+    },
+    "CCustomNetTableManager:GetTableValue": {
+        "prefix": "GetTableValue",
+        "body": [
+            "GetTableValue( ${string_1 string}, ${string_2 string} )"
+        ],
+        "description": "( string TableName, string KeyName )"
+    },
+    "MODIFIER_PROPERTY_DEATHGOLDCOST": {
+        "prefix": "MODIFIER_PROPERTY_DEATHGOLDCOST",
+        "body": [
+            "MODIFIER_PROPERTY_DEATHGOLDCOST"
+        ],
+        "description": "(69)  GetModifierConstantDeathGoldCost"
+    },
+    "DOTA_TEAM_CUSTOM_MAX": {
+        "prefix": "DOTA_TEAM_CUSTOM_MAX",
+        "body": [
+            "DOTA_TEAM_CUSTOM_MAX"
+        ],
+        "description": "(13) "
+    },
+    "DOTA_SPEECH_USER_INVALID": {
+        "prefix": "DOTA_SPEECH_USER_INVALID",
+        "body": [
+            "DOTA_SPEECH_USER_INVALID"
+        ],
+        "description": "(0) "
+    },
+    "CEntityInstance:GetEntityHandle": {
+        "prefix": "GetEntityHandle",
+        "body": [
+            "GetEntityHandle(  )"
+        ],
+        "description": "Get the entity as an EHANDLE"
+    },
+    "C_DOTA_BaseNPC:GetCurrentVisionRange": {
+        "prefix": "GetCurrentVisionRange",
+        "body": [
+            "GetCurrentVisionRange(  )"
+        ],
+        "description": "Gets the current vision range."
+    },
+    "MODIFIER_PROPERTY_INCOMING_SPELL_DAMAGE_CONSTANT": {
+        "prefix": "MODIFIER_PROPERTY_INCOMING_SPELL_DAMAGE_CONSTANT",
+        "body": [
+            "MODIFIER_PROPERTY_INCOMING_SPELL_DAMAGE_CONSTANT"
+        ],
+        "description": "(32)  GetModifierIncomingSpellDamageConstant"
+    },
+    "MODIFIER_ATTRIBUTE_PERMANENT": {
+        "prefix": "MODIFIER_ATTRIBUTE_PERMANENT",
+        "body": [
+            "MODIFIER_ATTRIBUTE_PERMANENT"
+        ],
+        "description": "(1) "
+    },
+    "C_DOTA_BaseNPC:GetIncreasedAttackSpeed": {
+        "prefix": "GetIncreasedAttackSpeed",
+        "body": [
+            "GetIncreasedAttackSpeed(  )"
+        ],
+        "description": ""
+    },
+    "MODIFIER_PROPERTY_BOUNTY_OTHER_MULTIPLIER": {
+        "prefix": "MODIFIER_PROPERTY_BOUNTY_OTHER_MULTIPLIER",
+        "body": [
+            "MODIFIER_PROPERTY_BOUNTY_OTHER_MULTIPLIER"
+        ],
+        "description": "(98)  GetModifierBountyOtherMultiplier"
+    },
+    "MODIFIER_PROPERTY_OVERRIDE_ANIMATION_WEIGHT": {
+        "prefix": "MODIFIER_PROPERTY_OVERRIDE_ANIMATION_WEIGHT",
+        "body": [
+            "MODIFIER_PROPERTY_OVERRIDE_ANIMATION_WEIGHT"
+        ],
+        "description": "(75)  GetOverrideAnimationWeight"
+    },
+    "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS_ILLUSIONS": {
+        "prefix": "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS_ILLUSIONS",
+        "body": [
+            "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS_ILLUSIONS"
+        ],
+        "description": "(38)  GetModifierPhysicalArmorBonusIllusions"
+    },
+    "DOTA_TEAM_GOODGUYS": {
+        "prefix": "DOTA_TEAM_GOODGUYS",
+        "body": [
+            "DOTA_TEAM_GOODGUYS"
+        ],
+        "description": "(2) "
+    },
+    "CreateEffect": {
+        "prefix": "CreateEffect",
+        "body": [
+            "CreateEffect( ${handle_1 handle} )"
+        ],
+        "description": "Pass table - Inputs: entity, effect"
+    },
+    "ABILITY_CANNOT_BE_UPGRADED_NOT_UPGRADABLE": {
+        "prefix": "ABILITY_CANNOT_BE_UPGRADED_NOT_UPGRADABLE",
+        "body": [
+            "ABILITY_CANNOT_BE_UPGRADED_NOT_UPGRADABLE"
+        ],
+        "description": "(1) "
+    },
+    "SpawnEntityListFromTableSynchronous": {
+        "prefix": "SpawnEntityListFromTableSynchronous",
+        "body": [
+            "SpawnEntityListFromTableSynchronous( ${handle_1 handle} )"
+        ],
+        "description": "Synchronously spawn an entity group from a list of spawn tables."
+    },
+    "C_DOTA_BaseNPC:IsPhantom": {
+        "prefix": "IsPhantom",
+        "body": [
+            "IsPhantom(  )"
+        ],
+        "description": "Is this a phantom unit?"
+    },
+    "DOTA_HEROPICK_STATE_CD_SELECT4": {
+        "prefix": "DOTA_HEROPICK_STATE_CD_SELECT4",
+        "body": [
+            "DOTA_HEROPICK_STATE_CD_SELECT4"
+        ],
+        "description": "(42) "
+    },
+    "DOTA_ABILITY_BEHAVIOR_NORMAL_WHEN_STOLEN": {
+        "prefix": "DOTA_ABILITY_BEHAVIOR_NORMAL_WHEN_STOLEN",
+        "body": [
+            "DOTA_ABILITY_BEHAVIOR_NORMAL_WHEN_STOLEN"
+        ],
+        "description": "(67108864) "
+    },
+    "C_DOTA_BaseNPC:IsHexed": {
+        "prefix": "IsHexed",
+        "body": [
+            "IsHexed(  )"
+        ],
+        "description": ""
+    },
+    "DOTA_TEAM_COUNT": {
+        "prefix": "DOTA_TEAM_COUNT",
+        "body": [
+            "DOTA_TEAM_COUNT"
+        ],
+        "description": "(14) "
+    },
+    "UF_FAIL_IN_FOW": {
+        "prefix": "UF_FAIL_IN_FOW",
+        "body": [
+            "UF_FAIL_IN_FOW"
+        ],
+        "description": "(20) "
+    },
+    "MODIFIER_PROPERTY_MOVESPEED_BONUS_UNIQUE": {
+        "prefix": "MODIFIER_PROPERTY_MOVESPEED_BONUS_UNIQUE",
+        "body": [
+            "MODIFIER_PROPERTY_MOVESPEED_BONUS_UNIQUE"
+        ],
+        "description": "(14)  GetModifierMoveSpeedBonus_Special_Boots"
+    },
+    "UF_FAIL_MELEE": {
+        "prefix": "UF_FAIL_MELEE",
+        "body": [
+            "UF_FAIL_MELEE"
+        ],
+        "description": "(14) "
+    },
+    "MODIFIER_STATE_FAKE_ALLY": {
+        "prefix": "MODIFIER_STATE_FAKE_ALLY",
+        "body": [
+            "MODIFIER_STATE_FAKE_ALLY"
+        ],
+        "description": "(31) "
+    },
+    "C_DOTA_Ability_Lua:GetBehavior": {
+        "prefix": "GetBehavior",
+        "body": [
+            "GetBehavior(  )"
+        ],
+        "description": "Return cast behavior type of this ability."
+    },
+    "MODIFIER_PROPERTY_ABSOLUTE_NO_DAMAGE_MAGICAL": {
+        "prefix": "MODIFIER_PROPERTY_ABSOLUTE_NO_DAMAGE_MAGICAL",
+        "body": [
+            "MODIFIER_PROPERTY_ABSOLUTE_NO_DAMAGE_MAGICAL"
+        ],
+        "description": "(88)  GetAbsoluteNoDamageMagical"
+    },
+    "MODIFIER_STATE_NOT_ON_MINIMAP_FOR_ENEMIES": {
+        "prefix": "MODIFIER_STATE_NOT_ON_MINIMAP_FOR_ENEMIES",
+        "body": [
+            "MODIFIER_STATE_NOT_ON_MINIMAP_FOR_ENEMIES"
+        ],
+        "description": "(20) "
+    },
+    "DOTA_UNIT_TARGET_FLAG_MANA_ONLY": {
+        "prefix": "DOTA_UNIT_TARGET_FLAG_MANA_ONLY",
+        "body": [
+            "DOTA_UNIT_TARGET_FLAG_MANA_ONLY"
+        ],
+        "description": "(32768) "
+    },
+    "DOTA_HEROPICK_STATE_CD_BAN3": {
+        "prefix": "DOTA_HEROPICK_STATE_CD_BAN3",
+        "body": [
+            "DOTA_HEROPICK_STATE_CD_BAN3"
+        ],
+        "description": "(35) "
+    },
+    "DOTA_HERO_PICK_STATE_ABILITY_DRAFT_SELECT": {
+        "prefix": "DOTA_HERO_PICK_STATE_ABILITY_DRAFT_SELECT",
+        "body": [
+            "DOTA_HERO_PICK_STATE_ABILITY_DRAFT_SELECT"
+        ],
+        "description": "(51) "
+    },
+    "MODIFIER_STATE_SILENCED": {
+        "prefix": "MODIFIER_STATE_SILENCED",
+        "body": [
+            "MODIFIER_STATE_SILENCED"
+        ],
+        "description": "(3) "
+    },
+    "MODIFIER_EVENT_ON_HEAL_RECEIVED": {
+        "prefix": "MODIFIER_EVENT_ON_HEAL_RECEIVED",
+        "body": [
+            "MODIFIER_EVENT_ON_HEAL_RECEIVED"
+        ],
+        "description": "(129)  OnHealReceived"
+    },
+    "PATTACH_CUSTOMORIGIN_FOLLOW": {
+        "prefix": "PATTACH_CUSTOMORIGIN_FOLLOW",
+        "body": [
+            "PATTACH_CUSTOMORIGIN_FOLLOW"
+        ],
+        "description": "(3) "
+    },
+    "C_DOTA_BaseNPC:IsEvadeDisabled": {
+        "prefix": "IsEvadeDisabled",
+        "body": [
+            "IsEvadeDisabled(  )"
+        ],
+        "description": ""
+    },
+    "MODIFIER_PROPERTY_BOUNTY_CREEP_MULTIPLIER": {
+        "prefix": "MODIFIER_PROPERTY_BOUNTY_CREEP_MULTIPLIER",
+        "body": [
+            "MODIFIER_PROPERTY_BOUNTY_CREEP_MULTIPLIER"
+        ],
+        "description": "(97)  GetModifierBountyCreepMultiplier"
+    },
+    "C_DOTA_Modifier_Lua:IsPurgable": {
+        "prefix": "IsPurgable",
+        "body": [
+            "IsPurgable(  )"
+        ],
+        "description": "True/false if this modifier can be purged."
+    },
+    "UF_FAIL_INVULNERABLE": {
+        "prefix": "UF_FAIL_INVULNERABLE",
+        "body": [
+            "UF_FAIL_INVULNERABLE"
+        ],
+        "description": "(19) "
+    },
+    "MODIFIER_PROPERTY_TRANSLATE_ATTACK_SOUND": {
+        "prefix": "MODIFIER_PROPERTY_TRANSLATE_ATTACK_SOUND",
+        "body": [
+            "MODIFIER_PROPERTY_TRANSLATE_ATTACK_SOUND"
+        ],
+        "description": "(137)  GetAttackSound"
+    },
+    "MODIFIER_EVENT_ON_STATE_CHANGED": {
+        "prefix": "MODIFIER_EVENT_ON_STATE_CHANGED",
+        "body": [
+            "MODIFIER_EVENT_ON_STATE_CHANGED"
+        ],
+        "description": "(116)  OnStateChanged"
+    },
+    "DOTA_HEROPICK_STATE_CM_SELECT8": {
+        "prefix": "DOTA_HEROPICK_STATE_CM_SELECT8",
+        "body": [
+            "DOTA_HEROPICK_STATE_CM_SELECT8"
+        ],
+        "description": "(24) "
+    },
+    "MODIFIER_STATE_OUT_OF_GAME": {
+        "prefix": "MODIFIER_STATE_OUT_OF_GAME",
+        "body": [
+            "MODIFIER_STATE_OUT_OF_GAME"
+        ],
+        "description": "(30) "
+    },
+    "DOTA_HEROPICK_STATE_CM_BAN8": {
+        "prefix": "DOTA_HEROPICK_STATE_CM_BAN8",
+        "body": [
+            "DOTA_HEROPICK_STATE_CM_BAN8"
+        ],
+        "description": "(14) "
+    },
+    "C_DOTA_Item:GetShareability": {
+        "prefix": "GetShareability",
+        "body": [
+            "GetShareability(  )"
+        ],
+        "description": ""
+    },
+    "MODIFIER_PROPERTY_BASEATTACK_BONUSDAMAGE": {
+        "prefix": "MODIFIER_PROPERTY_BASEATTACK_BONUSDAMAGE",
+        "body": [
+            "MODIFIER_PROPERTY_BASEATTACK_BONUSDAMAGE"
+        ],
+        "description": "(2)  GetModifierBaseAttack_BonusDamage"
+    },
+    "DOTA_HEROPICK_STATE_ALL_DRAFT_SELECT": {
+        "prefix": "DOTA_HEROPICK_STATE_ALL_DRAFT_SELECT",
+        "body": [
+            "DOTA_HEROPICK_STATE_ALL_DRAFT_SELECT"
+        ],
+        "description": "(53) "
+    },
+    "MODIFIER_STATE_DOMINATED": {
+        "prefix": "MODIFIER_STATE_DOMINATED",
+        "body": [
+            "MODIFIER_STATE_DOMINATED"
+        ],
+        "description": "(28) "
+    },
+    "CBodyComponent:SetAnimation": {
+        "prefix": "SetAnimation",
+        "body": [
+            "SetAnimation( ${string_1 string} )"
+        ],
+        "description": "Pass string for the animation to play on this model"
+    },
+    "SpawnEntityGroupFromTable": {
+        "prefix": "SpawnEntityGroupFromTable",
+        "body": [
+            "SpawnEntityGroupFromTable( ${handle_1 handle}, ${bool_2 bool}, ${handle_3 handle} )"
+        ],
+        "description": "Hierarchically spawn an entity group from a set of spawn tables."
+    },
+    "DOTA_UNIT_TARGET_OTHER": {
+        "prefix": "DOTA_UNIT_TARGET_OTHER",
+        "body": [
+            "DOTA_UNIT_TARGET_OTHER"
+        ],
+        "description": "(32) "
+    },
+    "CNativeOutputs:AddOutput": {
+        "prefix": "AddOutput",
+        "body": [
+            "AddOutput( ${string_1 string}, ${string_2 string} )"
+        ],
+        "description": "Add an output"
+    },
+    "C_DOTA_BaseNPC:IsAttackImmune": {
+        "prefix": "IsAttackImmune",
+        "body": [
+            "IsAttackImmune(  )"
+        ],
+        "description": ""
+    },
+    "MakeStringToken": {
+        "prefix": "MakeStringToken",
+        "body": [
+            "MakeStringToken( ${string_1 string} )"
+        ],
+        "description": "Checks to see if the given hScript is a valid entity"
+    },
+    "MODIFIER_PROPERTY_REFLECT_SPELL": {
+        "prefix": "MODIFIER_PROPERTY_REFLECT_SPELL",
+        "body": [
+            "MODIFIER_PROPERTY_REFLECT_SPELL"
+        ],
+        "description": "(78)  GetReflectSpell"
+    },
+    "MODIFIER_PROPERTY_MAGICAL_RESISTANCE_DECREPIFY_UNIQUE": {
+        "prefix": "MODIFIER_PROPERTY_MAGICAL_RESISTANCE_DECREPIFY_UNIQUE",
+        "body": [
+            "MODIFIER_PROPERTY_MAGICAL_RESISTANCE_DECREPIFY_UNIQUE"
+        ],
+        "description": "(43)  GetModifierMagicalResistanceDecrepifyUnique"
+    },
+    "C_DOTA_Modifier_Lua:GetAuraEntityReject": {
+        "prefix": "GetAuraEntityReject",
+        "body": [
+            "GetAuraEntityReject( ${hEntity handle} )"
+        ],
+        "description": "Return true/false if this entity should receive the aura under specific conditions"
+    },
+    "C_DOTA_Modifier_Lua:OnIntervalThink": {
+        "prefix": "OnIntervalThink",
+        "body": [
+            "OnIntervalThink(  )"
+        ],
+        "description": "Runs when the think interval occurs."
+    },
+    "Convars:GetStr": {
+        "prefix": "GetStr",
+        "body": [
+            "GetStr( ${string_1 string} )"
+        ],
+        "description": "GetStr(name) : returns the convar as a string. May return null if no such convar."
+    },
+    "C_DOTA_Ability_Lua:GetCastRange": {
+        "prefix": "GetCastRange",
+        "body": [
+            "GetCastRange( ${vLocation Vector}, ${hTarget handle} )"
+        ],
+        "description": "Return cast range of this ability."
+    },
+    "GetFrameCount": {
+        "prefix": "GetFrameCount",
+        "body": [
+            "GetFrameCount(  )"
+        ],
+        "description": "Returns the engines current frame count"
+    },
+    "DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES": {
+        "prefix": "DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES",
+        "body": [
+            "DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES"
+        ],
+        "description": "(16) "
+    },
+    "CDebugOverlayScriptHelper:RemoveAllInScope": {
+        "prefix": "RemoveAllInScope",
+        "body": [
+            "RemoveAllInScope( ${utlstringtoken_1 utlstringtoken} )"
+        ],
+        "description": "Removes all overlays marked with a specific identifier, regardless of their lifetime."
+    },
+    "CDOTA_Buff:ForceRefresh": {
+        "prefix": "ForceRefresh",
+        "body": [
+            "ForceRefresh(  )"
+        ],
+        "description": "Run all associated refresh functions on this modifier as if it was re-applied."
+    },
+    "DOTA_ATTRIBUTE_STRENGTH": {
+        "prefix": "DOTA_ATTRIBUTE_STRENGTH",
+        "body": [
+            "DOTA_ATTRIBUTE_STRENGTH"
+        ],
+        "description": "(0) "
+    },
+    "C_DOTA_Item:RequiresCharges": {
+        "prefix": "RequiresCharges",
+        "body": [
+            "RequiresCharges(  )"
+        ],
+        "description": ""
+    },
+    "CreateHTTPRequest": {
+        "prefix": "CreateHTTPRequest",
+        "body": [
+            "CreateHTTPRequest( ${string_1 string}, ${string_2 string} )"
+        ],
+        "description": "Create an HTTP request."
+    },
+    "DOTA_UNIT_TARGET_CUSTOM": {
+        "prefix": "DOTA_UNIT_TARGET_CUSTOM",
+        "body": [
+            "DOTA_UNIT_TARGET_CUSTOM"
+        ],
+        "description": "(128) "
+    },
+    "C_DOTA_Item:IsRecipeGenerated": {
+        "prefix": "IsRecipeGenerated",
+        "body": [
+            "IsRecipeGenerated(  )"
+        ],
+        "description": ""
+    },
+    "UF_FAIL_INVALID_LOCATION": {
+        "prefix": "UF_FAIL_INVALID_LOCATION",
+        "body": [
+            "UF_FAIL_INVALID_LOCATION"
+        ],
+        "description": "(25) "
+    },
+    "CDOTA_Modifier_Lua_Motion_Both:UpdateHorizontalMotion": {
+        "prefix": "UpdateHorizontalMotion",
+        "body": [
+            "UpdateHorizontalMotion( ${me handle}, ${dt float} )"
+        ],
+        "description": "Perform any motion from the given interval on the NPC."
+    },
+    "MODIFIER_STATE_SPECIALLY_DENIABLE": {
+        "prefix": "MODIFIER_STATE_SPECIALLY_DENIABLE",
+        "body": [
+            "MODIFIER_STATE_SPECIALLY_DENIABLE"
+        ],
+        "description": "(16) "
+    },
+    "CDebugOverlayScriptHelper:PopDebugOverlayScope": {
+        "prefix": "PopDebugOverlayScope",
+        "body": [
+            "PopDebugOverlayScope(  )"
+        ],
+        "description": "Pops the identifier used to group overlays. Overlays marked with this identifier can be deleted in a big batch."
+    },
+    "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS_UNIQUE_ACTIVE": {
+        "prefix": "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS_UNIQUE_ACTIVE",
+        "body": [
+            "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS_UNIQUE_ACTIVE"
+        ],
+        "description": "(40)  GetModifierPhysicalArmorBonusUniqueActive"
+    },
+    "CEntities:Next": {
+        "prefix": "Next",
+        "body": [
+            "Next( ${handle_1 handle} )"
+        ],
+        "description": "Continue an iteration over the list of entities, providing reference to a previously found entity"
+    },
+    "C_DOTA_BaseNPC:GetSecondsPerAttack": {
+        "prefix": "GetSecondsPerAttack",
+        "body": [
+            "GetSecondsPerAttack(  )"
+        ],
+        "description": ""
+    },
+    "MODIFIER_PROPERTY_RESPAWNTIME_STACKING": {
+        "prefix": "MODIFIER_PROPERTY_RESPAWNTIME_STACKING",
+        "body": [
+            "MODIFIER_PROPERTY_RESPAWNTIME_STACKING"
+        ],
+        "description": "(65)  GetModifierStackingRespawnTime"
+    },
+    "DOTA_UNIT_TARGET_BASIC": {
+        "prefix": "DOTA_UNIT_TARGET_BASIC",
+        "body": [
+            "DOTA_UNIT_TARGET_BASIC"
+        ],
+        "description": "(18) "
+    },
+    "CDOTA_Buff:GetAbility": {
+        "prefix": "GetAbility",
+        "body": [
+            "GetAbility(  )"
+        ],
+        "description": "Get the ability that generated the modifier."
+    },
+    "DebugDrawScreenTextLine": {
+        "prefix": "DebugDrawScreenTextLine",
+        "body": [
+            "DebugDrawScreenTextLine( ${float_1 float}, ${float_2 float}, ${int_3 int}, ${string_4 string}, ${int_5 int}, ${int_6 int}, ${int_7 int}, ${int_8 int}, ${float_9 float} )"
+        ],
+        "description": "Draw text with a line offset (x, y, lineOffset, text, r, g, b, a, duration)"
+    },
+    "CalcClosestPointOnEntityOBB": {
+        "prefix": "CalcClosestPointOnEntityOBB",
+        "body": [
+            "CalcClosestPointOnEntityOBB( ${handle_1 handle}, ${Vector_2 Vector} )"
+        ],
+        "description": "Compute the closest point on the OBB of an entity."
+    },
+    "DOTA_SPEECH_USER_ALL": {
+        "prefix": "DOTA_SPEECH_USER_ALL",
+        "body": [
+            "DOTA_SPEECH_USER_ALL"
+        ],
+        "description": "(5) "
+    },
+    "C_DOTA_Ability_Lua:GetCustomCastErrorLocation": {
+        "prefix": "GetCustomCastErrorLocation",
+        "body": [
+            "GetCustomCastErrorLocation( ${vLocation Vector} )"
+        ],
+        "description": "(Vector vLocation) Return the error string of a failed command on a location."
+    },
+    "MODIFIER_STATE_PASSIVES_DISABLED": {
+        "prefix": "MODIFIER_STATE_PASSIVES_DISABLED",
+        "body": [
+            "MODIFIER_STATE_PASSIVES_DISABLED"
+        ],
+        "description": "(27) "
+    },
+    "StartSoundEvent": {
+        "prefix": "StartSoundEvent",
+        "body": [
+            "StartSoundEvent( ${string_1 string}, ${handle_2 handle} )"
+        ],
+        "description": "Start a sound event"
+    },
+    "C_DOTA_BaseNPC:IsInvulnerable": {
+        "prefix": "IsInvulnerable",
+        "body": [
+            "IsInvulnerable(  )"
+        ],
+        "description": ""
+    },
+    "MODIFIER_PROPERTY_PROCATTACK_FEEDBACK": {
+        "prefix": "MODIFIER_PROPERTY_PROCATTACK_FEEDBACK",
+        "body": [
+            "MODIFIER_PROPERTY_PROCATTACK_FEEDBACK"
+        ],
+        "description": "(6)  GetModifierProcAttack_Feedback"
+    },
+    "StartSoundEventUnreliable": {
+        "prefix": "StartSoundEventUnreliable",
+        "body": [
+            "StartSoundEventUnreliable( ${string_1 string}, ${handle_2 handle} )"
+        ],
+        "description": "Start a sound event with optional delivery"
+    },
+    "MODIFIER_PROPERTY_EXTRA_MANA_BONUS": {
+        "prefix": "MODIFIER_PROPERTY_EXTRA_MANA_BONUS",
+        "body": [
+            "MODIFIER_PROPERTY_EXTRA_MANA_BONUS"
+        ],
+        "description": "(55)  GetModifierExtraManaBonus"
+    },
+    "Warning": {
+        "prefix": "Warning",
+        "body": [
+            "Warning( ${string_1 string} )"
+        ],
+        "description": "Print a warning"
+    },
+    "C_DOTA_Ability_Lua:GetChannelledManaCostPerSecond": {
+        "prefix": "GetChannelledManaCostPerSecond",
+        "body": [
+            "GetChannelledManaCostPerSecond( ${iLevel int} )"
+        ],
+        "description": "Return mana cost at the given level per second while channeling (-1 is current)."
+    },
+    "PATTACH_MAIN_VIEW": {
+        "prefix": "PATTACH_MAIN_VIEW",
+        "body": [
+            "PATTACH_MAIN_VIEW"
+        ],
+        "description": "(11) "
+    },
+    "DOTA_TEAM_BADGUYS": {
+        "prefix": "DOTA_TEAM_BADGUYS",
+        "body": [
+            "DOTA_TEAM_BADGUYS"
+        ],
+        "description": "(3) "
+    },
+    "UF_FAIL_RANGED": {
+        "prefix": "UF_FAIL_RANGED",
+        "body": [
+            "UF_FAIL_RANGED"
+        ],
+        "description": "(15) "
+    },
+    "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT": {
+        "prefix": "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT",
+        "body": [
+            "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT"
+        ],
+        "description": "(19)  GetModifierAttackSpeedBonus_Constant"
+    },
+    "rr_GetResponseTargets": {
+        "prefix": "rr_GetResponseTargets",
+        "body": [
+            "rr_GetResponseTargets(  )"
+        ],
+        "description": "Retrieve a table of all available expresser targets, in the form { name : handle, name: handle }."
+    },
+    "C_DOTA_BaseNPC:IsUnselectable": {
+        "prefix": "IsUnselectable",
+        "body": [
+            "IsUnselectable(  )"
+        ],
+        "description": ""
+    },
+    "DOTA_UNIT_TARGET_FLAG_NOT_ANCIENTS": {
+        "prefix": "DOTA_UNIT_TARGET_FLAG_NOT_ANCIENTS",
+        "body": [
+            "DOTA_UNIT_TARGET_FLAG_NOT_ANCIENTS"
+        ],
+        "description": "(512) "
+    },
+    "DOTA_TEAM_CUSTOM_8": {
+        "prefix": "DOTA_TEAM_CUSTOM_8",
+        "body": [
+            "DOTA_TEAM_CUSTOM_8"
+        ],
+        "description": "(13) "
+    },
+    "C_DOTA_Item:IsDroppable": {
+        "prefix": "IsDroppable",
+        "body": [
+            "IsDroppable(  )"
+        ],
+        "description": ""
+    },
+    "DOTA_SPEECH_GOOD_TEAM": {
+        "prefix": "DOTA_SPEECH_GOOD_TEAM",
+        "body": [
+            "DOTA_SPEECH_GOOD_TEAM"
+        ],
+        "description": "(6) "
+    },
+    "CToneMapControllerComponent:SetMinExposure": {
+        "prefix": "SetMinExposure",
+        "body": [
+            "SetMinExposure( ${float_1 float} )"
+        ],
+        "description": "Sets min exposure for this tonemap controller"
+    },
+    "MODIFIER_PROPERTY_MOVESPEED_BASE_OVERRIDE": {
+        "prefix": "MODIFIER_PROPERTY_MOVESPEED_BASE_OVERRIDE",
+        "body": [
+            "MODIFIER_PROPERTY_MOVESPEED_BASE_OVERRIDE"
+        ],
+        "description": "(11)  GetModifierMoveSpeedOverride"
+    },
+    "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE_POST_CRIT": {
+        "prefix": "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE_POST_CRIT",
+        "body": [
+            "MODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE_POST_CRIT"
+        ],
+        "description": "(1)  GetModifierPreAttack_BonusDamagePostCrit"
+    },
+    "C_DOTA_BaseNPC:GetMagicalArmorValue": {
+        "prefix": "GetMagicalArmorValue",
+        "body": [
+            "GetMagicalArmorValue(  )"
+        ],
+        "description": "Returns current magical armor value."
+    },
+    "C_DOTA_Item:IsAlertableItem": {
+        "prefix": "IsAlertableItem",
+        "body": [
+            "IsAlertableItem(  )"
+        ],
+        "description": ""
+    },
+    "MODIFIER_PROPERTY_TOTAL_CONSTANT_BLOCK_UNAVOIDABLE_PRE_ARMOR": {
+        "prefix": "MODIFIER_PROPERTY_TOTAL_CONSTANT_BLOCK_UNAVOIDABLE_PRE_ARMOR",
+        "body": [
+            "MODIFIER_PROPERTY_TOTAL_CONSTANT_BLOCK_UNAVOIDABLE_PRE_ARMOR"
+        ],
+        "description": "(72)  GetModifierPhysical_ConstantBlockUnavoidablePreArmor"
+    },
+    "CDebugOverlayScriptHelper:FilledRect2D": {
+        "prefix": "FilledRect2D",
+        "body": [
+            "FilledRect2D( ${Vector2D_1 Vector2D}, ${Vector2D_2 Vector2D}, ${int_3 int}, ${int_4 int}, ${int_5 int}, ${int_6 int}, ${float_7 float} )"
+        ],
+        "description": "Draws a screen-space filled 2D rectangle. Coordinates are in pixels."
+    },
+    "DOTA_HEROPICK_STATE_RD_SELECT": {
+        "prefix": "DOTA_HEROPICK_STATE_RD_SELECT",
+        "body": [
+            "DOTA_HEROPICK_STATE_RD_SELECT"
+        ],
+        "description": "(4) "
+    },
+    "C_DOTA_Modifier_Lua:RemoveOnDeath": {
+        "prefix": "RemoveOnDeath",
+        "body": [
+            "RemoveOnDeath(  )"
+        ],
+        "description": "True/false if this modifier is removed when the parent dies."
+    },
+    "C_DOTA_BaseNPC:IsStunned": {
+        "prefix": "IsStunned",
+        "body": [
+            "IsStunned(  )"
+        ],
+        "description": ""
+    },
+    "MODIFIER_PROPERTY_BASEDAMAGEOUTGOING_PERCENTAGE_UNIQUE": {
+        "prefix": "MODIFIER_PROPERTY_BASEDAMAGEOUTGOING_PERCENTAGE_UNIQUE",
+        "body": [
+            "MODIFIER_PROPERTY_BASEDAMAGEOUTGOING_PERCENTAGE_UNIQUE"
+        ],
+        "description": "(29)  GetModifierBaseDamageOutgoing_PercentageUnique"
+    },
+    "UF_FAIL_NIGHTMARED": {
+        "prefix": "UF_FAIL_NIGHTMARED",
+        "body": [
+            "UF_FAIL_NIGHTMARED"
+        ],
+        "description": "(28) "
+    },
+    "DOTA_HEROPICK_STATE_NONE": {
+        "prefix": "DOTA_HEROPICK_STATE_NONE",
+        "body": [
+            "DOTA_HEROPICK_STATE_NONE"
+        ],
+        "description": "(0) "
+    },
+    "DOTA_UNIT_TARGET_TREE": {
+        "prefix": "DOTA_UNIT_TARGET_TREE",
+        "body": [
+            "DOTA_UNIT_TARGET_TREE"
+        ],
+        "description": "(64) "
+    },
+    "MODIFIER_PROPERTY_CHANGE_ABILITY_VALUE": {
+        "prefix": "MODIFIER_PROPERTY_CHANGE_ABILITY_VALUE",
+        "body": [
+            "MODIFIER_PROPERTY_CHANGE_ABILITY_VALUE"
+        ],
+        "description": "(144)  GetModifierChangeAbilityValue"
+    },
+    "CDOTA_Buff:DecrementStackCount": {
+        "prefix": "DecrementStackCount",
+        "body": [
+            "DecrementStackCount(  )"
+        ],
+        "description": "Decrease this modifier's stack count by 1."
+    },
+    "MODIFIER_STATE_UNSELECTABLE": {
+        "prefix": "MODIFIER_STATE_UNSELECTABLE",
+        "body": [
+            "MODIFIER_STATE_UNSELECTABLE"
+        ],
+        "description": "(14) "
+    },
+    "UF_FAIL_INVISIBLE": {
+        "prefix": "UF_FAIL_INVISIBLE",
+        "body": [
+            "UF_FAIL_INVISIBLE"
+        ],
+        "description": "(21) "
+    },
+    "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT_SECONDARY": {
+        "prefix": "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT_SECONDARY",
+        "body": [
+            "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT_SECONDARY"
+        ],
+        "description": "(21)  GetModifierAttackSpeedBonus_Constant_Secondary"
+    },
+    "PATTACH_INVALID": {
+        "prefix": "PATTACH_INVALID",
+        "body": [
+            "PATTACH_INVALID"
+        ],
+        "description": "(-1) "
+    },
+    "DOTA_RUNE_DOUBLEDAMAGE": {
+        "prefix": "DOTA_RUNE_DOUBLEDAMAGE",
+        "body": [
+            "DOTA_RUNE_DOUBLEDAMAGE"
+        ],
+        "description": "(0) "
+    },
+    "RandomFloat": {
+        "prefix": "RandomFloat",
+        "body": [
+            "RandomFloat( ${float_1 float}, ${float_2 float} )"
+        ],
+        "description": "Get a random float within a range"
+    },
+    "DOTA_HEROPICK_STATE_CD_SELECT2": {
+        "prefix": "DOTA_HEROPICK_STATE_CD_SELECT2",
+        "body": [
+            "DOTA_HEROPICK_STATE_CD_SELECT2"
+        ],
+        "description": "(40) "
+    },
+    "C_DOTA_Ability_Lua:GetGoldCost": {
+        "prefix": "GetGoldCost",
+        "body": [
+            "GetGoldCost( ${iLevel int} )"
+        ],
+        "description": "Return gold cost at the given level (-1 is current)."
+    },
+    "DOTA_UNIT_TARGET_FLAG_NOT_NIGHTMARED": {
+        "prefix": "DOTA_UNIT_TARGET_FLAG_NOT_NIGHTMARED",
+        "body": [
+            "DOTA_UNIT_TARGET_FLAG_NOT_NIGHTMARED"
+        ],
+        "description": "(524288) "
+    },
+    "C_DOTA_BaseNPC:GetPhysicalArmorValue": {
+        "prefix": "GetPhysicalArmorValue",
+        "body": [
+            "GetPhysicalArmorValue(  )"
+        ],
+        "description": "Returns current physical armor value."
+    },
+    "MODIFIER_PROPERTY_MISS_PERCENTAGE": {
+        "prefix": "MODIFIER_PROPERTY_MISS_PERCENTAGE",
+        "body": [
+            "MODIFIER_PROPERTY_MISS_PERCENTAGE"
+        ],
+        "description": "(36)  GetModifierMiss_Percentage"
+    },
+    "EntIndexToHScript": {
+        "prefix": "EntIndexToHScript",
+        "body": [
+            "EntIndexToHScript( ${int_1 int} )"
+        ],
+        "description": "Turn an entity index integer to an HScript representing that entity's script instance."
+    },
+    "IsValidEntity": {
+        "prefix": "IsValidEntity",
+        "body": [
+            "IsValidEntity( ${handle_1 handle} )"
+        ],
+        "description": "Checks to see if the given hScript is a valid entity"
+    },
+    "UF_FAIL_CREEP": {
+        "prefix": "UF_FAIL_CREEP",
+        "body": [
+            "UF_FAIL_CREEP"
+        ],
+        "description": "(5) "
+    },
+    "DOTA_HEROPICK_STATE_CD_SELECT9": {
+        "prefix": "DOTA_HEROPICK_STATE_CD_SELECT9",
+        "body": [
+            "DOTA_HEROPICK_STATE_CD_SELECT9"
+        ],
+        "description": "(47) "
+    },
+    "C_DOTA_BaseNPC:IsControllableByAnyPlayer": {
+        "prefix": "IsControllableByAnyPlayer",
+        "body": [
+            "IsControllableByAnyPlayer(  )"
+        ],
+        "description": "Is this unit controlled by any non-bot player?"
+    },
+    "DOTA_ABILITY_BEHAVIOR_NO_TARGET": {
+        "prefix": "DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+        "body": [
+            "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        ],
+        "description": "(4) "
+    },
+    "CDOTA_Buff:GetName": {
+        "prefix": "GetName",
+        "body": [
+            "GetName(  )"
+        ],
+        "description": ""
+    },
+    "C_DOTA_Item:IsCastOnPickup": {
+        "prefix": "IsCastOnPickup",
+        "body": [
+            "IsCastOnPickup(  )"
+        ],
+        "description": ""
+    },
+    "C_DOTA_Ability_Lua:CastFilterResult": {
+        "prefix": "CastFilterResult",
+        "body": [
+            "CastFilterResult(  )"
+        ],
+        "description": "Determine whether an issued command with no target is valid."
+    },
+    "MODIFIER_PROPERTY_FIXED_NIGHT_VISION": {
+        "prefix": "MODIFIER_PROPERTY_FIXED_NIGHT_VISION",
+        "body": [
+            "MODIFIER_PROPERTY_FIXED_NIGHT_VISION"
+        ],
+        "description": "(85)  GetFixedNightVision"
+    },
+    "C_BaseEntity:GetAbsOrigin": {
+        "prefix": "GetAbsOrigin",
+        "body": [
+            "GetAbsOrigin(  )"
+        ],
+        "description": ""
+    },
+    "UTIL_RemoveImmediate": {
+        "prefix": "UTIL_RemoveImmediate",
+        "body": [
+            "UTIL_RemoveImmediate( ${handle_1 handle} )"
+        ],
+        "description": "Immediately removes the specified entity"
+    },
+    "SetQuestPhase": {
+        "prefix": "SetQuestPhase",
+        "body": [
+            "SetQuestPhase( ${int_1 int} )"
+        ],
+        "description": "Set the current quest phase."
+    },
+    "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS": {
+        "prefix": "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS",
+        "body": [
+            "MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS"
+        ],
+        "description": "(37)  GetModifierPhysicalArmorBonus"
+    },
+    "DOTA_HEROPICK_STATE_CD_PICK": {
+        "prefix": "DOTA_HEROPICK_STATE_CD_PICK",
+        "body": [
+            "DOTA_HEROPICK_STATE_CD_PICK"
+        ],
+        "description": "(49) "
+    },
+    "CDebugOverlayScriptHelper:UnitTestCycleOverlayRenderType": {
+        "prefix": "UnitTestCycleOverlayRenderType",
+        "body": [
+            "UnitTestCycleOverlayRenderType(  )"
+        ],
+        "description": "Toggles the overlay render type, for unit tests"
+    },
+    "UF_FAIL_BUILDING": {
+        "prefix": "UF_FAIL_BUILDING",
+        "body": [
+            "UF_FAIL_BUILDING"
+        ],
+        "description": "(6) "
+    },
+    "DOTA_MOTION_CONTROLLER_PRIORITY_HIGHEST": {
+        "prefix": "DOTA_MOTION_CONTROLLER_PRIORITY_HIGHEST",
+        "body": [
+            "DOTA_MOTION_CONTROLLER_PRIORITY_HIGHEST"
+        ],
+        "description": "(4) "
+    },
+    "GetPhysAngularVelocity": {
+        "prefix": "GetPhysAngularVelocity",
+        "body": [
+            "GetPhysAngularVelocity( ${handle_1 handle} )"
+        ],
+        "description": "Get Angular Velocity for VPHYS or normal object"
+    },
+    "MODIFIER_STATE_CANNOT_MISS": {
+        "prefix": "MODIFIER_STATE_CANNOT_MISS",
+        "body": [
+            "MODIFIER_STATE_CANNOT_MISS"
+        ],
+        "description": "(15) "
+    },
+    "C_DOTA_BaseNPC:IsCreep": {
+        "prefix": "IsCreep",
+        "body": [
+            "IsCreep(  )"
+        ],
+        "description": "Is this unit a creep?"
+    },
+    "MODIFIER_STATE_MUTED": {
+        "prefix": "MODIFIER_STATE_MUTED",
+        "body": [
+            "MODIFIER_STATE_MUTED"
+        ],
+        "description": "(4) "
+    },
+    "MODIFIER_PROPERTY_SUPER_ILLUSION": {
+        "prefix": "MODIFIER_PROPERTY_SUPER_ILLUSION",
+        "body": [
+            "MODIFIER_PROPERTY_SUPER_ILLUSION"
+        ],
+        "description": "(92)  GetModifierSuperIllusion"
+    },
+    "C_DOTA_Item:IsStackable": {
+        "prefix": "IsStackable",
+        "body": [
+            "IsStackable(  )"
+        ],
+        "description": ""
+    },
+    "DOTA_ABILITY_LAST_BEHAVIOR": {
+        "prefix": "DOTA_ABILITY_LAST_BEHAVIOR",
+        "body": [
+            "DOTA_ABILITY_LAST_BEHAVIOR"
+        ],
+        "description": "(536870912) "
+    },
+    "CDebugOverlayScriptHelper:SweptBox": {
+        "prefix": "SweptBox",
+        "body": [
+            "SweptBox( ${Vector_1 Vector}, ${Vector_2 Vector}, ${Vector_3 Vector}, ${Vector_4 Vector}, ${Quaternion_5 Quaternion}, ${int_6 int}, ${int_7 int}, ${int_8 int}, ${int_9 int}, ${float_10 float} )"
+        ],
+        "description": "Draws a swept box. Specify endpoints in world space and the bounds in local space."
+    },
+    "C_DOTA_Item_Lua:GetGoldCost": {
+        "prefix": "GetGoldCost",
+        "body": [
+            "GetGoldCost( ${iLevel int} )"
+        ],
+        "description": "Return gold cost at the given level (-1 is current)."
+    },
+    "Convars:SetInt": {
+        "prefix": "SetInt",
+        "body": [
+            "SetInt( ${string_1 string}, ${int_2 int} )"
+        ],
+        "description": "SetInt(name, val) : sets the value of the convar to the int."
+    },
+    "DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING": {
+        "prefix": "DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING",
+        "body": [
+            "DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING"
+        ],
+        "description": "(134217728) "
+    },
+    "CScriptKeyValues:GetValue": {
+        "prefix": "GetValue",
+        "body": [
+            "GetValue( ${string_1 string} )"
+        ],
+        "description": "Reads a spawn key"
+    },
+    "DebugDrawCircle": {
+        "prefix": "DebugDrawCircle",
+        "body": [
+            "DebugDrawCircle( ${Vector_1 Vector}, ${Vector_2 Vector}, ${float_3 float}, ${float_4 float}, ${bool_5 bool}, ${float_6 float} )"
+        ],
+        "description": "Draw a debug circle (center, vRgb, a, rad, ztest, duration)"
+    },
+    "CDOTA_Modifier_Lua_Motion_Both:OnVerticalMotionInterrupted": {
+        "prefix": "OnVerticalMotionInterrupted",
+        "body": [
+            "OnVerticalMotionInterrupted(  )"
+        ],
+        "description": "Called when the motion gets interrupted."
+    },
+    "CDOTA_Buff:GetParent": {
+        "prefix": "GetParent",
+        "body": [
+            "GetParent(  )"
+        ],
+        "description": "Get the unit the modifier is parented to."
+    },
+    "DebugDrawBoxDirection": {
+        "prefix": "DebugDrawBoxDirection",
+        "body": [
+            "DebugDrawBoxDirection( ${Vector_1 Vector}, ${Vector_2 Vector}, ${Vector_3 Vector}, ${Vector_4 Vector}, ${Vector_5 Vector}, ${float_6 float}, ${float_7 float} )"
+        ],
+        "description": "Draw a debug forward box (cent, min, max, forward, vRgb, a, duration)"
+    },
+    "MODIFIER_PROPERTY_REINCARNATION": {
+        "prefix": "MODIFIER_PROPERTY_REINCARNATION",
+        "body": [
+            "MODIFIER_PROPERTY_REINCARNATION"
+        ],
+        "description": "(62)  ReincarnateTime"
+    },
+    "LoadKeyValues": {
+        "prefix": "LoadKeyValues",
+        "body": [
+            "LoadKeyValues( ${string_1 string} )"
+        ],
+        "description": "Creates a table from the specified keyvalues text file"
+    },
+    "MODIFIER_EVENT_ON_ORB_EFFECT": {
+        "prefix": "MODIFIER_EVENT_ON_ORB_EFFECT",
+        "body": [
+            "MODIFIER_EVENT_ON_ORB_EFFECT"
+        ],
+        "description": "(117) "
+    },
+    "DOTA_UNIT_TARGET_TEAM_CUSTOM": {
+        "prefix": "DOTA_UNIT_TARGET_TEAM_CUSTOM",
+        "body": [
+            "DOTA_UNIT_TARGET_TEAM_CUSTOM"
+        ],
+        "description": "(4) "
+    },
+    "MODIFIER_PROPERTY_PROJECTILE_SPEED_BONUS": {
+        "prefix": "MODIFIER_PROPERTY_PROJECTILE_SPEED_BONUS",
+        "body": [
+            "MODIFIER_PROPERTY_PROJECTILE_SPEED_BONUS"
+        ],
+        "description": "(61)  GetModifierProjectileSpeedBonus"
+    },
+    "DOTA_MAX_TEAM_PLAYERS": {
+        "prefix": "DOTA_MAX_TEAM_PLAYERS",
+        "body": [
+            "DOTA_MAX_TEAM_PLAYERS"
+        ],
+        "description": "(24)  Max number of non-spectator players supported."
+    },
+    "C_DOTA_BaseNPC:IsTower": {
+        "prefix": "IsTower",
+        "body": [
+            "IsTower(  )"
+        ],
+        "description": "Is this a tower?"
+    },
+    "MODIFIER_STATE_FLYING": {
+        "prefix": "MODIFIER_STATE_FLYING",
+        "body": [
+            "MODIFIER_STATE_FLYING"
+        ],
+        "description": "(23) "
+    },
+    "C_DOTA_Modifier_Lua:GetModifierAura": {
+        "prefix": "GetModifierAura",
+        "body": [
+            "GetModifierAura(  )"
+        ],
+        "description": "The name of the secondary modifier that will be applied by this modifier (if it is an aura)."
+    },
+    "C_DOTA_BaseNPC:IsBarracks": {
+        "prefix": "IsBarracks",
+        "body": [
+            "IsBarracks(  )"
+        ],
+        "description": "Is this unit a Barracks?"
+    },
+    "UF_FAIL_OUT_OF_WORLD": {
+        "prefix": "UF_FAIL_OUT_OF_WORLD",
+        "body": [
+            "UF_FAIL_OUT_OF_WORLD"
+        ],
+        "description": "(27) "
+    },
+    "C_DOTA_BaseNPC:NotOnMinimap": {
+        "prefix": "NotOnMinimap",
+        "body": [
+            "NotOnMinimap(  )"
+        ],
+        "description": ""
+    },
+    "DOTA_UNIT_TARGET_FLAG_INVULNERABLE": {
+        "prefix": "DOTA_UNIT_TARGET_FLAG_INVULNERABLE",
+        "body": [
+            "DOTA_UNIT_TARGET_FLAG_INVULNERABLE"
+        ],
+        "description": "(64) "
+    },
+    "CDebugOverlayScriptHelper:Line2D": {
+        "prefix": "Line2D",
+        "body": [
+            "Line2D( ${Vector2D_1 Vector2D}, ${Vector2D_2 Vector2D}, ${int_3 int}, ${int_4 int}, ${int_5 int}, ${int_6 int}, ${float_7 float} )"
+        ],
+        "description": "Draws a line between two points in screenspace"
+    },
+    "LUA_MODIFIER_MOTION_HORIZONTAL": {
+        "prefix": "LUA_MODIFIER_MOTION_HORIZONTAL",
+        "body": [
+            "LUA_MODIFIER_MOTION_HORIZONTAL"
+        ],
+        "description": "(1) "
+    },
+    "MODIFIER_STATE_LAST": {
+        "prefix": "MODIFIER_STATE_LAST",
+        "body": [
+            "MODIFIER_STATE_LAST"
+        ],
+        "description": "(34) "
+    },
+    "CEntityInstance:DisconnectOutput": {
+        "prefix": "DisconnectOutput",
+        "body": [
+            "DisconnectOutput( ${string_1 string}, ${string_2 string} )"
+        ],
+        "description": "Removes a connected script function from an I/O event on this entity."
+    },
+    "MODIFIER_EVENT_ON_HEALTH_GAINED": {
+        "prefix": "MODIFIER_EVENT_ON_HEALTH_GAINED",
+        "body": [
+            "MODIFIER_EVENT_ON_HEALTH_GAINED"
+        ],
+        "description": "(125)  OnHealthGained"
+    },
+    "DOTA_UNIT_TARGET_CREEP": {
+        "prefix": "DOTA_UNIT_TARGET_CREEP",
+        "body": [
+            "DOTA_UNIT_TARGET_CREEP"
+        ],
+        "description": "(2) "
+    },
+    "CDebugOverlayScriptHelper:CircleScreenOriented": {
+        "prefix": "CircleScreenOriented",
+        "body": [
+            "CircleScreenOriented( ${Vector_1 Vector}, ${float_2 float}, ${int_3 int}, ${int_4 int}, ${int_5 int}, ${int_6 int}, ${bool_7 bool}, ${float_8 float} )"
+        ],
+        "description": "Draws a circle oriented to the screen. Specify center in world space."
+    },
+    "MODIFIER_PROPERTY_LIFETIME_FRACTION": {
+        "prefix": "MODIFIER_PROPERTY_LIFETIME_FRACTION",
+        "body": [
+            "MODIFIER_PROPERTY_LIFETIME_FRACTION"
+        ],
+        "description": "(138)  GetUnitLifetimeFraction"
+    },
+    "DOTA_ABILITY_BEHAVIOR_HIDDEN": {
+        "prefix": "DOTA_ABILITY_BEHAVIOR_HIDDEN",
+        "body": [
+            "DOTA_ABILITY_BEHAVIOR_HIDDEN"
+        ],
+        "description": "(1) "
+    },
+    "DOTA_ATTRIBUTE_MAX": {
+        "prefix": "DOTA_ATTRIBUTE_MAX",
+        "body": [
+            "DOTA_ATTRIBUTE_MAX"
+        ],
+        "description": "(3) "
+    },
+    "DOTA_TEAM_CUSTOM_5": {
+        "prefix": "DOTA_TEAM_CUSTOM_5",
+        "body": [
+            "DOTA_TEAM_CUSTOM_5"
+        ],
+        "description": "(10) "
+    },
+    "C_DOTA_BaseNPC:HasFlyingVision": {
+        "prefix": "HasFlyingVision",
+        "body": [
+            "HasFlyingVision(  )"
+        ],
+        "description": ""
+    },
+    "DOTA_RUNE_COUNT": {
+        "prefix": "DOTA_RUNE_COUNT",
+        "body": [
+            "DOTA_RUNE_COUNT"
+        ],
+        "description": "(6) "
+    },
+    "DOTA_RUNE_ILLUSION": {
+        "prefix": "DOTA_RUNE_ILLUSION",
+        "body": [
+            "DOTA_RUNE_ILLUSION"
+        ],
+        "description": "(2) "
+    },
+    "MODIFIER_EVENT_ON_ATTACK_ALLIED": {
+        "prefix": "MODIFIER_EVENT_ON_ATTACK_ALLIED",
+        "body": [
+            "MODIFIER_EVENT_ON_ATTACK_ALLIED"
+        ],
+        "description": "(104)  OnAttackAllied"
+    },
+    "DOTA_ABILITY_BEHAVIOR_AURA": {
+        "prefix": "DOTA_ABILITY_BEHAVIOR_AURA",
+        "body": [
+            "DOTA_ABILITY_BEHAVIOR_AURA"
+        ],
+        "description": "(65536) "
+    },
+    "Convars:SetBool": {
+        "prefix": "SetBool",
+        "body": [
+            "SetBool( ${string_1 string}, ${bool_2 bool} )"
+        ],
+        "description": "SetBool(name, val) : sets the value of the convar to the bool."
+    },
+    "StopSoundOn": {
+        "prefix": "StopSoundOn",
+        "body": [
+            "StopSoundOn( ${string_1 string}, ${handle_2 handle} )"
+        ],
+        "description": "Stop named sound on Entity"
+    },
+    "DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL": {
+        "prefix": "DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL",
+        "body": [
+            "DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL"
+        ],
+        "description": "(4194304) "
+    },
+    "DOTA_HEROPICK_STATE_BD_SELECT": {
+        "prefix": "DOTA_HEROPICK_STATE_BD_SELECT",
+        "body": [
+            "DOTA_HEROPICK_STATE_BD_SELECT"
+        ],
+        "description": "(50) "
+    },
+    "CDOTA_Buff:GetCreationTime": {
+        "prefix": "GetCreationTime",
+        "body": [
+            "GetCreationTime(  )"
+        ],
+        "description": ""
+    },
+    "CDOTA_Buff:GetClass": {
+        "prefix": "GetClass",
+        "body": [
+            "GetClass(  )"
+        ],
+        "description": ""
+    },
+    "DOTA_UNIT_TARGET_FLAG_NOT_ILLUSIONS": {
+        "prefix": "DOTA_UNIT_TARGET_FLAG_NOT_ILLUSIONS",
+        "body": [
+            "DOTA_UNIT_TARGET_FLAG_NOT_ILLUSIONS"
+        ],
+        "description": "(8192) "
+    },
+    "SetQuestName": {
+        "prefix": "SetQuestName",
+        "body": [
+            "SetQuestName( ${string_1 string} )"
+        ],
+        "description": "Set the current quest name."
+    },
+    "DOTA_HEROPICK_STATE_CM_PICK": {
+        "prefix": "DOTA_HEROPICK_STATE_CM_PICK",
+        "body": [
+            "DOTA_HEROPICK_STATE_CM_PICK"
+        ],
+        "description": "(27) "
+    },
+    "DOTA_UNIT_TARGET_FLAG_NOT_SUMMONED": {
+        "prefix": "DOTA_UNIT_TARGET_FLAG_NOT_SUMMONED",
+        "body": [
+            "DOTA_UNIT_TARGET_FLAG_NOT_SUMMONED"
+        ],
+        "description": "(4096) "
+    },
+    "ScreenShake": {
+        "prefix": "ScreenShake",
+        "body": [
+            "ScreenShake( ${Vector_1 Vector}, ${float_2 float}, ${float_3 float}, ${float_4 float}, ${float_5 float}, ${int_6 int}, ${bool_7 bool} )"
+        ],
+        "description": "Start a screenshake with the following parameters. vecCenter, flAmplitude, flFrequency, flDuration, flRadius, eCommand( SHAKE_START = 0, SHAKE_STOP = 1 ), bAirShake"
+    },
+    "CEntityInstance:GetPublicScriptScope": {
+        "prefix": "GetPublicScriptScope",
+        "body": [
+            "GetPublicScriptScope(  )"
+        ],
+        "description": "Retrieve the public script-side data associated with an entity"
+    },
+    "CBodyComponent:AddImpulseAtPosition": {
+        "prefix": "AddImpulseAtPosition",
+        "body": [
+            "AddImpulseAtPosition( ${Vector_1 Vector}, ${Vector_2 Vector} )"
+        ],
+        "description": "Apply an impulse at a worldspace position to the physics"
+    },
+    "DOTA_HEROPICK_STATE_CM_BAN3": {
+        "prefix": "DOTA_HEROPICK_STATE_CM_BAN3",
+        "body": [
+            "DOTA_HEROPICK_STATE_CM_BAN3"
+        ],
+        "description": "(9) "
+    },
+    "MODIFIER_STATE_COMMAND_RESTRICTED": {
+        "prefix": "MODIFIER_STATE_COMMAND_RESTRICTED",
+        "body": [
+            "MODIFIER_STATE_COMMAND_RESTRICTED"
+        ],
+        "description": "(18) "
+    },
+    "C_BaseEntity:SetContextThink": {
+        "prefix": "SetContextThink",
+        "body": [
+            "SetContextThink( ${pszContextName string}, ${hThinkFunc handle}, ${flInterval float} )"
+        ],
+        "description": "Set a think function on this entity."
+    },
+    "CDOTA_Buff:SetDuration": {
+        "prefix": "SetDuration",
+        "body": [
+            "SetDuration( ${flDuration float}, ${bInformClient bool} )"
+        ],
+        "description": "(flTime, bInformClients)"
+    },
+    "MODIFIER_PROPERTY_TOTALDAMAGEOUTGOING_PERCENTAGE": {
+        "prefix": "MODIFIER_PROPERTY_TOTALDAMAGEOUTGOING_PERCENTAGE",
+        "body": [
+            "MODIFIER_PROPERTY_TOTALDAMAGEOUTGOING_PERCENTAGE"
+        ],
+        "description": "(27)  GetModifierTotalDamageOutgoing_Percentage"
+    },
+    "cvar_getf": {
+        "prefix": "cvar_getf",
+        "body": [
+            "cvar_getf( ${string_1 string} )"
+        ],
+        "description": "Gets the value of the given cvar, as a float."
+    },
+    "PATTACH_ABSORIGIN_FOLLOW": {
+        "prefix": "PATTACH_ABSORIGIN_FOLLOW",
+        "body": [
+            "PATTACH_ABSORIGIN_FOLLOW"
+        ],
+        "description": "(1) "
+    },
+    "FireGameEvent": {
+        "prefix": "FireGameEvent",
+        "body": [
+            "FireGameEvent( ${string_1 string}, ${handle_2 handle} )"
+        ],
+        "description": "Fire a game event."
+    },
+    "CEntityInstance:GetClassname": {
+        "prefix": "GetClassname",
+        "body": [
+            "GetClassname(  )"
+        ],
+        "description": ""
+    },
+    "MODIFIER_PROPERTY_MAGICAL_RESISTANCE_ITEM_UNIQUE": {
+        "prefix": "MODIFIER_PROPERTY_MAGICAL_RESISTANCE_ITEM_UNIQUE",
+        "body": [
+            "MODIFIER_PROPERTY_MAGICAL_RESISTANCE_ITEM_UNIQUE"
+        ],
+        "description": "(42)  GetModifierMagicalResistanceItemUnique"
+    },
+    "CDebugOverlayScriptHelper:EntityAttachments": {
+        "prefix": "EntityAttachments",
+        "body": [
+            "EntityAttachments( ${ehandle_1 ehandle}, ${float_2 float}, ${float_3 float} )"
+        ],
+        "description": "Draws the attachments of the entity"
+    },
+    "DOTA_HEROPICK_STATE_INTRO_SELECT": {
+        "prefix": "DOTA_HEROPICK_STATE_INTRO_SELECT",
+        "body": [
+            "DOTA_HEROPICK_STATE_INTRO_SELECT"
+        ],
+        "description": "(3) "
+    },
+    "MODIFIER_PROPERTY_AVOID_DAMAGE": {
+        "prefix": "MODIFIER_PROPERTY_AVOID_DAMAGE",
+        "body": [
+            "MODIFIER_PROPERTY_AVOID_DAMAGE"
+        ],
+        "description": "(34)  GetModifierAvoidDamage"
+    },
+    "DOTA_HEROPICK_STATE_CM_SELECT6": {
+        "prefix": "DOTA_HEROPICK_STATE_CM_SELECT6",
+        "body": [
+            "DOTA_HEROPICK_STATE_CM_SELECT6"
+        ],
+        "description": "(22) "
+    },
+    "DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK": {
+        "prefix": "DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK",
+        "body": [
+            "DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
+        ],
+        "description": "(33554432) "
+    },
+    "C_DOTA_Item_Lua:GetCustomCastError": {
+        "prefix": "GetCustomCastError",
+        "body": [
+            "GetCustomCastError(  )"
+        ],
+        "description": "Return the error string of a failed command with no target."
+    },
+    "MODIFIER_PROPERTY_COOLDOWN_REDUCTION_CONSTANT": {
+        "prefix": "MODIFIER_PROPERTY_COOLDOWN_REDUCTION_CONSTANT",
+        "body": [
+            "MODIFIER_PROPERTY_COOLDOWN_REDUCTION_CONSTANT"
+        ],
+        "description": "(22)  GetModifierCooldownReduction_Constant"
+    },
+    "CDebugOverlayScriptHelper:VectorText3D": {
+        "prefix": "VectorText3D",
+        "body": [
+            "VectorText3D( ${Vector_1 Vector}, ${Quaternion_2 Quaternion}, ${string_3 string}, ${int_4 int}, ${int_5 int}, ${int_6 int}, ${int_7 int}, ${bool_8 bool}, ${float_9 float} )"
+        ],
+        "description": "Draws 3D text. Specify origin + orientation in world space."
+    },
+    "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT_POWER_TREADS": {
+        "prefix": "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT_POWER_TREADS",
+        "body": [
+            "MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT_POWER_TREADS"
+        ],
+        "description": "(20)  GetModifierAttackSpeedBonus_Constant_PowerTreads"
+    },
+    "C_DOTA_Item_Lua:GetAOERadius": {
+        "prefix": "GetAOERadius",
+        "body": [
+            "GetAOERadius(  )"
+        ],
+        "description": "Controls the size of the AOE casting cursor."
+    },
+    "C_DOTA_Item:IsPermanent": {
+        "prefix": "IsPermanent",
+        "body": [
+            "IsPermanent(  )"
+        ],
+        "description": ""
+    },
+    "CBodyComponent:SequenceDuration": {
+        "prefix": "SequenceDuration",
+        "body": [
+            "SequenceDuration( ${string_1 string} )"
+        ],
+        "description": "Returns the duration in seconds of the specified sequence"
+    },
+    "C_DOTA_Ability_Lua:GetManaCost": {
+        "prefix": "GetManaCost",
+        "body": [
+            "GetManaCost( ${iLevel int} )"
+        ],
+        "description": "Return mana cost at the given level (-1 is current)."
+    },
+    "DOTA_SPEECH_USER_TEAM_NEARBY": {
+        "prefix": "DOTA_SPEECH_USER_TEAM_NEARBY",
+        "body": [
+            "DOTA_SPEECH_USER_TEAM_NEARBY"
+        ],
+        "description": "(3) "
+    },
+    "DOTA_UNIT_TARGET_HERO": {
+        "prefix": "DOTA_UNIT_TARGET_HERO",
+        "body": [
+            "DOTA_UNIT_TARGET_HERO"
+        ],
+        "description": "(1) "
+    },
+    "SetOpvarFloatAll": {
+        "prefix": "SetOpvarFloatAll",
+        "body": [
+            "SetOpvarFloatAll( ${string_1 string}, ${string_2 string}, ${string_3 string}, ${float_4 float} )"
+        ],
+        "description": "Sets an opvar value for all players"
+    },
+    "MODIFIER_STATE_TRUESIGHT_IMMUNE": {
+        "prefix": "MODIFIER_STATE_TRUESIGHT_IMMUNE",
+        "body": [
+            "MODIFIER_STATE_TRUESIGHT_IMMUNE"
+        ],
+        "description": "(33) "
+    },
+    "C_DOTA_BaseNPC:IsMuted": {
+        "prefix": "IsMuted",
+        "body": [
+            "IsMuted(  )"
+        ],
+        "description": ""
+    },
+    "MODIFIER_PROPERTY_TRANSLATE_ACTIVITY_MODIFIERS": {
+        "prefix": "MODIFIER_PROPERTY_TRANSLATE_ACTIVITY_MODIFIERS",
+        "body": [
+            "MODIFIER_PROPERTY_TRANSLATE_ACTIVITY_MODIFIERS"
+        ],
+        "description": "(136)  GetActivityTranslationModifiers"
+    },
+    "DOTA_SPEECH_USER_TEAM": {
+        "prefix": "DOTA_SPEECH_USER_TEAM",
+        "body": [
+            "DOTA_SPEECH_USER_TEAM"
+        ],
+        "description": "(2) "
+    },
+    "MODIFIER_EVENT_ON_ABILITY_FULLY_CAST": {
+        "prefix": "MODIFIER_EVENT_ON_ABILITY_FULLY_CAST",
+        "body": [
+            "MODIFIER_EVENT_ON_ABILITY_FULLY_CAST"
+        ],
+        "description": "(110)  OnAbilityFullyCast"
+    },
+    "MODIFIER_EVENT_ON_TAKEDAMAGE": {
+        "prefix": "MODIFIER_EVENT_ON_TAKEDAMAGE",
+        "body": [
+            "MODIFIER_EVENT_ON_TAKEDAMAGE"
+        ],
+        "description": "(115)  OnTakeDamage"
+    },
+    "DOTA_UNIT_TARGET_TEAM_BOTH": {
+        "prefix": "DOTA_UNIT_TARGET_TEAM_BOTH",
+        "body": [
+            "DOTA_UNIT_TARGET_TEAM_BOTH"
+        ],
+        "description": "(3) "
+    },
+    "MODIFIER_EVENT_ON_ORDER": {
+        "prefix": "MODIFIER_EVENT_ON_ORDER",
+        "body": [
+            "MODIFIER_EVENT_ON_ORDER"
+        ],
+        "description": "(106)  OnOrder"
+    },
+    "MODIFIER_STATE_INVULNERABLE": {
+        "prefix": "MODIFIER_STATE_INVULNERABLE",
+        "body": [
+            "MODIFIER_STATE_INVULNERABLE"
+        ],
+        "description": "(8) "
+    },
+    "C_DOTA_BaseNPC:IsDominated": {
+        "prefix": "IsDominated",
+        "body": [
+            "IsDominated(  )"
+        ],
+        "description": ""
+    },
+    "DOTA_UNIT_TARGET_FLAG_OUT_OF_WORLD": {
+        "prefix": "DOTA_UNIT_TARGET_FLAG_OUT_OF_WORLD",
+        "body": [
+            "DOTA_UNIT_TARGET_FLAG_OUT_OF_WORLD"
+        ],
+        "description": "(262144) "
+    },
+    "CDebugOverlayScriptHelper:Axis": {
+        "prefix": "Axis",
+        "body": [
+            "Axis( ${Vector_1 Vector}, ${Quaternion_2 Quaternion}, ${float_3 float}, ${bool_4 bool}, ${float_5 float} )"
+        ],
+        "description": "Draws an axis. Specify origin + orientation in world space."
+    },
+    "MODIFIER_PROPERTY_INVISIBILITY_LEVEL": {
+        "prefix": "MODIFIER_PROPERTY_INVISIBILITY_LEVEL",
+        "body": [
+            "MODIFIER_PROPERTY_INVISIBILITY_LEVEL"
+        ],
+        "description": "(8)  GetModifierInvisibilityLevel"
+    },
+    "C_DOTA_Ability_Lua:GetCooldown": {
+        "prefix": "GetCooldown",
+        "body": [
+            "GetCooldown( ${iLevel int} )"
+        ],
+        "description": "Return cooldown of this ability."
+    },
+    "GetMaxOutputDelay": {
+        "prefix": "GetMaxOutputDelay",
+        "body": [
+            "GetMaxOutputDelay( ${ehandle_1 ehandle}, ${string_2 string} )"
+        ],
+        "description": "Get the longest delay for all events attached to an output"
+    },
+    "DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE": {
+        "prefix": "DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE",
+        "body": [
+            "DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+        ],
+        "description": "(64) "
+    },
+    "C_DOTA_BaseNPC:IsBoss": {
+        "prefix": "IsBoss",
+        "body": [
+            "IsBoss(  )"
+        ],
+        "description": "Is this a real hero?"
+    },
+    "CScriptPrecacheContext:AddResource": {
+        "prefix": "AddResource",
+        "body": [
+            "AddResource( ${string_1 string} )"
+        ],
+        "description": "Precaches a specific resource"
+    },
+    "C_DOTA_BaseNPC:IsSpeciallyDeniable": {
+        "prefix": "IsSpeciallyDeniable",
+        "body": [
+            "IsSpeciallyDeniable(  )"
+        ],
+        "description": ""
+    },
+    "MODIFIER_EVENT_ON_UNIT_MOVED": {
+        "prefix": "MODIFIER_EVENT_ON_UNIT_MOVED",
+        "body": [
+            "MODIFIER_EVENT_ON_UNIT_MOVED"
+        ],
+        "description": "(107)  OnUnitMoved"
+    },
+    "C_DOTA_BaseNPC:HasModifier": {
+        "prefix": "HasModifier",
+        "body": [
+            "HasModifier( ${pszScriptName string} )"
+        ],
+        "description": "Sees if this unit has a given modifier."
+    },
+    "MODIFIER_PROPERTY_DAMAGEOUTGOING_PERCENTAGE_ILLUSION": {
+        "prefix": "MODIFIER_PROPERTY_DAMAGEOUTGOING_PERCENTAGE_ILLUSION",
+        "body": [
+            "MODIFIER_PROPERTY_DAMAGEOUTGOING_PERCENTAGE_ILLUSION"
+        ],
+        "description": "(26)  GetModifierDamageOutgoing_Percentage_Illusion"
+    },
+    "C_DOTA_Modifier_Lua:OnRefresh": {
+        "prefix": "OnRefresh",
+        "body": [
+            "OnRefresh( ${table handle} )"
+        ],
+        "description": "Runs when the modifier is refreshed."
+    },
+    "C_DOTA_BaseNPC:GetHullRadius": {
+        "prefix": "GetHullRadius",
+        "body": [
+            "GetHullRadius(  )"
+        ],
+        "description": "Get the collision hull radius of this NPC."
+    },
+    "CDOTA_Buff:SetStackCount": {
+        "prefix": "SetStackCount",
+        "body": [
+            "SetStackCount( ${iCount int} )"
+        ],
+        "description": ""
+    },
+    "C_DOTA_BaseNPC:GetModelRadius": {
+        "prefix": "GetModelRadius",
+        "body": [
+            "GetModelRadius(  )"
+        ],
+        "description": ""
+    },
+    "DOTA_ABILITY_SPEAK_CAST": {
+        "prefix": "DOTA_ABILITY_SPEAK_CAST",
+        "body": [
+            "DOTA_ABILITY_SPEAK_CAST"
+        ],
+        "description": "(1) "
+    },
+    "CDebugOverlayScriptHelper:Cross3D": {
+        "prefix": "Cross3D",
+        "body": [
+            "Cross3D( ${Vector_1 Vector}, ${float_2 float}, ${int_3 int}, ${int_4 int}, ${int_5 int}, ${int_6 int}, ${bool_7 bool}, ${float_8 float} )"
+        ],
+        "description": "Draws a world-aligned cross. Specify origin in world space."
+    },
+    "DOTA_TEAM_CUSTOM_3": {
+        "prefix": "DOTA_TEAM_CUSTOM_3",
+        "body": [
+            "DOTA_TEAM_CUSTOM_3"
+        ],
+        "description": "(8) "
+    },
+    "DOTA_UNIT_TARGET_FLAG_NO_INVIS": {
+        "prefix": "DOTA_UNIT_TARGET_FLAG_NO_INVIS",
+        "body": [
+            "DOTA_UNIT_TARGET_FLAG_NO_INVIS"
+        ],
+        "description": "(256) "
+    },
+    "DOTA_HEROPICK_STATE_CM_BAN1": {
+        "prefix": "DOTA_HEROPICK_STATE_CM_BAN1",
+        "body": [
+            "DOTA_HEROPICK_STATE_CM_BAN1"
+        ],
+        "description": "(7) "
+    },
+    "C_DOTA_BaseNPC:GetHasteFactor": {
+        "prefix": "GetHasteFactor",
+        "body": [
+            "GetHasteFactor(  )"
+        ],
+        "description": ""
+    },
+    "C_DOTA_BaseNPC:GetBaseAttackTime": {
+        "prefix": "GetBaseAttackTime",
+        "body": [
+            "GetBaseAttackTime(  )"
+        ],
+        "description": ""
+    },
+    "DOTA_ATTRIBUTE_INTELLECT": {
+        "prefix": "DOTA_ATTRIBUTE_INTELLECT",
+        "body": [
+            "DOTA_ATTRIBUTE_INTELLECT"
+        ],
+        "description": "(2) "
+    },
+    "DOTA_HEROPICK_STATE_CM_BAN7": {
+        "prefix": "DOTA_HEROPICK_STATE_CM_BAN7",
+        "body": [
+            "DOTA_HEROPICK_STATE_CM_BAN7"
+        ],
+        "description": "(13) "
+    },
+    "DOTA_HEROPICK_STATE_COUNT": {
+        "prefix": "DOTA_HEROPICK_STATE_COUNT",
+        "body": [
+            "DOTA_HEROPICK_STATE_COUNT"
+        ],
+        "description": "(55) "
+    },
+    "DOTA_HEROPICK_STATE_CD_SELECT10": {
+        "prefix": "DOTA_HEROPICK_STATE_CD_SELECT10",
+        "body": [
+            "DOTA_HEROPICK_STATE_CD_SELECT10"
+        ],
+        "description": "(48) "
+    },
+    "CToneMapControllerComponent:GetMaxExposure": {
+        "prefix": "GetMaxExposure",
+        "body": [
+            "GetMaxExposure(  )"
+        ],
+        "description": "Gets max exposure for this tonemap controller"
+    },
+    "C_DOTA_BaseNPC:NoTeamSelect": {
+        "prefix": "NoTeamSelect",
+        "body": [
+            "NoTeamSelect(  )"
+        ],
+        "description": ""
+    },
+    "StartSoundEventReliable": {
+        "prefix": "StartSoundEventReliable",
+        "body": [
+            "StartSoundEventReliable( ${string_1 string}, ${handle_2 handle} )"
+        ],
+        "description": "Start a sound event with reliable delivery"
+    },
+    "CBodyComponent:SetAngularVelocity": {
+        "prefix": "SetAngularVelocity",
+        "body": [
+            "SetAngularVelocity( ${Vector_1 Vector} )"
+        ],
+        "description": ""
+    },
+    "MODIFIER_PROPERTY_IS_SCEPTER": {
+        "prefix": "MODIFIER_PROPERTY_IS_SCEPTER",
+        "body": [
+            "MODIFIER_PROPERTY_IS_SCEPTER"
+        ],
+        "description": "(135)  GetModifierScepter"
+    },
+    "UF_FAIL_MAGIC_IMMUNE_ENEMY": {
+        "prefix": "UF_FAIL_MAGIC_IMMUNE_ENEMY",
+        "body": [
+            "UF_FAIL_MAGIC_IMMUNE_ENEMY"
+        ],
+        "description": "(18) "
+    },
+    "DOTA_ATTRIBUTE_AGILITY": {
+        "prefix": "DOTA_ATTRIBUTE_AGILITY",
+        "body": [
+            "DOTA_ATTRIBUTE_AGILITY"
+        ],
+        "description": "(1) "
+    },
+    "DOTA_SPEECH_USER_SINGLE": {
+        "prefix": "DOTA_SPEECH_USER_SINGLE",
+        "body": [
+            "DOTA_SPEECH_USER_SINGLE"
+        ],
+        "description": "(1) "
+    },
+    "SpawnEntityFromTableSynchronous": {
+        "prefix": "SpawnEntityFromTableSynchronous",
+        "body": [
+            "SpawnEntityFromTableSynchronous( ${string_1 string}, ${handle_2 handle} )"
+        ],
+        "description": "Synchronously spawns a single entity from a table"
+    },
+    "MODIFIER_PROPERTY_BONUS_NIGHT_VISION": {
+        "prefix": "MODIFIER_PROPERTY_BONUS_NIGHT_VISION",
+        "body": [
+            "MODIFIER_PROPERTY_BONUS_NIGHT_VISION"
+        ],
+        "description": "(81)  GetBonusNightVision"
+    },
+    "MODIFIER_EVENT_ON_ATTACKED": {
+        "prefix": "MODIFIER_EVENT_ON_ATTACKED",
+        "body": [
+            "MODIFIER_EVENT_ON_ATTACKED"
+        ],
+        "description": "(118)  OnAttacked"
+    },
+    "DOTA_HEROPICK_STATE_CD_INTRO": {
+        "prefix": "DOTA_HEROPICK_STATE_CD_INTRO",
+        "body": [
+            "DOTA_HEROPICK_STATE_CD_INTRO"
+        ],
+        "description": "(31) "
+    },
+    "StartSoundEventFromPositionReliable": {
+        "prefix": "StartSoundEventFromPositionReliable",
+        "body": [
+            "StartSoundEventFromPositionReliable( ${string_1 string}, ${Vector_2 Vector} )"
+        ],
+        "description": "Start a sound event from position with reliable delivery"
+    },
+    "CDOTA_Buff:GetDieTime": {
+        "prefix": "GetDieTime",
+        "body": [
+            "GetDieTime(  )"
+        ],
+        "description": ""
+    },
+    "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT": {
+        "prefix": "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT",
+        "body": [
+            "MODIFIER_PROPERTY_MANA_REGEN_CONSTANT"
+        ],
+        "description": "(45)  GetModifierConstantManaRegen"
+    },
+    "DOTA_TEAM_NEUTRALS": {
+        "prefix": "DOTA_TEAM_NEUTRALS",
+        "body": [
+            "DOTA_TEAM_NEUTRALS"
+        ],
+        "description": "(4) "
+    },
+    "MODIFIER_PROPERTY_AVOID_SPELL": {
+        "prefix": "MODIFIER_PROPERTY_AVOID_SPELL",
+        "body": [
+            "MODIFIER_PROPERTY_AVOID_SPELL"
+        ],
+        "description": "(35)  GetModifierAvoidSpell"
+    },
+    "DOTA_ABILITY_BEHAVIOR_ATTACK": {
+        "prefix": "DOTA_ABILITY_BEHAVIOR_ATTACK",
+        "body": [
+            "DOTA_ABILITY_BEHAVIOR_ATTACK"
+        ],
+        "description": "(131072) "
+    }
+}

@@ -1,0 +1,21 @@
+{
+	"name": "dota2addonsnippets",
+	"displayName": "Dota2 Addon Snippets",
+	"description": "Snippets for coding Lua scripts for Dota 2 addons",
+	"version": "0.0.2",
+	"publisher": "wigguno",
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"language": "lua",
+				"path": "./snippets/snippets.json"
+			}
+		]
+	}
+}
