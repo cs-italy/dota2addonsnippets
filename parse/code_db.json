@@ -1,0 +1,3121 @@
+{
+    "CEntityInstance:GetClassname": {
+        "comments": [
+            ""
+        ],
+        "params": {}
+    },
+    "C_DOTA_Ability_Lua:GetChannelTime": {
+        "comments": [
+            "Return the channel time of this ability."
+        ],
+        "params": {}
+    },
+    "CDebugOverlayScriptHelper:FilledRect2D": {
+        "comments": [
+            "Draws a screen-space filled 2D rectangle. Coordinates are in pixels."
+        ],
+        "params": {
+            "float_7": "float_7",
+            "Vector2D_1": "Vector2D_1",
+            "Vector2D_2": "Vector2D_2",
+            "int_5": "int_5",
+            "int_3": "int_3",
+            "int_4": "int_4",
+            "int_6": "int_6"
+        }
+    },
+    "C_DOTA_BaseNPC:HasFlyingVision": {
+        "comments": [
+            ""
+        ],
+        "params": {}
+    },
+    "SplineVectors": {
+        "comments": [
+            "(vector,vector,float) very basic interpolation of v0 to v1 over t on [0,1]"
+        ],
+        "params": {
+            "float_3": "float_3",
+            "Vector_2": "Vector_2",
+            "Vector_1": "Vector_1"
+        }
+    },
+    "C_DOTA_BaseNPC:IsCreep": {
+        "comments": [
+            "Is this unit a creep?"
+        ],
+        "params": {}
+    },
+    "CEntityInstance:GetIntAttr": {
+        "comments": [
+            "Get Integer Attribute"
+        ],
+        "params": {
+            "string_1": "sAttr"
+        }
+    },
+    "C_DOTA_Modifier_Lua:GetAuraSearchType": {
+        "comments": [
+            "Return the unit classifications this aura applies its buff to."
+        ],
+        "params": {}
+    },
+    "Convars:GetInt": {
+        "comments": [
+            "GetInt(name) : returns the convar as an int. May return null if no such convar."
+        ],
+        "params": {
+            "string_1": "sAttr"
+        }
+    },
+    "C_DOTA_Item_Lua:GetCooldown": {
+        "comments": [
+            "Return cooldown of this ability."
+        ],
+        "params": {
+            "iLevel": "iLevel"
+        }
+    },
+    "CDOTA_Buff:GetElapsedTime": {
+        "comments": [
+            ""
+        ],
+        "params": {}
+    },
+    "FireEntityIOInputString": {
+        "comments": [
+            "Fire Entity's Action Input with passed String - you own the memory"
+        ],
+        "params": {
+            "string_3": "string_3",
+            "string_2": "string_2",
+            "ehandle_1": "ehandle_1"
+        }
+    },
+    "C_DOTA_BaseNPC:IsAncient": {
+        "comments": [
+            "Is this unit an Ancient?"
+        ],
+        "params": {}
+    },
+    "StopSoundOn": {
+        "comments": [
+            "Stop named sound on Entity"
+        ],
+        "params": {
+            "handle_2": "eEntity",
+            "string_1": "sSoundName"
+        }
+    },
+    "CToneMapControllerComponent:GetMaxExposure": {
+        "comments": [
+            "Gets max exposure for this tonemap controller"
+        ],
+        "params": {}
+    },
+    "C_DOTA_BaseNPC:GetOpposingTeamNumber": {
+        "comments": [
+            ""
+        ],
+        "params": {}
+    },
+    "DebugDrawLine": {
+        "params": {
+			"Vector_1": "vOrigin",
+			"Vector_2": "vTarget",
+			"int_3":	"iRed",
+			"int_4":	"iGreen",
+			"int_5":	"iBlue",
+			"bool_6":	"iZtest",
+			"float_7":	"fDuration"
+		},
+		"comments": [
+			"Draw a debug overlay line"
+		]
+    },
+    "C_DOTA_BaseNPC:IsAttackImmune": {
+        "comments": [
+            ""
+        ],
+        "params": {}
+    },
+    "C_DOTA_BaseNPC:IsFrozen": {
+        "comments": [
+            ""
+        ],
+        "params": {}
+    },
+    "ListenToGameEvent": {
+        "comments": [
+            "Register as a listener for a game event from script."
+        ],
+        "params": {
+            "handle_2": "hCallback",
+            "handle_3": "hSelf",
+            "string_1": "sEventName"
+        }
+    },
+    "DebugDrawScreenTextLine": {
+        "params": {
+			"float_1": 	"fX",
+			"float_2": 	"fY",
+			"int_3":	"iOffset",
+			"string_4":	"sText",
+			"int_5":	"iRed",
+			"int_6":	"iGreen",
+			"int_7":	"iBlue",
+			"int_8":	"iAlpha",
+			"float_9":	"fDuration"
+		},
+		"comments": [
+			"Draw text on the screen, offset downwards by a set number of lines"
+		]
+    },
+    "C_DOTA_BaseNPC:HasAttackCapability": {
+        "comments": [
+            ""
+        ],
+        "params": {}
+    },
+    "CToneMapControllerComponent:SetMinExposure": {
+        "comments": [
+            "Sets min exposure for this tonemap controller"
+        ],
+        "params": {
+            "float_1": "float_1"
+        }
+    },
+    "C_DOTA_BaseNPC:IsRangedAttacker": {
+        "comments": [
+            "Is this unit a ranged attacker?"
+        ],
+        "params": {}
+    },
+    "C_DOTA_Ability_Lua:GetManaCost": {
+        "comments": [
+            "Return mana cost at the given level (-1 is current)."
+        ],
+        "params": {
+            "iLevel": "iLevel"
+        }
+    },
+    "DoScriptAssert": {
+        "comments": [
+            "#ScriptAssert:Asserts the passed in value. Prints out a message and brings up the assert dialog."
+        ],
+        "params": {
+            "string_2": "string_2",
+            "bool_1":   "bool_1"
+        }
+    },
+    "C_DOTA_BaseNPC:IsUnselectable": {
+        "comments": [
+            ""
+        ],
+        "params": {}
+    },
+    "SpawnEntityListFromTableAsynchronous": {
+        "comments": [
+            "Asynchronously spawn an entity group from a list of spawn tables. A callback will be triggered when the spawning is complete"
+        ],
+        "params": {
+            "handle_2": "handle_2",
+            "handle_1": "handle_1"
+        }
+    },
+    "C_DOTA_BaseNPC:IsDominated": {
+        "comments": [
+            ""
+        ],
+        "params": {}
+    },
+    "C_DOTA_BaseNPC:IsMagicImmune": {
+        "comments": [
+            ""
+        ],
+        "params": {}
+    },
+    "CDOTA_Modifier_Lua_Motion_Both:UpdateHorizontalMotion": {
+        "comments": [
+            "Perform any motion from the given interval on the NPC."
+        ],
+        "params": {
+            "dt": "dt",
+            "me": "me"
+        }
+    },
+    "CToneMapControllerComponent:GetBloomScale": {
+        "comments": [
+            "Gets bloomscale for this tonemap controller"
+        ],
+        "params": {}
+    },
+    "DebugDrawSphere": {
+        "params": {
+			"Vector_1": "vOrigin",
+			"Vector_2": "vRGB",
+			"float_3":	"iAlpha",
+			"float_4":	"iRadius",
+			"bool_5":	"bZtest",
+			"float_6":	"fDuration"
+		},
+		"comments": [
+			"Draw a sphere in the world"
+		]
+    },
+    "CDOTA_Buff:IncrementStackCount": {
+        "comments": [
+            "Increase this modifier's stack count by 1."
+        ],
+        "params": {}
+    },
+    "C_DOTA_Item_Lua:CastFilterResultLocation": {
+        "comments": [
+            "(Vector vLocation) Determine whether an issued command on a location is valid."
+        ],
+        "params": {
+            "vLocation": "vLocation"
+        }
+    },
+    "PrecacheEntityListFromTable": {
+        "comments": [
+            "Precache a list of entity KeyValues tables"
+        ],
+        "params": {
+            "handle_2": "handle_2",
+            "handle_1": "handle_1"
+        }
+    },
+    "LinkLuaModifier": {
+        "comments": [
+            "Link a lua-defined modifier with the associated class ( className, fileName, LuaModifierType)."
+        ],
+        "params": {
+            "string_1": "string_1",
+            "int_3":    "int_3",
+            "string_2": "string_2"
+        }
+    },
+    "SetOpvarFloatAll": {
+        "comments": [
+            "Sets an opvar value for all players"
+        ],
+        "params": {
+            "float_4": "float_4",
+            "string_1": "string_1",
+            "string_3": "string_3",
+            "string_2": "string_2"
+        }
+    },
+    "CDOTA_Buff:GetCreationTime": {
+        "comments": [
+            ""
+        ],
+        "params": {}
+    },
+    "C_DOTA_BaseNPC:GetDayTimeVisionRange": {
+        "comments": [
+            "Returns the vision range after modifiers."
+        ],
+        "params": {}
+    },
+    "RotatePosition": {
+        "comments": [
+            "Rotate a Vector around a point."
+        ],
+        "params": {
+            "QAngle_2": "QAngle_2",
+            "Vector_1": "Vector_1",
+            "Vector_3": "Vector_3"
+        }
+    },
+    "FireGameEvent": {
+        "comments": [
+            "Fire a game event."
+        ],
+        "params": {
+            "handle_2": "handle_2",
+            "string_1": "string_1"
+        }
+    },
+    "C_DOTA_BaseNPC:HasScepter": {
+        "comments": [
+            ""
+        ],
+        "params": {}
+    },
+    "C_DOTA_Item_Lua:CastFilterResultTarget": {
+        "comments": [
+            "(HSCRIPT hTarget) Determine whether an issued command on a target is valid."
+        ],
+        "params": {
+            "hTarget": "hTarget"
+        }
+    },
+    "CBodyComponent:SetAnimation": {
+        "comments": [
+            "Pass string for the animation to play on this model"
+        ],
+        "params": {
+            "string_1": "string_1"
+        }
+    },
+    "StopEffect": {
+        "comments": [
+            "Pass entity and effect name"
+        ],
+        "params": {
+            "handle_1": "handle_1",
+            "string_2": "string_2"
+        }
+    },
+    "StopListeningToAllGameEvents": {
+        "comments": [
+            "Stop listening to all game events within a specific context."
+        ],
+        "params": {
+            "handle_1": "handle_1"
+        }
+    },
+    "C_BaseEntity:GetAbsOrigin": {
+        "comments": [
+            ""
+        ],
+        "params": {}
+    },
+    "C_DOTA_BaseNPC:GetLevel": {
+        "comments": [
+            "Returns the level of this unit."
+        ],
+        "params": {}
+    },
+    "CEntityInstance:GetEntityIndex": {
+        "comments": [
+            ""
+        ],
+        "params": {}
+    },
+    "C_DOTA_Ability_Lua:GetGoldCost": {
+        "comments": [
+            "Return gold cost at the given level (-1 is current)."
+        ],
+        "params": {
+            "iLevel": "iLevel"
+        }
+    },
+    "Convars:RegisterConvar": {
+        "comments": [
+            "RegisterConvar(name, defaultValue, helpString, flags): register a new console variable."
+        ],
+        "params": {
+            "string_1": "string_1",
+            "string_3": "string_3",
+            "int_4": "int_4",
+            "string_2": "string_2"
+        }
+    },
+    "DebugScreenTextPretty": {
+        "comments": [
+            "Draw pretty debug text (x, y, lineOffset, text, r, g, b, a, duration, font, size, bBold)"
+        ],
+        "params": {
+            "float_1": "float_1",
+            "float_9": "float_9",
+            "string_4": "string_4",
+            "int_3": "int_3",
+            "int_6": "int_6",
+            "string_10": "string_10",
+            "bool_12": "bool_12",
+            "float_2": "float_2",
+            "int_5": "int_5",
+            "int_7": "int_7",
+            "int_11": "int_11",
+            "int_8": "int_8"
+        }
+    },
+    "C_DOTA_Item_Lua:GetChannelledManaCostPerSecond": {
+        "comments": [
+            "Return mana cost at the given level per second while channeling (-1 is current)."
+        ],
+        "params": {
+            "iLevel": "iLevel"
+        }
+    },
+    "EmitSoundOnClient": {
+        "comments": [
+            "Play named sound only on the client for the passed in player"
+        ],
+        "params": {
+            "handle_2": "handle_2",
+            "string_1": "string_1"
+        }
+    },
+    "EmitSoundOn": {
+        "comments": [
+            "Play named sound on Entity"
+        ],
+        "params": {
+            "handle_2": "handle_2",
+            "string_1": "string_1"
+        }
+    },
+    "C_DOTA_BaseNPC:IsNightmared": {
+        "comments": [
+            ""
+        ],
+        "params": {}
+    },
+    "C_DOTA_BaseNPC:IsIllusion": {
+        "comments": [
+            ""
+        ],
+        "params": {}
+    },
+    "SplineQuaternions": {
+        "comments": [
+            "(quaternion,quaternion,float) very basic interpolation of v0 to v1 over t on [0,1]"
+        ],
+        "params": {
+            "float_3": "float_3",
+            "Quaternion_2": "Quaternion_2",
+            "Quaternion_1": "Quaternion_1"
+        }
+    },
+    "GetMapName": {
+        "comments": [
+            "Get the name of the map."
+        ],
+        "params": {}
+    },
+    "GetMaxOutputDelay": {
+        "comments": [
+            "Get the longest delay for all events attached to an output"
+        ],
+        "params": {
+            "string_2": "string_2",
+            "ehandle_1": "ehandle_1"
+        }
+    },
+    "TraceHull": {
+        "comments": [
+            "Pass table - Inputs: start, end, min, max, mask, ignore  -- outputs: pos, fraction, hit, enthit, startsolid"
+        ],
+        "params": {
+            "handle_1": "handle_1"
+        }
+    },
+    "IsServer": {
+        "comments": [
+            "Returns true if this is lua running from the server.dll."
+        ],
+        "params": {}
+    },
+    "CDOTA_Buff:GetStackCount": {
+        "comments": [
+            ""
+        ],
+        "params": {}
+    },
+    "C_DOTA_Item:RequiresCharges": {
+        "comments": [
+            ""
+        ],
+        "params": {}
+    },
+    "Convars:SetFloat": {
+        "comments": [
+            "SetFloat(name, val) : sets the value of the convar to the float."
+        ],
+        "params": {
+            "float_2": "float_2",
+            "string_1": "string_1"
+        }
+    },
+    "CDebugOverlayScriptHelper:EntityBounds": {
+        "comments": [
+            "Draws bounds of an entity"
+        ],
+        "params": {
+            "int_2": "int_2",
+            "float_7": "float_7",
+            "int_5": "int_5",
+            "bool_6": "bool_6",
+            "int_3": "int_3",
+            "int_4": "int_4",
+            "ehandle_1": "ehandle_1"
+        }
+    },
+    "ExponentialDecay": {
+        "comments": [
+            "Smooth curve decreasing slower as it approaches zero"
+        ],
+        "params": {
+            "float_1": "float_1",
+            "float_2": "float_2",
+            "float_3": "float_3"
+        }
+    },
+    "C_DOTA_Ability_Lua:GetAOERadius": {
+        "comments": [
+            "Controls the size of the AOE casting cursor."
+        ],
+        "params": {}
+    },
+    "CDebugOverlayScriptHelper:SolidCone": {
+        "comments": [
+            "Draws a solid cone. Specify endpoint and direction in world space."
+        ],
+        "params": {
+            "int_8": "int_8",
+            "float_4": "float_4",
+            "Vector_2": "Vector_2",
+            "int_6": "int_6",
+            "Vector_1": "Vector_1",
+            "int_5": "int_5",
+            "float_3": "float_3",
+            "float_10": "float_10",
+            "int_7": "int_7",
+            "bool_9": "bool_9"
+        }
+    },
+    "StartSoundEventFromPositionReliable": {
+        "comments": [
+            "Start a sound event from position with reliable delivery"
+        ],
+        "params": {
+            "string_1": "string_1",
+            "Vector_2": "Vector_2"
+        }
+    },
+    "C_DOTA_Item:IsPermanent": {
+        "comments": [
+            ""
+        ],
+        "params": {}
+    },
+    "CDebugOverlayScriptHelper:SweptBox": {
+        "comments": [
+            "Draws a swept box. Specify endpoints in world space and the bounds in local space."
+        ],
+        "params": {
+            "float_10": "float_10",
+            "int_8": "int_8",
+            "Vector_2": "Vector_2",
+            "Vector_1": "Vector_1",
+            "Vector_4": "Vector_4",
+            "Quaternion_5": "Quaternion_5",
+            "int_9": "int_9",
+            "Vector_3": "Vector_3",
+            "int_7": "int_7",
+            "int_6": "int_6"
+        }
+    },
+    "C_DOTA_Ability_Lua:GetChannelledManaCostPerSecond": {
+        "comments": [
+            "Return mana cost at the given level per second while channeling (-1 is current)."
+        ],
+        "params": {
+            "iLevel": "iLevel"
+        }
+    },
+    "C_DOTA_Item_Lua:GetCastRange": {
+        "comments": [
+            "Return cast range of this ability."
+        ],
+        "params": {
+            "vLocation": "vLocation",
+            "hTarget": "hTarget"
+        }
+    },
+    "C_DOTA_BaseNPC:IsNeutralUnitType": {
+        "comments": [
+            "Is this a neutral?"
+        ],
+        "params": {}
+    },
+    "C_DOTA_Modifier_Lua:GetAttributes": {
+        "comments": [
+            "Return the types of attributes applied to this modifier (enum value from DOTAModifierAttribute_t"
+        ],
+        "params": {}
+    },
+    "CDebugOverlayScriptHelper:PushDebugOverlayScope": {
+        "comments": [
+            "Pushes an identifier used to group overlays. Overlays marked with this identifier can be deleted in a big batch."
+        ],
+        "params": {
+            "utlstringtoken_1": "utlstringtoken_1"
+        }
+    },
+    "MakeStringToken": {
+        "comments": [
+            "Checks to see if the given hScript is a valid entity"
+        ],
+        "params": {
+            "string_1": "string_1"
+        }
+    },
+    "CancelEntityIOEvents": {
+        "comments": [
+            "Create all I/O events for a particular entity"
+        ],
+        "params": {
+            "ehandle_1": "ehandle_1"
+        }
+    },
+    "rr_AddDecisionRule": {
+        "comments": [
+            "Add a rule to the decision database."
+        ],
+        "params": {
+            "handle_1": "handle_1"
+        }
+    },
+    "CEntityInstance:RemoveSelf": {
+        "comments": [
+            "Delete this entity"
+        ],
+        "params": {}
+    },
+    "RemoveSpawnGroupFilterProxy": {
+        "comments": [
+            "Remove the C proxy for a script-based spawn group filter"
+        ],
+        "params": {
+            "string_1": "string_1"
+        }
+    },
+    "CDebugOverlayScriptHelper:Capsule": {
+        "comments": [
+            "Draws a capsule. Specify base in world space."
+        ],
+        "params": {
+            "float_10": "float_10",
+            "float_4": "float_4",
+            "int_8": "int_8",
+            "int_6": "int_6",
+            "Vector_1": "Vector_1",
+            "int_5": "int_5",
+            "float_3": "float_3",
+            "Quaternion_2": "Quaternion_2",
+            "int_7": "int_7",
+            "bool_9": "bool_9"
+        }
+    },
+    "CEntityInstance:DisconnectRedirectedOutput": {
+        "comments": [
+            "Removes a connected script function from an I/O event on the passed entity."
+        ],
+        "params": {
+            "handle_3": "handle_3",
+            "string_1": "string_1",
+            "string_2": "string_2"
+        }
+    },
+    "CPhysicsComponent:ExpensiveInstantRayCast": {
+        "comments": [
+            "Do an instant (i.e. blocking) Ray Cast. Will do a handle/queue version later. Dont plan to use this for real!"
+        ],
+        "params": {
+            "handle_3": "handle_3",
+            "Vector_2": "Vector_2",
+            "Vector_1": "Vector_1"
+        }
+    },
+    "C_DOTA_BaseNPC:NotOnMinimapForEnemies": {
+        "comments": [
+            ""
+        ],
+        "params": {}
+    },
+    "DoUniqueString": {
+        "comments": [
+            "#UniqueString:Generate a string guaranteed to be unique across the life of the script VM, with an optional root string. Useful for adding data to tables when not sure what keys are already in use in that table."
+        ],
+        "params": {
+            "string_1": "string_1"
+        }
+    },
+    "C_DOTA_BaseNPC:IsRooted": {
+        "comments": [
+            ""
+        ],
+        "params": {}
+    },
+    "Convars:GetDOTACommandClient": {
+        "comments": [
+            "GetDOTACommandClient() : returns the DOTA player who issued this console command."
+        ],
+        "params": {}
+    },
+    "CEntityInstance:DisconnectOutput": {
+        "comments": [
+            "Removes a connected script function from an I/O event on this entity."
+        ],
+        "params": {
+            "string_1": "string_1",
+            "string_2": "string_2"
+        }
+    },
+    "C_DOTA_BaseNPC:GetModifierStackCount": {
+        "comments": [
+            "Gets the stack count of a given modifier."
+        ],
+        "params": {
+            "pszScriptName": "pszScriptName",
+            "hCaster": "hCaster"
+        }
+    },
+    "C_DOTA_BaseNPC:IsBuilding": {
+        "comments": [
+            "Is this unit a building?"
+        ],
+        "params": {}
+    },
+    "C_DOTA_BaseNPC:IsHero": {
+        "comments": [
+            "Is this a hero or hero illusion?"
+        ],
+        "params": {}
+    },
+    "CDebugOverlayScriptHelper:BoxAngles": {
+        "comments": [
+            "Draws an oriented box at the origin. Specify bounds in local space."
+        ],
+        "params": {
+            "float_10": "float_10",
+            "int_8": "int_8",
+            "Quaternion_4": "Quaternion_4",
+            "int_6": "int_6",
+            "Vector_1": "Vector_1",
+            "int_5": "int_5",
+            "Vector_2": "Vector_2",
+            "Vector_3": "Vector_3",
+            "int_7": "int_7",
+            "bool_9": "bool_9"
+        }
+    },
+    "UnloadSpawnGroupByHandle": {
+        "comments": [
+            "Unload a spawn group by handle"
+        ],
+        "params": {
+            "int_1": "int_1"
+        }
+    },
+    "C_DOTA_Modifier_Lua:GetAuraRadius": {
+        "comments": [
+            "Return the range around the parent this aura tries to apply its buff."
+        ],
+        "params": {}
+    },
+    "CBodyComponent:SetAngularVelocity": {
+        "comments": [
+            ""
+        ],
+        "params": {
+            "Vector_1": "Vector_1"
+        }
+    },
+    "StartSoundEventReliable": {
+        "comments": [
+            "Start a sound event with reliable delivery"
+        ],
+        "params": {
+            "handle_2": "handle_2",
+            "string_1": "string_1"
+        }
+    },
+    "C_DOTA_BaseNPC:NoHealthBar": {
+        "comments": [
+            ""
+        ],
+        "params": {}
+    },
+    "StartSoundEventFromPositionUnreliable": {
+        "comments": [
+            "Start a sound event from position with optional delivery"
+        ],
+        "params": {
+            "string_1": "string_1",
+            "Vector_2": "Vector_2"
+        }
+    },
+    "C_DOTA_BaseNPC:GetPhysicalArmorBaseValue": {
+        "comments": [
+            "Returns base physical armor value."
+        ],
+        "params": {}
+    },
+    "C_DOTA_BaseNPC:GetNightTimeVisionRange": {
+        "comments": [
+            "Returns the vision range after modifiers."
+        ],
+        "params": {}
+    },
+    "CDebugOverlayScriptHelper:Box": {
+        "comments": [
+            "Draws a world-space axis-aligned box. Specify bounds in world space."
+        ],
+        "params": {
+            "bool_7": "bool_7",
+            "Vector_2": "Vector_2",
+            "int_6": "int_6",
+            "Vector_1": "Vector_1",
+            "int_5": "int_5",
+            "int_3": "int_3",
+            "int_4": "int_4",
+            "float_8": "float_8"
+        }
+    },
+    "CDOTA_Modifier_Lua_Motion_Both:UpdateVerticalMotion": {
+        "comments": [
+            "Perform any motion from the given interval on the NPC."
+        ],
+        "params": {
+            "dt": "dt",
+            "me": "me"
+        }
+    },
+    "CBodyComponent:SetVelocity": {
+        "comments": [
+            ""
+        ],
+        "params": {
+            "Vector_1": "Vector_1"
+        }
+    },
+    "SetQuestName": {
+        "comments": [
+            "Set the current quest name."
+        ],
+        "params": {
+            "string_1": "string_1"
+        }
+    },
+    "C_DOTA_Ability_Lua:GetCustomCastErrorTarget": {
+        "comments": [
+            "(HSCRIPT hTarget) Return the error string of a failed command on a target."
+        ],
+        "params": {
+            "hTarget": "hTarget"
+        }
+    },
+    "C_DOTA_Item:IsKillable": {
+        "comments": [
+            ""
+        ],
+        "params": {}
+    },
+    "Convars:GetCommandClient": {
+        "comments": [
+            "GetCommandClient() : returns the player who issued this console command."
+        ],
+        "params": {}
+    },
+    "SetOpvarFloatPlayer": {
+        "comments": [
+            "Sets an opvar value for a single player"
+        ],
+        "params": {
+            "float_4": "float_4",
+            "string_1": "string_1",
+            "string_3": "string_3",
+            "handle_5": "handle_5",
+            "string_2": "string_2"
+        }
+    },
+    "IsClient": {
+        "comments": [
+            "Returns true if this is lua running from the client.dll."
+        ],
+        "params": {}
+    },
+    "C_DOTA_BaseNPC:GetHealthPercent": {
+        "comments": [
+            "Get the current health percent of the unit."
+        ],
+        "params": {}
+    },
+    "C_DOTA_Item_Lua:GetCustomCastErrorLocation": {
+        "comments": [
+            "(Vector vLocation) Return the error string of a failed command on a location."
+        ],
+        "params": {
+            "vLocation": "vLocation"
+        }
+    },
+    "C_DOTA_BaseNPC:IsInvulnerable": {
+        "comments": [
+            ""
+        ],
+        "params": {}
+    },
+    "C_DOTA_BaseNPC:IsFort": {
+        "comments": [
+            "Is this unit an Ancient?"
+        ],
+        "params": {}
+    },
+    "C_DOTA_BaseNPC:GetSecondsPerAttack": {
+        "comments": [
+            ""
+        ],
+        "params": {}
+    },
+    "C_DOTA_BaseNPC:GetBaseAttackTime": {
+        "comments": [
+            ""
+        ],
+        "params": {}
+    },
+    "RegisterSpawnGroupFilterProxy": {
+        "comments": [
+            "Create a C proxy for a script-based spawn group filter"
+        ],
+        "params": {
+            "string_1": "string_1"
+        }
+    },
+    "IsMarkedForDeletion": {
+        "comments": [
+            "Returns true if the entity is valid and marked for deletion."
+        ],
+        "params": {
+            "handle_1": "handle_1"
+        }
+    },
+    "CEntities:First": {
+        "comments": [
+            "Begin an iteration over the list of entities"
+        ],
+        "params": {}
+    },
+    "CDebugOverlayScriptHelper:Cross": {
+        "comments": [
+            "Draws a screen-aligned cross. Specify origin in world space."
+        ],
+        "params": {
+            "bool_7": "bool_7",
+            "int_6": "int_6",
+            "Vector_1": "Vector_1",
+            "int_5": "int_5",
+            "float_2": "float_2",
+            "int_3": "int_3",
+            "int_4": "int_4",
+            "float_8": "float_8"
+        }
+    },
+    "GetPhysVelocity": {
+        "comments": [
+            "Get Velocity for VPHYS or normal object"
+        ],
+        "params": {
+            "handle_1": "handle_1"
+        }
+    },
+    "C_DOTA_Modifier_Lua:GetHeroEffectName": {
+        "comments": [
+            "Return the name of the hero effect particle system that is created while this modifier is active."
+        ],
+        "params": {}
+    },
+    "C_DOTA_BaseNPC:GetBaseMagicalResistanceValue": {
+        "comments": [
+            "Returns base magical armor value."
+        ],
+        "params": {}
+    },
+    "CBodyComponent:SequenceDuration": {
+        "comments": [
+            "Returns the duration in seconds of the specified sequence"
+        ],
+        "params": {
+            "string_1": "string_1"
+        }
+    },
+    "ReloadMOTD": {
+        "comments": [
+            "Reloads the MotD file"
+        ],
+        "params": {}
+    },
+    "C_DOTA_BaseNPC:GetAbilityCount": {
+        "comments": [
+            ""
+        ],
+        "params": {}
+    },
+    "CDOTA_Modifier_Lua_Motion_Both:OnHorizontalMotionInterrupted": {
+        "comments": [
+            "Called when the motion gets interrupted."
+        ],
+        "params": {}
+    },
+    "C_DOTA_BaseNPC:NoUnitCollision": {
+        "comments": [
+            ""
+        ],
+        "params": {}
+    },
+    "C_DOTA_Modifier_Lua:RemoveOnDeath": {
+        "comments": [
+            "True/false if this modifier is removed when the parent dies."
+        ],
+        "params": {}
+    },
+    "CScriptPrecacheContext:GetValue": {
+        "comments": [
+            "Reads a spawn key"
+        ],
+        "params": {
+            "string_1": "string_1"
+        }
+    },
+    "C_DOTA_Item:IsItem": {
+        "comments": [
+            ""
+        ],
+        "params": {}
+    },
+    "CEntityInstance:GetEntityHandle": {
+        "comments": [
+            "Get the entity as an EHANDLE"
+        ],
+        "params": {}
+    },
+    "GetPhysAngularVelocity": {
+        "comments": [
+            "Get Angular Velocity for VPHYS or normal object"
+        ],
+        "params": {
+            "handle_1": "handle_1"
+        }
+    },
+    "CDebugOverlayScriptHelper:Cross3D": {
+        "comments": [
+            "Draws a world-aligned cross. Specify origin in world space."
+        ],
+        "params": {
+            "bool_7": "bool_7",
+            "int_6": "int_6",
+            "Vector_1": "Vector_1",
+            "int_5": "int_5",
+            "float_2": "float_2",
+            "int_3": "int_3",
+            "int_4": "int_4",
+            "float_8": "float_8"
+        }
+    },
+    "CDebugOverlayScriptHelper:PopDebugOverlayScope": {
+        "comments": [
+            "Pops the identifier used to group overlays. Overlays marked with this identifier can be deleted in a big batch."
+        ],
+        "params": {}
+    },
+    "RotationDelta": {
+        "comments": [
+            "Find the delta between two QAngles."
+        ],
+        "params": {
+            "QAngle_1": "QAngle_1",
+            "QAngle_2": "QAngle_2"
+        }
+    },
+    "DebugDrawBoxDirection": {
+        "params": {
+			"Vector_1": "vOrigin",
+			"Vector_2": "vMins",
+			"Vector_3": "vMaxs",
+			"Vector_4": "vForward",
+			"Vector_5": "vRGB",
+			"float_6":	"fAlpha",
+			"float_7":	"fDuration"
+		},
+		"comments": [
+			"Draws a debug box. Mins and Maxs are vectors in any two opposite corners",
+			"Forward defines a normal to one of the faces, only the X-Y plane is taken into account"
+		]
+    },
+    "C_DOTA_BaseNPC:IsRealHero": {
+        "comments": [
+            "Is this unit a boss?"
+        ],
+        "params": {}
+    },
+    "CDOTA_Buff:GetAuraDuration": {
+        "comments": [
+            "Returns aura stickiness (default 0.5)"
+        ],
+        "params": {}
+    },
+    "GetListenServerHost": {
+        "comments": [
+            "Get the local player on a listen server."
+        ],
+        "params": {}
+    },
+    "C_DOTA_Modifier_Lua:OnIntervalThink": {
+        "comments": [
+            "Runs when the think interval occurs."
+        ],
+        "params": {}
+    },
+    "C_DOTA_Item_Lua:GetBehavior": {
+        "comments": [
+            "Return cast behavior type of this ability."
+        ],
+        "params": {}
+    },
+    "CreateHTTPRequest": {
+        "comments": [
+            "Create an HTTP request."
+        ],
+        "params": {
+            "string_1": "string_1",
+            "string_2": "string_2"
+        }
+    },
+    "C_DOTA_BaseNPC:GetMoveSpeedModifier": {
+        "comments": [
+            ""
+        ],
+        "params": {
+            "flBaseSpeed": "flBaseSpeed"
+        }
+    },
+    "C_BaseEntity:SetContextThink": {
+        "comments": [
+            "Set a think function on this entity."
+        ],
+        "params": {
+            "flInterval": "flInterval",
+            "pszContextName": "pszContextName",
+            "hThinkFunc": "hThinkFunc"
+        }
+    },
+    "C_DOTA_BaseNPC:IsMechanical": {
+        "comments": [
+            "Is the unit mechanical?"
+        ],
+        "params": {}
+    },
+    "C_DOTA_BaseNPC:IsDeniable": {
+        "comments": [
+            ""
+        ],
+        "params": {}
+    },
+    "UnloadSpawnGroup": {
+        "comments": [
+            "Unload a spawn group by name"
+        ],
+        "params": {
+            "string_1": "string_1"
+        }
+    },
+    "C_DOTA_BaseNPC:IsEvadeDisabled": {
+        "comments": [
+            ""
+        ],
+        "params": {}
+    },
+    "C_DOTA_Ability_Lua:GetBehavior": {
+        "comments": [
+            "Return cast behavior type of this ability."
+        ],
+        "params": {}
+    },
+    "C_DOTA_Item:IsCastOnPickup": {
+        "comments": [
+            ""
+        ],
+        "params": {}
+    },
+    "CEntityInstance:GetDebugName": {
+        "comments": [
+            "Get the entity name w/help if not defined (i.e. classname/etc)"
+        ],
+        "params": {}
+    },
+    "C_DOTA_Item:IsSellable": {
+        "comments": [
+            ""
+        ],
+        "params": {}
+    },
+    "CEntityInstance:GetOrCreatePublicScriptScope": {
+        "comments": [
+            "Retrieve, creating if necessary, the public script-side data associated with an entity"
+        ],
+        "params": {}
+    },
+    "C_DOTA_Ability_Lua:CastFilterResultLocation": {
+        "comments": [
+            "(Vector vLocation) Determine whether an issued command on a location is valid."
+        ],
+        "params": {
+            "vLocation": "vLocation"
+        }
+    },
+    "C_DOTA_BaseNPC:GetMana": {
+        "comments": [
+            "Get the mana on this unit."
+        ],
+        "params": {}
+    },
+    "DebugDrawClear": {
+        "comments": [
+            "Try to clear all the debug overlay info"
+        ],
+        "params": {}
+    },
+    "CDebugOverlayScriptHelper:Line": {
+        "comments": [
+            "Draws a line between two points"
+        ],
+        "params": {
+            "bool_7": "bool_7",
+            "Vector_2": "Vector_2",
+            "int_6": "int_6",
+            "Vector_1": "Vector_1",
+            "int_5": "int_5",
+            "int_3": "int_3",
+            "int_4": "int_4",
+            "float_8": "float_8"
+        }
+    },
+    "C_DOTA_Modifier_Lua:GetTexture": {
+        "comments": [
+            "Return the name of the buff icon to be shown for this modifier."
+        ],
+        "params": {}
+    },
+    "FireGameEventLocal": {
+        "comments": [
+            "Fire a game event without broadcasting to the client."
+        ],
+        "params": {
+            "handle_2": "handle_2",
+            "string_1": "string_1"
+        }
+    },
+    "CBodyComponent:DetachFromParent": {
+        "comments": [
+            "Detach from its parent"
+        ],
+        "params": {}
+    },
+    "CDebugOverlayScriptHelper:EntityAxis": {
+        "comments": [
+            "Draws the axis of the entity origin"
+        ],
+        "params": {
+            "float_2": "float_2",
+            "bool_3": "bool_3",
+            "float_4": "float_4",
+            "ehandle_1": "ehandle_1"
+        }
+    },
+    "RandomFloat": {
+        "comments": [
+            "Get a random float within a range"
+        ],
+        "params": {
+            "float_1": "float_1",
+            "float_2": "float_2"
+        }
+    },
+    "C_DOTA_BaseNPC:HasItemInInventory": {
+        "comments": [
+            "See whether this unit has an item by name."
+        ],
+        "params": {
+            "pItemName": "pItemName"
+        }
+    },
+    "CEntities:Next": {
+        "comments": [
+            "Continue an iteration over the list of entities, providing reference to a previously found entity"
+        ],
+        "params": {
+            "handle_1": "handle_1"
+        }
+    },
+    "ScreenShake": {
+        "comments": [
+            "Start a screenshake with the following parameters. vecCenter, flAmplitude, flFrequency, flDuration, flRadius, eCommand( SHAKE_START = 0, SHAKE_STOP = 1 ), bAirShake"
+        ],
+        "params": {
+            "float_4": "float_4",
+            "int_6": "int_6",
+            "Vector_1": "Vector_1",
+            "bool_7": "bool_7",
+            "float_3": "float_3",
+            "float_2": "float_2",
+            "float_5": "float_5"
+        }
+    },
+    "C_DOTA_BaseNPC:IsConsideredHero": {
+        "comments": [
+            "Is this unit a considered a hero for targeting purposes?"
+        ],
+        "params": {}
+    },
+    "C_DOTA_BaseNPC:IsOwnedByAnyPlayer": {
+        "comments": [
+            "Is this unit owned by any non-bot player?"
+        ],
+        "params": {}
+    },
+    "CToneMapControllerComponent:SetMaxExposure": {
+        "comments": [
+            "Sets max exposure for this tonemap controller"
+        ],
+        "params": {
+            "float_1": "float_1"
+        }
+    },
+    "C_DOTA_BaseNPC:GetBaseMoveSpeed": {
+        "comments": [
+            ""
+        ],
+        "params": {}
+    },
+    "Convars:SetBool": {
+        "comments": [
+            "SetBool(name, val) : sets the value of the convar to the bool."
+        ],
+        "params": {
+            "string_1": "string_1",
+            "bool_2": "bool_2"
+        }
+    },
+    "SpawnEntityListFromTableSynchronous": {
+        "comments": [
+            "Synchronously spawn an entity group from a list of spawn tables."
+        ],
+        "params": {
+            "handle_1": "handle_1"
+        }
+    },
+    "C_DOTA_BaseNPC:GetIncreasedAttackSpeed": {
+        "comments": [
+            ""
+        ],
+        "params": {}
+    },
+    "C_DOTA_BaseNPC:IsStunned": {
+        "comments": [
+            ""
+        ],
+        "params": {}
+    },
+    "LoadKeyValues": {
+        "comments": [
+            "Creates a table from the specified keyvalues text file"
+        ],
+        "params": {
+            "string_1": "string_1"
+        }
+    },
+    "C_DOTA_BaseNPC:IsBoss": {
+        "comments": [
+            "Is this a real hero?"
+        ],
+        "params": {}
+    },
+    "C_DOTA_BaseNPC:IsBarracks": {
+        "comments": [
+            "Is this unit a Barracks?"
+        ],
+        "params": {}
+    },
+    "TraceLine": {
+        "comments": [
+            "Pass table - Inputs: startpos, endpos, mask, ignore  -- outputs: pos, fraction, hit, enthit, startsolid"
+        ],
+        "params": {
+            "handle_1": "handle_1"
+        }
+    },
+    "C_DOTA_BaseNPC:IsMuted": {
+        "comments": [
+            ""
+        ],
+        "params": {}
+    },
+    "CBodyComponent:AddVelocity": {
+        "comments": [
+            "Add linear and angular velocity to the physics object"
+        ],
+        "params": {
+            "Vector_2": "Vector_2",
+            "Vector_1": "Vector_1"
+        }
+    },
+    "C_DOTA_Item:GetShareability": {
+        "comments": [
+            ""
+        ],
+        "params": {}
+    },
+    "CEntityInstance:GetName": {
+        "comments": [
+            ""
+        ],
+        "params": {}
+    },
+    "C_DOTA_BaseNPC:IsCreature": {
+        "comments": [
+            "Is this a Creature type NPC?"
+        ],
+        "params": {}
+    },
+    "C_DOTA_Modifier_Lua:IsStunDebuff": {
+        "comments": [
+            "True/false if this modifier is considered a stun for purge reasons."
+        ],
+        "params": {}
+    },
+    "C_DOTA_BaseNPC:IsHexed": {
+        "comments": [
+            ""
+        ],
+        "params": {}
+    },
+    "C_DOTA_Ability_Lua:CastFilterResult": {
+        "comments": [
+            "Determine whether an issued command with no target is valid."
+        ],
+        "params": {}
+    },
+    "C_DOTA_BaseNPC:GetHasteFactor": {
+        "comments": [
+            ""
+        ],
+        "params": {}
+    },
+    "C_DOTA_BaseNPC:IsOutOfGame": {
+        "comments": [
+            ""
+        ],
+        "params": {}
+    },
+    "C_DOTA_Modifier_Lua:GetAuraSearchFlags": {
+        "comments": [
+            "Return the unit flags this aura respects when placing buffs."
+        ],
+        "params": {}
+    },
+    "C_DOTA_Item:IsDisassemblable": {
+        "comments": [
+            ""
+        ],
+        "params": {}
+    },
+    "AxisAngleToQuaternion": {
+        "comments": [
+            "(vector,float) constructs a quaternion representing a rotation by angle around the specified vector axis"
+        ],
+        "params": {
+            "float_2": "float_2",
+            "Vector_1": "Vector_1"
+        }
+    },
+    "C_DOTABaseAbility:GetLevel": {
+        "comments": [
+            "Return the level of the ability"
+        ],
+        "params": {}
+    },
+    "CDOTA_Buff:GetName": {
+        "comments": [
+            ""
+        ],
+        "params": {}
+    },
+    "AngleDiff": {
+        "comments": [
+            "Returns the number of degrees difference between two yaw angles"
+        ],
+        "params": {
+            "float_1": "fAngle1",
+            "float_2": "fAngle2"
+        }
+    },
+    "Convars:RegisterCommand": {
+        "comments": [
+            "RegisterCommand(name, fn, helpString, flags) : register a console command."
+        ],
+        "params": {
+            "handle_2": "handle_2",
+            "string_1": "string_1",
+            "string_3": "string_3",
+            "int_4": "int_4"
+        }
+    },
+    "CDOTA_Modifier_Lua_Horizontal_Motion:OnHorizontalMotionInterrupted": {
+        "comments": [
+            "Called when the motion gets interrupted."
+        ],
+        "params": {}
+    },
+    "CDebugOverlayScriptHelper:EntitySkeleton": {
+        "comments": [
+            "Draws the skeleton of the entity"
+        ],
+        "params": {
+            "float_2": "float_2",
+            "ehandle_1": "ehandle_1"
+        }
+    },
+    "C_DOTA_Item:IsPurchasable": {
+        "comments": [
+            ""
+        ],
+        "params": {}
+    },
+    "FireEntityIOInputNameOnly": {
+        "comments": [
+            "Fire Entity's Action Input w/no data"
+        ],
+        "params": {
+            "string_2": "string_2",
+            "ehandle_1": "ehandle_1"
+        }
+    },
+    "CScriptPrecacheContext:AddResource": {
+        "comments": [
+            "Precaches a specific resource"
+        ],
+        "params": {
+            "string_1": "string_1"
+        }
+    },
+    "C_DOTA_BaseNPC:PassivesDisabled": {
+        "comments": [
+            ""
+        ],
+        "params": {}
+    },
+    "DebugDrawText": {
+        "comments": [
+            "Draw text in 3d (origin, text, bViewCheck, duration)"
+        ],
+        "params": {
+            "float_4": "float_4",
+            "bool_3": "bool_3",
+            "string_2": "string_2",
+            "Vector_1": "Vector_1"
+        }
+    },
+    "C_DOTA_BaseNPC:IsInvisible": {
+        "comments": [
+            ""
+        ],
+        "params": {}
+    },
+    "CDebugOverlayScriptHelper:Cross3DOriented": {
+        "comments": [
+            "Draws an oriented cross. Specify origin in world space."
+        ],
+        "params": {
+            "float_9": "float_9",
+            "bool_8": "bool_8",
+            "int_6": "int_6",
+            "Vector_1": "Vector_1",
+            "int_5": "int_5",
+            "float_3": "float_3",
+            "Quaternion_2": "Quaternion_2",
+            "int_7": "int_7",
+            "int_4": "int_4"
+        }
+    },
+    "C_DOTA_Ability_Lua:GetCustomCastErrorLocation": {
+        "comments": [
+            "(Vector vLocation) Return the error string of a failed command on a location."
+        ],
+        "params": {
+            "vLocation": "vLocation"
+        }
+    },
+    "CEntityInstance:GetPrivateScriptScope": {
+        "comments": [
+            "Retrieve the private per-instance script-side data associated with an entity"
+        ],
+        "params": {}
+    },
+    "DebugDrawBox": {
+        "comments": [
+            "Draws a debug box. Mins and Maxs are vectors in any two opposite corners"
+        ],
+        "params": {
+			"Vector_1": "vOrigin",
+			"Vector_2": "vMins",
+			"Vector_3": "vMaxs",
+			"int_4":	"iRed",
+			"int_5":	"iGreen",
+			"int_6":	"iBlue",
+			"int_7":	"iAlpha",
+			"float_8":	"fDuration"
+        }
+    },
+    "CBodyComponent:SetBodyGroup": {
+        "comments": [
+            ""
+        ],
+        "params": {
+            "string_1": "string_1"
+        }
+    },
+    "C_DOTA_Item:IsRecipe": {
+        "comments": [
+            ""
+        ],
+        "params": {}
+    },
+    "C_DOTA_Modifier_Lua:IsDebuff": {
+        "comments": [
+            "True/false if this modifier should be displayed as a debuff."
+        ],
+        "params": {}
+    },
+    "CNativeOutputs:AddOutput": {
+        "comments": [
+            "Add an output"
+        ],
+        "params": {
+            "string_1": "string_1",
+            "string_2": "string_2"
+        }
+    },
+    "CDOTA_Buff:Destroy": {
+        "comments": [
+            "Run all associated destroy functions, then remove the modifier."
+        ],
+        "params": {}
+    },
+    "C_DOTA_BaseNPC:GetAttackRange": {
+        "comments": [
+            "Gets this unit's attack range after all modifiers."
+        ],
+        "params": {}
+    },
+    "CDOTA_Buff:DecrementStackCount": {
+        "comments": [
+            "Decrease this modifier's stack count by 1."
+        ],
+        "params": {}
+    },
+    "CEntityInstance:SetIntAttr": {
+        "comments": [
+            "Set Integer Attribute"
+        ],
+        "params": {
+            "string_1": "string_1",
+            "int_2": "int_2"
+        }
+    },
+    "CBodyComponent:GetSequence": {
+        "comments": [
+            "Returns the active seque"
+        ],
+        "params": {}
+    },
+    "CDebugOverlayScriptHelper:RemoveAllInScope": {
+        "comments": [
+            "Removes all overlays marked with a specific identifier, regardless of their lifetime."
+        ],
+        "params": {
+            "utlstringtoken_1": "utlstringtoken_1"
+        }
+    },
+    "C_DOTA_Modifier_Lua:IsHidden": {
+        "comments": [
+            "True/false if this modifier should be displayed on the buff bar."
+        ],
+        "params": {}
+    },
+    "VectorToAngles": {
+        "comments": [
+            "Get Qangles (with no roll) for a Vector."
+        ],
+        "params": {
+            "Vector_1": "Vector_1"
+        }
+    },
+    "CDebugOverlayScriptHelper:VertArrow": {
+        "comments": [
+            "Draws a vertical arrow. Specify endpoints in world space."
+        ],
+        "params": {
+            "float_9": "float_9",
+            "Vector_2": "Vector_2",
+            "int_6": "int_6",
+            "Vector_1": "Vector_1",
+            "int_5": "int_5",
+            "float_3": "float_3",
+            "bool_8": "bool_8",
+            "int_7": "int_7",
+            "int_4": "int_4"
+        }
+    },
+    "RandomInt": {
+        "comments": [
+            "Get a random int within a range"
+        ],
+        "params": {
+            "int_2": "int_2",
+            "int_1": "int_1"
+        }
+    },
+    "CDOTA_Buff:GetDieTime": {
+        "comments": [
+            ""
+        ],
+        "params": {}
+    },
+    "C_DOTA_Modifier_Lua:OnRefresh": {
+        "comments": [
+            "Runs when the modifier is refreshed."
+        ],
+        "params": {
+            "table": "table"
+        }
+    },
+    "CEntityInstance:entindex": {
+        "comments": [
+            ""
+        ],
+        "params": {}
+    },
+    "Time": {
+        "comments": [
+            "Get the current server time"
+        ],
+        "params": {}
+    },
+    "C_DOTA_Ability_Lua:GetCastRange": {
+        "comments": [
+            "Return cast range of this ability."
+        ],
+        "params": {
+            "vLocation": "vLocation",
+            "hTarget": "hTarget"
+        }
+    },
+    "DebugDrawLine_vCol": {
+        "params": {
+			"Vector_1": "vOrigin",
+			"Vector_2": "vTarget",
+			"Vector_3":	"vRGB",
+			"bool_4":	"iZtest",
+			"float_5":	"fiDuration"
+		},
+		"comments": [
+			"Draw a debug overlay line"
+		]
+    },
+    "C_DOTA_BaseNPC:IsTower": {
+        "comments": [
+            "Is this a tower?"
+        ],
+        "params": {}
+    },
+    "CScriptKeyValues:GetValue": {
+        "comments": [
+            "Reads a spawn key"
+        ],
+        "params": {
+            "string_1": "string_1"
+        }
+    },
+    "C_DOTA_Item:IsMuted": {
+        "comments": [
+            ""
+        ],
+        "params": {}
+    },
+    "Msg": {
+        "comments": [
+            "Print a message"
+        ],
+        "params": {
+            "string_1": "string_1"
+        }
+    },
+    "C_DOTA_Modifier_Lua:HeroEffectPriority": {
+        "comments": [
+            "Relationship of this hero effect with those from other buffs (higher is more likely to be shown)."
+        ],
+        "params": {}
+    },
+    "CDOTA_Buff:GetAbility": {
+        "comments": [
+            "Get the ability that generated the modifier."
+        ],
+        "params": {}
+    },
+    "C_DOTABaseAbility:GetSpecialValueFor": {
+        "comments": [
+            "Gets a value from this ability's special value block for its current level."
+        ],
+        "params": {
+            "szName": "szName"
+        }
+    },
+    "CEntityInstance:Destroy": {
+        "comments": [
+            ""
+        ],
+        "params": {}
+    },
+    "CDOTA_Modifier_Lua_Vertical_Motion:UpdateVerticalMotion": {
+        "comments": [
+            "Perform any motion from the given interval on the NPC."
+        ],
+        "params": {
+            "dt": "dt",
+            "me": "me"
+        }
+    },
+    "CDOTA_Buff:GetParent": {
+        "comments": [
+            "Get the unit the modifier is parented to."
+        ],
+        "params": {}
+    },
+    "CDOTA_Buff:GetDuration": {
+        "comments": [
+            ""
+        ],
+        "params": {}
+    },
+    "C_DOTA_Ability_Lua:GetCooldown": {
+        "comments": [
+            "Return cooldown of this ability."
+        ],
+        "params": {
+            "iLevel": "iLevel"
+        }
+    },
+    "CEntityInstance:GetPublicScriptScope": {
+        "comments": [
+            "Retrieve the public script-side data associated with an entity"
+        ],
+        "params": {}
+    },
+    "C_DOTA_Item:IsStackable": {
+        "comments": [
+            ""
+        ],
+        "params": {}
+    },
+    "rr_GetResponseTargets": {
+        "comments": [
+            "Retrieve a table of all available expresser targets, in the form { name : handle, name: handle }."
+        ],
+        "params": {}
+    },
+    "C_DOTA_BaseNPC:GetUnitLabel": {
+        "comments": [
+            ""
+        ],
+        "params": {}
+    },
+    "C_DOTA_Item_Lua:GetManaCost": {
+        "comments": [
+            "Return mana cost at the given level (-1 is current)."
+        ],
+        "params": {
+            "iLevel": "iLevel"
+        }
+    },
+    "CNativeOutputs:Init": {
+        "comments": [
+            "Initialize with number of outputs"
+        ],
+        "params": {
+            "int_1": "int_1"
+        }
+    },
+    "C_DOTA_BaseNPC:IsPhantom": {
+        "comments": [
+            "Is this a phantom unit?"
+        ],
+        "params": {}
+    },
+    "CDebugOverlayScriptHelper:DrawTickMarkedLine": {
+        "comments": [
+            "Draws a dashed line. Specify endpoints in world space."
+        ],
+        "params": {
+            "float_10": "float_10",
+            "int_8": "int_8",
+            "Vector_2": "Vector_2",
+            "int_6": "int_6",
+            "Vector_1": "Vector_1",
+            "int_5": "int_5",
+            "float_3": "float_3",
+            "int_7": "int_7",
+            "int_4": "int_4",
+            "bool_9": "bool_9"
+        }
+    },
+    "C_DOTA_BaseNPC:IsOther": {
+        "comments": [
+            "Is this unit a ward-type unit?"
+        ],
+        "params": {}
+    },
+    "SetQuestPhase": {
+        "comments": [
+            "Set the current quest phase."
+        ],
+        "params": {
+            "int_1": "int_1"
+        }
+    },
+    "cvar_setf": {
+        "comments": [
+            "Sets the value of the given cvar, as a float."
+        ],
+        "params": {
+            "float_2": "float_2",
+            "string_1": "string_1"
+        }
+    },
+    "CDebugOverlayScriptHelper:YawArrow": {
+        "comments": [
+            "Draws a arrow associated with a specific yaw. Specify endpoints in world space."
+        ],
+        "params": {
+            "float_10": "float_10",
+            "float_4": "float_4",
+            "int_8": "int_8",
+            "int_6": "int_6",
+            "Vector_1": "Vector_1",
+            "int_5": "int_5",
+            "float_3": "float_3",
+            "float_2": "float_2",
+            "int_7": "int_7",
+            "bool_9": "bool_9"
+        }
+    },
+    "rr_QueryBestResponse": {
+        "comments": [
+            "Params: (entity, query) : tests 'query' against entity's response system and returns the best response found (or null if none found)."
+        ],
+        "params": {
+            "handle_2": "handle_2",
+            "handle_3": "handle_3",
+            "handle_1": "handle_1"
+        }
+    },
+    "CDebugOverlayScriptHelper:Line2D": {
+        "comments": [
+            "Draws a line between two points in screenspace"
+        ],
+        "params": {
+            "float_7": "float_7",
+            "Vector2D_1": "Vector2D_1",
+            "Vector2D_2": "Vector2D_2",
+            "int_5": "int_5",
+            "int_3": "int_3",
+            "int_4": "int_4",
+            "int_6": "int_6"
+        }
+    },
+    "CDebugOverlayScriptHelper:Texture": {
+        "comments": [
+            "Draws a screen-space texture. Coordinates are in pixels."
+        ],
+        "params": {
+            "float_10": "float_10",
+            "string_1": "string_1",
+            "Vector2D_3": "Vector2D_3",
+            "Vector2D_2": "Vector2D_2",
+            "int_5": "int_5",
+            "Vector2D_9": "Vector2D_9",
+            "Vector2D_8": "Vector2D_8",
+            "int_7": "int_7",
+            "int_4": "int_4",
+            "int_6": "int_6"
+        }
+    },
+    "C_DOTA_BaseNPC:GetIdealSpeed": {
+        "comments": [
+            "Returns speed after all modifiers."
+        ],
+        "params": {}
+    },
+    "CDOTA_Buff:StartIntervalThink": {
+        "comments": [
+            "Start this modifier's think function (OnIntervalThink) with the given interval (float).  To stop, call with -1."
+        ],
+        "params": {
+            "flInterval": "flInterval"
+        }
+    },
+    "C_DOTA_Modifier_Lua:StatusEffectPriority": {
+        "comments": [
+            "Relationship of this status effect with those from other buffs (higher is more likely to be shown)."
+        ],
+        "params": {}
+    },
+    "CDebugOverlayScriptHelper:Triangle": {
+        "comments": [
+            "Draws a filled triangle. Specify vertices in world space."
+        ],
+        "params": {
+            "float_9": "float_9",
+            "bool_8": "bool_8",
+            "Vector_2": "Vector_2",
+            "int_6": "int_6",
+            "Vector_1": "Vector_1",
+            "int_5": "int_5",
+            "Vector_3": "Vector_3",
+            "int_7": "int_7",
+            "int_4": "int_4"
+        }
+    },
+    "C_DOTA_Modifier_Lua:GetAuraDuration": {
+        "comments": [
+            "Returns aura stickiness"
+        ],
+        "params": {}
+    },
+    "C_DOTA_Modifier_Lua:GetEffectName": {
+        "comments": [
+            "Return the name of the particle system that is created while this modifier is active."
+        ],
+        "params": {}
+    },
+    "StopSoundEvent": {
+        "comments": [
+            "Stops a sound event with optional delivery"
+        ],
+        "params": {
+            "handle_2": "handle_2",
+            "string_1": "string_1"
+        }
+    },
+    "UTIL_Remove": {
+        "comments": [
+            "Removes the specified entity"
+        ],
+        "params": {
+            "handle_1": "handle_1"
+        }
+    },
+    "C_DOTA_BaseNPC:GetMagicalArmorValue": {
+        "comments": [
+            "Returns current magical armor value."
+        ],
+        "params": {}
+    },
+    "C_DOTA_Item_Lua:GetChannelTime": {
+        "comments": [
+            "Return the channel time of this ability."
+        ],
+        "params": {}
+    },
+    "Convars:GetStr": {
+        "comments": [
+            "GetStr(name) : returns the convar as a string. May return null if no such convar."
+        ],
+        "params": {
+            "string_1": "string_1"
+        }
+    },
+    "RotateQuaternionByAxisAngle": {
+        "comments": [
+            "(quaternion,vector,float) rotates a quaternion by the specified angle around the specified vector axis"
+        ],
+        "params": {
+            "float_3": "float_3",
+            "Vector_2": "Vector_2",
+            "Quaternion_1": "Quaternion_1"
+        }
+    },
+    "CDOTA_Buff:AddParticle": {
+        "comments": [
+            "(index, bDestroyImmediately, bStatusEffect, priority, bHeroEffect, bOverheadEffect"
+        ],
+        "params": {
+            "bStatusEffect": "bStatusEffect",
+            "bDestroyImmediately": "bDestroyImmediately",
+            "i": "i",
+            "iPriority": "iPriority",
+            "bHeroEffect": "bHeroEffect",
+            "bOverheadEffect": "bOverheadEffect"
+        }
+    },
+    "CDOTA_Modifier_Lua_Vertical_Motion:OnVerticalMotionInterrupted": {
+        "comments": [
+            "Called when the motion gets interrupted."
+        ],
+        "params": {}
+    },
+    "RotateOrientation": {
+        "comments": [
+            "Rotate a QAngle by another QAngle."
+        ],
+        "params": {
+            "QAngle_1": "QAngle_1",
+            "QAngle_2": "QAngle_2"
+        }
+    },
+    "SpawnEntityGroupFromTable": {
+        "comments": [
+            "Hierarchically spawn an entity group from a set of spawn tables."
+        ],
+        "params": {
+            "handle_3": "handle_3",
+            "handle_1": "handle_1",
+            "bool_2": "bool_2"
+        }
+    },
+    "C_DOTA_Modifier_Lua:GetEffectAttachType": {
+        "comments": [
+            "Return the attach type of the particle system from GetEffectName."
+        ],
+        "params": {}
+    },
+    "CDOTA_Buff:GetCaster": {
+        "comments": [
+            "Get the owner of the ability responsible for the modifier."
+        ],
+        "params": {}
+    },
+    "C_DOTA_BaseNPC:IsDisarmed": {
+        "comments": [
+            ""
+        ],
+        "params": {}
+    },
+    "C_BaseEntity:GetTeamNumber": {
+        "comments": [
+            ""
+        ],
+        "params": {}
+    },
+    "C_DOTA_BaseNPC:GetTotalPurchasedUpgradeGoldCost": {
+        "comments": [
+            "Get how much gold has been spent on ability upgrades."
+        ],
+        "params": {}
+    },
+    "LoadKeyValuesFromString": {
+        "comments": [
+            "Creates a table from the specified keyvalues string"
+        ],
+        "params": {
+            "string_1": "string_1"
+        }
+    },
+    "FrameTime": {
+        "comments": [
+            "Get the time spent on the server in the last frame"
+        ],
+        "params": {}
+    },
+    "C_DOTA_BaseNPC:IsSilenced": {
+        "comments": [
+            ""
+        ],
+        "params": {}
+    },
+    "C_DOTA_BaseNPC:GetPhysicalArmorValue": {
+        "comments": [
+            "Returns current physical armor value."
+        ],
+        "params": {}
+    },
+    "C_DOTA_BaseNPC:NotOnMinimap": {
+        "comments": [
+            ""
+        ],
+        "params": {}
+    },
+    "UTIL_RemoveImmediate": {
+        "comments": [
+            "Immediately removes the specified entity"
+        ],
+        "params": {
+            "handle_1": "handle_1"
+        }
+    },
+    "C_DOTA_BaseNPC:IsCourier": {
+        "comments": [
+            "Is this unit a courier?"
+        ],
+        "params": {}
+    },
+    "C_DOTA_BaseNPC:GetMaxMana": {
+        "comments": [
+            "Get the maximum mana of this unit."
+        ],
+        "params": {}
+    },
+    "C_DOTA_BaseNPC:GetPlayerOwnerID": {
+        "comments": [
+            "Get the owner player ID for this unit."
+        ],
+        "params": {}
+    },
+    "AppendToLogFile": {
+        "comments": [
+            "Appends a string to a log file on the server"
+        ],
+        "params": {
+            "string_1": "string_1",
+            "string_2": "string_2"
+        }
+    },
+    "CDOTA_Buff:ForceRefresh": {
+        "comments": [
+            "Run all associated refresh functions on this modifier as if it was re-applied."
+        ],
+        "params": {}
+    },
+    "CDebugOverlayScriptHelper:VectorText3D": {
+        "comments": [
+            "Draws 3D text. Specify origin + orientation in world space."
+        ],
+        "params": {
+            "float_9": "float_9",
+            "bool_8": "bool_8",
+            "int_6": "int_6",
+            "Vector_1": "Vector_1",
+            "int_5": "int_5",
+            "Quaternion_2": "Quaternion_2",
+            "string_3": "string_3",
+            "int_7": "int_7",
+            "int_4": "int_4"
+        }
+    },
+    "CDOTA_Buff:SetStackCount": {
+        "comments": [
+            ""
+        ],
+        "params": {
+            "iCount": "iCount"
+        }
+    },
+    "CEntityInstance:ConnectOutput": {
+        "comments": [
+            "Adds an I/O connection that will call the named function on this entity when the specified output fires."
+        ],
+        "params": {
+            "string_1": "string_1",
+            "string_2": "string_2"
+        }
+    },
+    "Convars:SetInt": {
+        "comments": [
+            "SetInt(name, val) : sets the value of the convar to the int."
+        ],
+        "params": {
+            "string_1": "string_1",
+            "int_2": "int_2"
+        }
+    },
+    "CDebugOverlayScriptHelper:Sphere": {
+        "comments": [
+            "Draws a wireframe sphere. Specify center in world space."
+        ],
+        "params": {
+            "bool_7": "bool_7",
+            "int_6": "int_6",
+            "Vector_1": "Vector_1",
+            "int_5": "int_5",
+            "float_2": "float_2",
+            "int_3": "int_3",
+            "int_4": "int_4",
+            "float_8": "float_8"
+        }
+    },
+    "CDebugOverlayScriptHelper:HorzArrow": {
+        "comments": [
+            "Draws a horizontal arrow. Specify endpoints in world space."
+        ],
+        "params": {
+            "float_9": "float_9",
+            "Vector_2": "Vector_2",
+            "int_6": "int_6",
+            "Vector_1": "Vector_1",
+            "int_5": "int_5",
+            "float_3": "float_3",
+            "bool_8": "bool_8",
+            "int_7": "int_7",
+            "int_4": "int_4"
+        }
+    },
+    "CDebugOverlayScriptHelper:Text": {
+        "comments": [
+            "Draws 2D text. Specify origin in world space."
+        ],
+        "params": {
+            "float_4": "float_4",
+            "int_8": "int_8",
+            "int_6": "int_6",
+            "Vector_1": "Vector_1",
+            "int_5": "int_5",
+            "float_9": "float_9",
+            "string_3": "string_3",
+            "int_7": "int_7",
+            "int_2": "int_2"
+        }
+    },
+    "CDOTA_Buff:GetRemainingTime": {
+        "comments": [
+            ""
+        ],
+        "params": {}
+    },
+    "DoIncludeScript": {
+        "comments": [
+            "Execute a script (internal)"
+        ],
+        "params": {
+            "handle_2": "handle_2",
+            "string_1": "string_1"
+        }
+    },
+    "StartSoundEvent": {
+        "comments": [
+            "Start a sound event"
+        ],
+        "params": {
+            "handle_2": "handle_2",
+            "string_1": "string_1"
+        }
+    },
+    "cvar_getf": {
+        "comments": [
+            "Gets the value of the given cvar, as a float."
+        ],
+        "params": {
+            "string_1": "string_1"
+        }
+    },
+    "C_DOTA_BaseNPC:GetCollisionPadding": {
+        "comments": [
+            "Returns the size of the collision padding around the hull."
+        ],
+        "params": {}
+    },
+    "C_DOTA_Modifier_Lua:DestroyOnExpire": {
+        "comments": [
+            "True/false if this buff is removed when the duration expires."
+        ],
+        "params": {}
+    },
+    "C_DOTA_BaseNPC:GetCurrentVisionRange": {
+        "comments": [
+            "Gets the current vision range."
+        ],
+        "params": {}
+    },
+    "CDebugOverlayScriptHelper:EntityText": {
+        "comments": [
+            "Draws text on an entity"
+        ],
+        "params": {
+            "string_3": "string_3",
+            "int_6": "int_6",
+            "float_8": "float_8",
+            "int_5": "int_5",
+            "int_2": "int_2",
+            "int_7": "int_7",
+            "int_4": "int_4",
+            "ehandle_1": "ehandle_1"
+        }
+    },
+    "CBodyComponent:LookupSequence": {
+        "comments": [
+            "Returns a sequence id given a n"
+        ],
+        "params": {}
+    },
+    "CDebugOverlayScriptHelper:Circle": {
+        "comments": [
+            "Draws a circle. Specify center in world space."
+        ],
+        "params": {
+            "float_9": "float_9",
+            "bool_8": "bool_8",
+            "int_6": "int_6",
+            "Vector_1": "Vector_1",
+            "int_5": "int_5",
+            "float_3": "float_3",
+            "Quaternion_2": "Quaternion_2",
+            "int_7": "int_7",
+            "int_4": "int_4"
+        }
+    },
+    "C_DOTA_BaseNPC:HasMovementCapability": {
+        "comments": [
+            ""
+        ],
+        "params": {}
+    },
+    "C_DOTA_BaseNPC:HasModifier": {
+        "comments": [
+            "Sees if this unit has a given modifier."
+        ],
+        "params": {
+            "pszScriptName": "pszScriptName"
+        }
+    },
+    "StartSoundEventUnreliable": {
+        "comments": [
+            "Start a sound event with optional delivery"
+        ],
+        "params": {
+            "handle_2": "handle_2",
+            "string_1": "string_1"
+        }
+    },
+    "CalcDistanceBetweenEntityOBB": {
+        "comments": [
+            "Compute the distance between two entity OBB. A negative return value indicates an input error. A return value of zero indicates that the OBBs are overlapping."
+        ],
+        "params": {
+            "handle_2": "handle_2",
+            "handle_1": "handle_1"
+        }
+    },
+    "CDOTA_Modifier_Lua_Horizontal_Motion:UpdateHorizontalMotion": {
+        "comments": [
+            "Perform any motion from the given interval on the NPC."
+        ],
+        "params": {
+            "dt": "dt",
+            "me": "me"
+        }
+    },
+    "DebugBreak": {
+        "comments": [
+            "Breaks in the debugger"
+        ],
+        "params": {}
+    },
+    "C_DOTA_Item:IsAlertableItem": {
+        "comments": [
+            ""
+        ],
+        "params": {}
+    },
+    "C_DOTA_BaseNPC:IsLowAttackPriority": {
+        "comments": [
+            ""
+        ],
+        "params": {}
+    },
+    "C_DOTA_BaseNPC:IsSummoned": {
+        "comments": [
+            "Is this unit summoned?"
+        ],
+        "params": {}
+    },
+    "C_DOTA_BaseNPC:IsCommandRestricted": {
+        "comments": [
+            ""
+        ],
+        "params": {}
+    },
+    "CEntityInstance:GetOrCreatePrivateScriptScope": {
+        "comments": [
+            "Retrieve, creating if necessary, the private per-instance script-side data associated with an entity"
+        ],
+        "params": {}
+    },
+    "C_DOTA_BaseNPC:ProvidesVision": {
+        "comments": [
+            ""
+        ],
+        "params": {}
+    },
+    "C_DOTA_Item:IsDroppable": {
+        "comments": [
+            ""
+        ],
+        "params": {}
+    },
+    "Convars:GetFloat": {
+        "comments": [
+            "GetFloat(name) : returns the convar as a float. May return null if no such convar."
+        ],
+        "params": {
+            "string_1": "string_1"
+        }
+    },
+    "C_DOTA_Modifier_Lua:GetStatusEffectName": {
+        "comments": [
+            "Return the name of the status effect particle system that is created while this modifier is active."
+        ],
+        "params": {}
+    },
+    "SetRenderingEnabled": {
+        "comments": [
+            "Set rendering on/off for an ehandle"
+        ],
+        "params": {
+            "bool_2": "bool_2",
+            "ehandle_1": "ehandle_1"
+        }
+    },
+    "C_DOTA_Item_Lua:GetGoldCost": {
+        "comments": [
+            "Return gold cost at the given level (-1 is current)."
+        ],
+        "params": {
+            "iLevel": "iLevel"
+        }
+    },
+    "CToneMapControllerComponent:SetBloomScale": {
+        "comments": [
+            "Sets bloom scale for this tonemap controller"
+        ],
+        "params": {
+            "float_1": "float_1"
+        }
+    },
+    "StopListeningToGameEvent": {
+        "comments": [
+            "Stop listening to a particular game event."
+        ],
+        "params": {
+            "int_1": "int_1"
+        }
+    },
+    "PrintLinkedConsoleMessage": {
+        "comments": [
+            "Print a console message with a linked console command"
+        ],
+        "params": {
+            "string_1": "string_1",
+            "string_2": "string_2"
+        }
+    },
+    "StartSoundEventFromPosition": {
+        "comments": [
+            "Start a sound event from position"
+        ],
+        "params": {
+            "string_1": "string_1",
+            "Vector_2": "Vector_2"
+        }
+    },
+    "C_DOTA_BaseNPC:GetHullRadius": {
+        "comments": [
+            "Get the collision hull radius of this NPC."
+        ],
+        "params": {}
+    },
+    "C_DOTA_BaseNPC:NoTeamMoveTo": {
+        "comments": [
+            ""
+        ],
+        "params": {}
+    },
+    "C_DOTA_Modifier_Lua:GetModifierAura": {
+        "comments": [
+            "The name of the secondary modifier that will be applied by this modifier (if it is an aura)."
+        ],
+        "params": {}
+    },
+    "C_DOTA_Modifier_Lua:GetAuraEntityReject": {
+        "comments": [
+            "Return true/false if this entity should receive the aura under specific conditions"
+        ],
+        "params": {
+            "hEntity": "hEntity"
+        }
+    },
+    "Warning": {
+        "comments": [
+            "Print a warning"
+        ],
+        "params": {
+            "string_1": "string_1"
+        }
+    },
+    "C_DOTA_Modifier_Lua:OnCreated": {
+        "comments": [
+            "Runs when the modifier is created."
+        ],
+        "params": {
+            "table": "table"
+        }
+    },
+    "FireEntityIOInputVec": {
+        "comments": [
+            "Fire Entity's Action Input with passed Vector - you own the memory"
+        ],
+        "params": {
+            "Vector_3": "Vector_3",
+            "string_2": "string_2",
+            "ehandle_1": "ehandle_1"
+        }
+    },
+    "C_DOTA_Item_Lua:GetCustomCastError": {
+        "comments": [
+            "Return the error string of a failed command with no target."
+        ],
+        "params": {}
+    },
+    "C_DOTA_BaseNPC:GetUnitName": {
+        "comments": [
+            "Get the name of this unit."
+        ],
+        "params": {}
+    },
+    "C_DOTA_Modifier_Lua:GetAuraSearchTeam": {
+        "comments": [
+            "Return the teams this aura applies its buff to."
+        ],
+        "params": {}
+    },
+    "CBodyComponent:AddImpulseAtPosition": {
+        "comments": [
+            "Apply an impulse at a worldspace position to the physics"
+        ],
+        "params": {
+            "Vector_2": "Vector_2",
+            "Vector_1": "Vector_1"
+        }
+    },
+    "C_DOTA_BaseNPC:GetModelRadius": {
+        "comments": [
+            ""
+        ],
+        "params": {}
+    },
+    "IsDedicatedServer": {
+        "comments": [
+            "Returns true if this server is a dedicated server."
+        ],
+        "params": {}
+    },
+    "CEntityInstance:RedirectOutput": {
+        "comments": [
+            "Adds an I/O connection that will call the named function on the passed entity when the specified output fires."
+        ],
+        "params": {
+            "handle_3": "handle_3",
+            "string_1": "string_1",
+            "string_2": "string_2"
+        }
+    },
+    "CreateEffect": {
+        "comments": [
+            "Pass table - Inputs: entity, effect"
+        ],
+        "params": {
+            "handle_1": "handle_1"
+        }
+    },
+    "C_DOTA_Modifier_Lua:IsPurgable": {
+        "comments": [
+            "True/false if this modifier can be purged."
+        ],
+        "params": {}
+    },
+    "IsValidEntity": {
+        "comments": [
+            "Checks to see if the given hScript is a valid entity"
+        ],
+        "params": {
+            "handle_1": "handle_1"
+        }
+    },
+    "C_DOTA_BaseNPC:IsSpeciallyDeniable": {
+        "comments": [
+            ""
+        ],
+        "params": {}
+    },
+    "C_DOTA_Ability_Lua:CastFilterResultTarget": {
+        "comments": [
+            "(HSCRIPT hTarget) Determine whether an issued command on a target is valid."
+        ],
+        "params": {
+            "hTarget": "hTarget"
+        }
+    },
+    "DebugDrawCircle": {
+        "params": {
+			"Vector_1": "vOrigin",
+			"Vector_2": "vRBG",
+			"float_3": 	"fAlpha",
+			"float_4": 	"vForward",
+			"bool_5": 	"bZtest",
+			"float_6":	"fDuration"
+		},
+		"comments": [
+			"Draws a debug circle Mins and Maxs are vectors in any two opposite corners"
+		]
+    },
+    "CDebugOverlayScriptHelper:PushAndClearDebugOverlayScope": {
+        "comments": [
+            "Pushes an identifier used to group overlays. Deletes all existing overlays using this overlay id."
+        ],
+        "params": {
+            "utlstringtoken_1": "utlstringtoken_1"
+        }
+    },
+    "CBodyComponent:IsAttachedToParent": {
+        "comments": [
+            "Is attached to parent"
+        ],
+        "params": {}
+    },
+    "C_DOTABaseAbility:GetCaster": {
+        "comments": [
+            ""
+        ],
+        "params": {}
+    },
+    "C_DOTA_Item:IsRecipeGenerated": {
+        "comments": [
+            ""
+        ],
+        "params": {}
+    },
+    "C_DOTA_BaseNPC:IsBlind": {
+        "comments": [
+            ""
+        ],
+        "params": {}
+    },
+    "C_DOTA_Modifier_Lua:IsAura": {
+        "comments": [
+            "True/false if this modifier is an aura."
+        ],
+        "params": {}
+    },
+    "C_DOTA_BaseNPC:GetAttackSpeed": {
+        "comments": [
+            ""
+        ],
+        "params": {}
+    },
+    "EntIndexToHScript": {
+        "comments": [
+            "Turn an entity index integer to an HScript representing that entity's script instance."
+        ],
+        "params": {
+            "int_1": "int_1"
+        }
+    },
+    "CDebugOverlayScriptHelper:Axis": {
+        "comments": [
+            "Draws an axis. Specify origin + orientation in world space."
+        ],
+        "params": {
+            "float_3": "float_3",
+            "bool_4": "bool_4",
+            "float_5": "float_5",
+            "Vector_1": "Vector_1",
+            "Quaternion_2": "Quaternion_2"
+        }
+    },
+    "C_DOTA_BaseNPC:NoTeamSelect": {
+        "comments": [
+            ""
+        ],
+        "params": {}
+    },
+    "PrecacheEntityFromTable": {
+        "comments": [
+            "Precache an entity from KeyValues in table"
+        ],
+        "params": {
+            "handle_2": "handle_2",
+            "handle_3": "handle_3",
+            "string_1": "string_1"
+        }
+    },
+    "CDOTA_Modifier_Lua_Motion_Both:OnVerticalMotionInterrupted": {
+        "comments": [
+            "Called when the motion gets interrupted."
+        ],
+        "params": {}
+    },
+    "C_DOTA_BaseNPC:IsControllableByAnyPlayer": {
+        "comments": [
+            "Is this unit controlled by any non-bot player?"
+        ],
+        "params": {}
+    },
+    "C_DOTA_Item_Lua:GetCustomCastErrorTarget": {
+        "comments": [
+            "(HSCRIPT hTarget) Return the error string of a failed command on a target."
+        ],
+        "params": {
+            "hTarget": "hTarget"
+        }
+    },
+    "C_DOTA_Modifier_Lua:IsAuraActiveOnDeath": {
+        "comments": [
+            "True/false if this aura provides buffs when the parent is dead."
+        ],
+        "params": {}
+    },
+    "rr_CommitAIResponse": {
+        "comments": [
+            "Commit the result of QueryBestResponse back to the given entity to play. Call with params (entity, airesponse)"
+        ],
+        "params": {
+            "handle_2": "handle_2",
+            "handle_1": "handle_1"
+        }
+    },
+    "CCustomNetTableManager:GetTableValue": {
+        "comments": [
+            "( string TableName, string KeyName )"
+        ],
+        "params": {
+            "string_1": "string_1",
+            "string_2": "string_2"
+        }
+    },
+    "C_DOTA_Modifier_Lua:AllowIllusionDuplicate": {
+        "comments": [
+            "True/false if this modifier is active on illusions."
+        ],
+        "params": {}
+    },
+    "C_DOTA_BaseNPC:IsInventoryEnabled": {
+        "comments": [
+            "Does this unit have an inventory."
+        ],
+        "params": {}
+    },
+    "CDebugOverlayScriptHelper:CircleScreenOriented": {
+        "comments": [
+            "Draws a circle oriented to the screen. Specify center in world space."
+        ],
+        "params": {
+            "bool_7": "bool_7",
+            "int_6": "int_6",
+            "Vector_1": "Vector_1",
+            "int_5": "int_5",
+            "float_2": "float_2",
+            "int_3": "int_3",
+            "int_4": "int_4",
+            "float_8": "float_8"
+        }
+    },
+    "CDebugOverlayScriptHelper:Cone": {
+        "comments": [
+            "Draws a wireframe cone. Specify endpoint and direction in world space."
+        ],
+        "params": {
+            "int_8": "int_8",
+            "float_4": "float_4",
+            "Vector_2": "Vector_2",
+            "int_6": "int_6",
+            "Vector_1": "Vector_1",
+            "int_5": "int_5",
+            "float_3": "float_3",
+            "float_10": "float_10",
+            "int_7": "int_7",
+            "bool_9": "bool_9"
+        }
+    },
+    "CEntityInstance:FireOutput": {
+        "comments": [
+            "Fire an entity output"
+        ],
+        "params": {
+            "handle_2": "handle_2",
+            "handle_3": "handle_3",
+            "string_1": "string_1",
+            "table_4": "table_4",
+            "float_5": "float_5"
+        }
+    },
+    "CBodyComponent:SetMaterialGroup": {
+        "comments": [
+            ""
+        ],
+        "params": {
+            "utlstringtoken_1": "utlstringtoken_1"
+        }
+    },
+    "TraceCollideable": {
+        "comments": [
+            "Pass table - Inputs: start, end, ent, (optional mins, maxs) -- outputs: pos, fraction, hit, startsolid, normal"
+        ],
+        "params": {
+            "handle_1": "handle_1"
+        }
+    },
+    "C_DOTA_BaseNPC:HasFlyMovementCapability": {
+        "comments": [
+            ""
+        ],
+        "params": {}
+    },
+    "C_DOTA_Item_Lua:CastFilterResult": {
+        "comments": [
+            "Determine whether an issued command with no target is valid."
+        ],
+        "params": {}
+    },
+    "SpawnEntityFromTableSynchronous": {
+        "comments": [
+            "Synchronously spawns a single entity from a table"
+        ],
+        "params": {
+            "handle_2": "handle_2",
+            "string_1": "string_1"
+        }
+    },
+    "C_DOTA_BaseNPC:HasGroundMovementCapability": {
+        "comments": [
+            ""
+        ],
+        "params": {}
+    },
+    "C_DOTA_BaseNPC:GetAttacksPerSecond": {
+        "comments": [
+            ""
+        ],
+        "params": {}
+    },
+    "C_DOTA_Ability_Lua:GetCustomCastError": {
+        "comments": [
+            "Return the error string of a failed command with no target."
+        ],
+        "params": {}
+    },
+    "UnitFilter": {
+        "comments": [
+            "Check if a unit passes a set of filters. (hNPC, nTargetTeam, nTargetType, nTargetFlags, nTeam"
+        ],
+        "params": {
+            "int_5": "int_5",
+            "int_3": "int_3",
+            "handle_1": "handle_1",
+            "int_4": "int_4",
+            "int_2": "int_2"
+        }
+    },
+    "PlayerInstanceFromIndex": {
+        "comments": [
+            "Get a script instance of a player by index."
+        ],
+        "params": {
+            "int_1": "int_1"
+        }
+    },
+    "C_DOTA_BaseNPC:GetPaddedCollisionRadius": {
+        "comments": [
+            "Get the collision hull radius (including padding) of this NPC."
+        ],
+        "params": {}
+    },
+    "C_DOTA_Modifier_Lua:OnDestroy": {
+        "comments": [
+            "Runs when the modifier is destroyed."
+        ],
+        "params": {}
+    },
+    "CDOTA_Buff:SetDuration": {
+        "comments": [
+            "(flTime, bInformClients)"
+        ],
+        "params": {
+            "bInformClient": "bInformClient",
+            "flDuration": "flDuration"
+        }
+    },
+    "Convars:GetBool": {
+        "comments": [
+            "GetBool(name) : returns the convar as a boolean flag."
+        ],
+        "params": {
+            "string_1": "string_1"
+        }
+    },
+    "CToneMapControllerComponent:GetMinExposure": {
+        "comments": [
+            "Gets min exposure for this tonemap controller"
+        ],
+        "params": {}
+    },
+    "Convars:SetStr": {
+        "comments": [
+            "SetStr(name, val) : sets the value of the convar to the string."
+        ],
+        "params": {
+            "string_1": "string_1",
+            "string_2": "string_2"
+        }
+    },
+    "CDOTA_Buff:GetClass": {
+        "comments": [
+            ""
+        ],
+        "params": {}
+    },
+    "C_DOTA_Modifier_Lua:IsPurgeException": {
+        "comments": [
+            "True/false if this modifier can be purged by strong dispels."
+        ],
+        "params": {}
+    },
+    "GetFrameCount": {
+        "comments": [
+            "Returns the engines current frame count"
+        ],
+        "params": {}
+    },
+    "InitLogFile": {
+        "comments": [
+            "If the given file doesn't exist, creates it with the given contents; does nothing if it exists"
+        ],
+        "params": {
+            "string_1": "string_1",
+            "string_2": "string_2"
+        }
+    },
+    "C_DOTA_Item_Lua:GetAOERadius": {
+        "comments": [
+            "Controls the size of the AOE casting cursor."
+        ],
+        "params": {}
+    },
+    "CalcClosestPointOnEntityOBB": {
+        "comments": [
+            "Compute the closest point on the OBB of an entity."
+        ],
+        "params": {
+            "handle_1": "handle_1",
+            "Vector_2": "Vector_2"
+        }
+    },
+    "CDebugOverlayScriptHelper:EntityAttachments": {
+        "comments": [
+            "Draws the attachments of the entity"
+        ],
+        "params": {
+            "float_3": "float_3",
+            "float_2": "float_2",
+            "ehandle_1": "ehandle_1"
+        }
+    },
+    "CDebugOverlayScriptHelper:UnitTestCycleOverlayRenderType": {
+        "comments": [
+            "Toggles the overlay render type, for unit tests"
+        ],
+        "params": {}
+    }
+}

@@ -22,7 +22,7 @@ class DotaFunction:
 		self.function		= name
 		
 		self.baseClass = ''
-		
+				
 		# If the name contains a colon, strip it out to get the intellisense string
 		if ':' in name:
 			self.baseClass 	= name.partition(':')[0]
@@ -30,13 +30,37 @@ class DotaFunction:
 			self.function	= self.prefix
 				
 	def getSnippet(self):
+		
+		# Look up extra info from the json database
+		local_db = {"params":{}}
+		if self.name in db:
+			local_db = db[self.name]
+			
+		# These get calculated from the object
 		paramList = ''
+		bodyList = []
+		
+		# Get a list of all the parameters
 		for p in self.parameters:
+			
+			# look up the parameter in the function DB
+			if p in local_db['params']:
+				p = local_db['params'][p]
+			
+			# Add the param to the list	
 			paramList += '${' + p + '}, '
 			
+		# Trim the trailing comma
 		paramList = paramList[:-2]
-	
-		return {"prefix":self.prefix, "body":[self.function + '( ' + paramList + ' )'], "description":self.description}
+		
+		bodyList.append( self.function + '( ' + paramList + ' )' )		
+		if 'comments' in local_db:
+			for b in local_db['comments']:
+				bodyList.append('-- ' + b)
+		else:
+			bodyList.append('-- ' + self.description)
+				
+		return {"prefix":self.prefix, "body":bodyList, "description":self.description}
 
 # Class to hold a parsed enum
 class DotaEnum:
@@ -47,15 +71,20 @@ class DotaEnum:
 		
 	def getSnippet(self):
 		return {"prefix":self.name, "body":[self.name],"description":'(' + self.val + ') ' + self.descr}
-		
-		
+
+# A persistent DB of code examples on disk		
+db_file = open('code_db.json', 'r')
+db_data = db_file.read()
+db = json.loads(db_data)
+
+# Load the dump from cl_script_help_2
 dump_file = open("dump.txt", 'r')
 dump_raw = dump_file.read()
 dump_lines = dump_raw.split('\n')
-dump_file.close()
 
-out_file = open("snippets/snippets.json", 'w')
-out_obj = {}
+# close the files
+dump_file.close()
+db_file.close()
 
 funcs = []
 enums = []
@@ -94,11 +123,12 @@ while l < len( dump_lines ):
 				retrn = val.partition(' ')[2]
 				
 			elif val[0:1] == 'p':
-				param.append(val.partition(' ')[2])
+				param.append(val.split(' ')[1])
 				
 			else:
 				break
-				
+			
+		
 		funcs.append(DotaFunction(name, descr, param, retrn))
 		
 	# If the comment looks liek this, then it's an enum
@@ -126,11 +156,16 @@ while l < len( dump_lines ):
 			enums.append(DotaEnum(name, descr, val))	
 	l += 1
 
+# open the output file
+out_file = open("../ext/snippets/snippets.json", 'w')
+out_obj = {}
+
 for f in funcs:
 	out_obj[f.name] = f.getSnippet()
 	
 for e in enums:
 	out_obj[e.name] = e.getSnippet()
 	
+# close the output file
 out_file.write(json.dumps(out_obj, indent=4))
 out_file.close()
