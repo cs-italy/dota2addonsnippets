@@ -2,7 +2,7 @@
 	"name": "dota2addonsnippets",
 	"displayName": "Dota2 Addon Snippets",
 	"description": "Snippets for coding Lua scripts for Dota 2 addons",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"publisher": "wigguno",
 	"engines": {
 		"vscode": "^0.10.1"
@@ -18,5 +18,5 @@
 			}
 		]
 	},
-	"icon": "icon.png"
+	"icon": "images/dota.png"
 }
